@@ -1,0 +1,1811 @@
+Area,Continent,Item,Season,Year,hg/ha_yield,average_rain_fall_mm_per_year,pesticides_tonnes,avg_temp
+Algeria,Africa,Wheat,Rabi,1990,6315.0,89.0,1828.92,17.48
+Algeria,Africa,Wheat,Rabi,1991,10809.0,89.0,2461.8,16.26
+Algeria,Africa,Wheat,Rabi,1992,9939.0,89.0,1215.47,16.27
+Algeria,Africa,Wheat,Rabi,1993,8097.0,89.0,1021.89,17.0
+Algeria,Africa,Wheat,Rabi,1994,7999.0,89.0,1255.02,17.88
+Algeria,Africa,Wheat,Rabi,1995,8924.0,89.0,2697.09,17.36
+Algeria,Africa,Wheat,Rabi,1996,13090.0,89.0,479.77,16.76
+Algeria,Africa,Wheat,Rabi,1997,8016.0,89.0,401.22,17.84
+Algeria,Africa,Wheat,Rabi,1998,8847.0,89.0,322.84,17.14
+Algeria,Africa,Wheat,Rabi,1999,10711.0,89.0,654.45,17.97
+Algeria,Africa,Wheat,Rabi,2000,9194.0,89.0,603.67,17.9
+Algeria,Africa,Wheat,Rabi,2001,11104.0,89.0,710.11,18.13
+Algeria,Africa,Wheat,Rabi,2002,10739.0,89.0,816.55,17.85
+Algeria,Africa,Wheat,Rabi,2004,13582.0,89.0,3747.86,17.38
+Algeria,Africa,Wheat,Rabi,2005,15057.0,89.0,3662.87,17.19
+Algeria,Africa,Wheat,Rabi,2006,15068.0,89.0,4110.72,18.13
+Algeria,Africa,Wheat,Rabi,2007,12742.0,89.0,5390.79,17.42
+Algeria,Africa,Wheat,Rabi,2008,11038.0,89.0,11556.12,17.55
+Algeria,Africa,Wheat,Rabi,2009,15975.0,89.0,3867.99,17.78
+Algeria,Africa,Wheat,Rabi,2010,14838.0,89.0,1295.88,17.59
+Algeria,Africa,Wheat,Rabi,2011,17405.0,89.0,13861.76,17.79
+Algeria,Africa,Wheat,Rabi,2012,17639.0,89.0,17379.76,17.91
+Algeria,Africa,Wheat,Rabi,2013,19100.0,89.0,17278.65,17.65
+Angola,Africa,Wheat,Rabi,1990,7995.0,1010.0,64.0,24.12
+Angola,Africa,Wheat,Rabi,1991,8000.0,1010.0,79.0,24.02
+Angola,Africa,Wheat,Rabi,1992,8000.0,1010.0,23.0,23.96
+Angola,Africa,Wheat,Rabi,1993,8876.0,1010.0,169.0,24.15
+Angola,Africa,Wheat,Rabi,1994,10000.0,1010.0,25.5,24.04
+Angola,Africa,Wheat,Rabi,1995,11855.0,1010.0,336.0,24.56
+Angola,Africa,Wheat,Rabi,1996,13738.0,1010.0,40.0,24.11
+Angola,Africa,Wheat,Rabi,1997,15509.0,1010.0,40.0,24.06
+Angola,Africa,Wheat,Rabi,1998,17143.0,1010.0,40.0,24.96
+Angola,Africa,Wheat,Rabi,1999,17391.0,1010.0,40.0,24.37
+Angola,Africa,Wheat,Rabi,2000,17023.0,1010.0,40.0,24.41
+Angola,Africa,Wheat,Rabi,2001,16667.0,1010.0,40.0,24.43
+Angola,Africa,Wheat,Rabi,2002,15455.0,1010.0,40.0,24.79
+Angola,Africa,Wheat,Rabi,2004,12442.0,1010.0,40.0,24.22
+Angola,Africa,Wheat,Rabi,2005,10946.0,1010.0,40.0,24.41
+Angola,Africa,Wheat,Rabi,2006,10000.0,1010.0,40.0,24.14
+Angola,Africa,Wheat,Rabi,2007,10000.0,1010.0,40.0,24.24
+Angola,Africa,Wheat,Rabi,2008,10000.0,1010.0,40.0,24.27
+Angola,Africa,Wheat,Rabi,2009,10000.0,1010.0,40.0,24.33
+Angola,Africa,Wheat,Rabi,2010,10526.0,1010.0,40.0,24.44
+Angola,Africa,Wheat,Rabi,2011,10959.0,1010.0,40.0,24.15
+Angola,Africa,Wheat,Rabi,2012,11258.0,1010.0,40.0,24.24
+Angola,Africa,Wheat,Rabi,2013,9022.0,1010.0,40.0,24.55
+Botswana,Africa,Wheat,Rabi,1990,26178.0,416.0,17.0,19.54
+Botswana,Africa,Wheat,Rabi,1991,22464.0,416.0,19.0,19.29
+Botswana,Africa,Wheat,Rabi,1992,21653.0,416.0,17.0,20.59
+Botswana,Africa,Wheat,Rabi,1993,20843.0,416.0,17.0,19.97
+Botswana,Africa,Wheat,Rabi,1994,20032.0,416.0,17.0,19.26
+Botswana,Africa,Wheat,Rabi,1995,19222.0,416.0,17.0,19.96
+Botswana,Africa,Wheat,Rabi,1996,19009.0,416.0,17.0,19.1
+Botswana,Africa,Wheat,Rabi,1997,17235.0,416.0,17.0,19.26
+Botswana,Africa,Wheat,Rabi,1998,16667.0,416.0,17.0,20.05
+Botswana,Africa,Wheat,Rabi,1999,16337.0,416.0,17.0,20.24
+Botswana,Africa,Wheat,Rabi,2000,15878.0,416.0,17.0,18.97
+Botswana,Africa,Wheat,Rabi,2001,15714.0,416.0,17.0,19.36
+Botswana,Africa,Wheat,Rabi,2002,14563.0,416.0,17.0,19.89
+Botswana,Africa,Wheat,Rabi,2004,12692.0,416.0,17.0,19.41
+Botswana,Africa,Wheat,Rabi,2005,11614.0,416.0,17.0,20.42
+Botswana,Africa,Wheat,Rabi,2006,10452.0,416.0,17.0,18.97
+Botswana,Africa,Wheat,Rabi,2007,9000.0,416.0,17.0,19.71
+Botswana,Africa,Wheat,Rabi,2008,8000.0,416.0,17.0,19.63
+Burundi,Africa,Wheat,Rabi,1990,7478.0,1274.0,92.08,21.15
+Burundi,Africa,Wheat,Rabi,1991,7333.0,1274.0,92.08,20.97
+Burundi,Africa,Wheat,Rabi,1992,7120.0,1274.0,92.08,21.31
+Burundi,Africa,Wheat,Rabi,1993,7748.0,1274.0,96.99,21.17
+Burundi,Africa,Wheat,Rabi,1994,8824.0,1274.0,84.45,21.25
+Burundi,Africa,Wheat,Rabi,1995,7440.0,1274.0,144.2,21.55
+Burundi,Africa,Wheat,Rabi,1996,7728.0,1274.0,207.1,21.18
+Burundi,Africa,Wheat,Rabi,1997,7742.0,1274.0,117.56,21.51
+Burundi,Africa,Wheat,Rabi,1998,8148.0,1274.0,107.29,21.56
+Burundi,Africa,Wheat,Rabi,1999,7085.0,1274.0,150.24,21.01
+Burundi,Africa,Wheat,Rabi,2000,6774.0,1274.0,109.87,21.32
+Burundi,Africa,Wheat,Rabi,2001,8667.0,1274.0,72.56,21.24
+Burundi,Africa,Wheat,Rabi,2002,8290.0,1274.0,98.1,21.45
+Burundi,Africa,Wheat,Rabi,2004,8326.0,1274.0,508.26,21.71
+Burundi,Africa,Wheat,Rabi,2005,7387.0,1274.0,304.83,22.29
+Burundi,Africa,Wheat,Rabi,2006,8007.0,1274.0,190.51,21.83
+Burundi,Africa,Wheat,Rabi,2007,8407.0,1274.0,412.66,21.28
+Burundi,Africa,Wheat,Rabi,2008,8431.0,1274.0,456.44,21.29
+Burundi,Africa,Wheat,Rabi,2009,8583.0,1274.0,177.75,21.42
+Burundi,Africa,Wheat,Rabi,2010,7393.0,1274.0,264.53,21.75
+Burundi,Africa,Wheat,Rabi,2011,7129.0,1274.0,75.64,21.23
+Burundi,Africa,Wheat,Rabi,2012,4448.0,1274.0,98.59,21.44
+Burundi,Africa,Wheat,Rabi,2013,7276.0,1274.0,956.06,21.53
+Cameroon,Africa,Wheat,Rabi,1990,15000.0,1604.0,450.01,25.08
+Cameroon,Africa,Wheat,Rabi,1991,12863.0,1604.0,99.09,24.99
+Cameroon,Africa,Wheat,Rabi,1992,12884.0,1604.0,1137.56,24.6
+Cameroon,Africa,Wheat,Rabi,1993,12904.0,1604.0,774.49,24.9
+Cameroon,Africa,Wheat,Rabi,1994,12937.0,1604.0,411.42,24.93
+Cameroon,Africa,Wheat,Rabi,1995,13098.0,1604.0,48.35,25.21
+Cameroon,Africa,Wheat,Rabi,1996,13333.0,1604.0,180.08,25.0
+Cameroon,Africa,Wheat,Rabi,1997,13264.0,1604.0,630.12,24.98
+Cameroon,Africa,Wheat,Rabi,1998,13279.0,1604.0,258.02,25.66
+Cameroon,Africa,Wheat,Rabi,1999,13294.0,1604.0,653.0,24.97
+Cameroon,Africa,Wheat,Rabi,2000,13309.0,1604.0,545.0,24.88
+Cameroon,Africa,Wheat,Rabi,2001,13325.0,1604.0,687.0,25.01
+Cameroon,Africa,Wheat,Rabi,2002,13340.0,1604.0,815.79,25.26
+Cameroon,Africa,Wheat,Rabi,2004,13373.0,1604.0,849.48,25.42
+Cameroon,Africa,Wheat,Rabi,2005,13390.0,1604.0,829.59,25.36
+Cameroon,Africa,Wheat,Rabi,2006,13408.0,1604.0,950.22,25.39
+Cameroon,Africa,Wheat,Rabi,2007,13426.0,1604.0,918.88,25.49
+Cameroon,Africa,Wheat,Rabi,2008,13444.0,1604.0,882.13,25.42
+Cameroon,Africa,Wheat,Rabi,2009,13463.0,1604.0,813.77,25.54
+Cameroon,Africa,Wheat,Rabi,2010,13846.0,1604.0,1160.63,25.7
+Cameroon,Africa,Wheat,Rabi,2011,13971.0,1604.0,1372.47,25.25
+Cameroon,Africa,Wheat,Rabi,2012,12308.0,1604.0,1372.47,25.18
+Cameroon,Africa,Wheat,Rabi,2013,12879.0,1604.0,1372.47,25.45
+Egypt,Africa,Wheat,Rabi,1990,51967.0,51.0,13214.0,21.165
+Egypt,Africa,Wheat,Rabi,1991,48163.0,51.0,8255.0,21.145
+Egypt,Africa,Wheat,Rabi,1992,52546.0,51.0,6156.0,20.6
+Egypt,Africa,Wheat,Rabi,1993,52970.0,51.0,4175.0,21.265
+Egypt,Africa,Wheat,Rabi,1994,50026.0,51.0,4283.0,21.56
+Egypt,Africa,Wheat,Rabi,1995,54221.0,51.0,4391.0,21.09
+Egypt,Africa,Wheat,Rabi,1996,56384.0,51.0,4499.0,21.365
+Egypt,Africa,Wheat,Rabi,1997,55994.0,51.0,4607.0,20.985
+Egypt,Africa,Wheat,Rabi,1998,59896.0,51.0,4715.0,21.825
+Egypt,Africa,Wheat,Rabi,1999,63467.0,51.0,4823.0,21.87
+Egypt,Africa,Wheat,Rabi,2000,63422.0,51.0,4931.0,21.115
+Egypt,Africa,Wheat,Rabi,2001,63580.0,51.0,5039.0,21.89
+Egypt,Africa,Wheat,Rabi,2002,64345.0,51.0,5147.0,21.935
+Egypt,Africa,Wheat,Rabi,2004,65567.0,51.0,5363.0,21.57
+Egypt,Africa,Wheat,Rabi,2005,64929.0,51.0,5471.0,21.545
+Egypt,Africa,Wheat,Rabi,2006,64303.0,51.0,9781.0,21.6
+Egypt,Africa,Wheat,Rabi,2007,64673.0,51.0,9105.0,21.935
+Egypt,Africa,Wheat,Rabi,2008,65031.0,51.0,9527.0,22.19
+Egypt,Africa,Wheat,Rabi,2009,63829.0,51.0,9013.0,22.15
+Egypt,Africa,Wheat,Rabi,2010,55741.0,51.0,11590.0,23.09
+Egypt,Africa,Wheat,Rabi,2011,65428.0,51.0,12945.0,21.585
+Egypt,Africa,Wheat,Rabi,2012,65823.0,51.0,13991.0,22.015
+Egypt,Africa,Wheat,Rabi,2013,66682.0,51.0,13653.0,22.175
+Eritrea,Africa,Wheat,Rabi,1993,2038.0,383.0,4.44,24.09
+Eritrea,Africa,Wheat,Rabi,1994,7449.0,383.0,4.44,24.13
+Eritrea,Africa,Wheat,Rabi,1995,5124.0,383.0,4.44,24.37
+Eritrea,Africa,Wheat,Rabi,1996,3665.0,383.0,4.44,24.36
+Eritrea,Africa,Wheat,Rabi,1997,3434.0,383.0,30.92,24.32
+Eritrea,Africa,Wheat,Rabi,1998,9552.0,383.0,19.61,24.78
+Eritrea,Africa,Wheat,Rabi,1999,7700.0,383.0,22.28,24.68
+Eritrea,Africa,Wheat,Rabi,2000,5943.0,383.0,24.96,24.76
+Eritrea,Africa,Wheat,Rabi,2001,11658.0,383.0,27.63,24.61
+Eritrea,Africa,Wheat,Rabi,2002,1706.0,383.0,27.63,24.86
+Eritrea,Africa,Wheat,Rabi,2004,2980.0,383.0,27.63,24.79
+Eritrea,Africa,Wheat,Rabi,2005,11565.0,383.0,27.63,24.85
+Eritrea,Africa,Wheat,Rabi,2006,11604.0,383.0,27.63,24.7
+Eritrea,Africa,Wheat,Rabi,2007,8395.0,383.0,27.63,24.7
+Eritrea,Africa,Wheat,Rabi,2008,3307.0,383.0,27.63,24.79
+Eritrea,Africa,Wheat,Rabi,2009,10706.0,383.0,27.63,25.3
+Eritrea,Africa,Wheat,Rabi,2010,11786.0,383.0,27.63,25.22
+Eritrea,Africa,Wheat,Rabi,2011,11154.0,383.0,27.63,24.78
+Eritrea,Africa,Wheat,Rabi,2012,12692.0,383.0,27.63,25.16
+Eritrea,Africa,Wheat,Rabi,2013,12000.0,383.0,27.63,25.87
+Kenya,Africa,Wheat,Rabi,1990,16551.0,630.0,3469.0,15.94
+Kenya,Africa,Wheat,Rabi,1991,18484.0,630.0,3469.0,16.26
+Kenya,Africa,Wheat,Rabi,1992,19359.0,630.0,3469.0,16.34
+Kenya,Africa,Wheat,Rabi,1993,13795.0,630.0,3469.0,16.36
+Kenya,Africa,Wheat,Rabi,1994,22164.0,630.0,3469.0,16.58
+Kenya,Africa,Wheat,Rabi,1995,21064.0,630.0,4607.0,16.52
+Kenya,Africa,Wheat,Rabi,1996,20112.0,630.0,6344.0,16.44
+Kenya,Africa,Wheat,Rabi,1997,16132.0,630.0,5172.0,16.77
+Kenya,Africa,Wheat,Rabi,1998,18951.0,630.0,4114.0,16.53
+Kenya,Africa,Wheat,Rabi,1999,16534.0,630.0,3056.0,16.7
+Kenya,Africa,Wheat,Rabi,2000,15492.0,630.0,1998.0,16.73
+Kenya,Africa,Wheat,Rabi,2001,19890.0,630.0,1578.0,16.1
+Kenya,Africa,Wheat,Rabi,2002,21217.0,630.0,1578.0,16.61
+Kenya,Africa,Wheat,Rabi,2004,24827.0,630.0,1578.0,16.92
+Kenya,Africa,Wheat,Rabi,2005,23131.0,630.0,1578.0,17.28
+Kenya,Africa,Wheat,Rabi,2006,21875.0,630.0,1578.0,16.92
+Kenya,Africa,Wheat,Rabi,2007,30940.0,630.0,1578.0,16.6
+Kenya,Africa,Wheat,Rabi,2008,25845.0,630.0,1578.0,16.66
+Kenya,Africa,Wheat,Rabi,2009,16665.0,630.0,1578.0,17.3
+Kenya,Africa,Wheat,Rabi,2010,31991.0,630.0,1578.0,16.82
+Kenya,Africa,Wheat,Rabi,2011,20415.0,630.0,1578.0,16.9
+Kenya,Africa,Wheat,Rabi,2012,29720.0,630.0,1578.0,16.84
+Kenya,Africa,Wheat,Rabi,2013,27602.0,630.0,1578.0,16.91
+Lesotho,Africa,Wheat,Rabi,1990,8118.0,788.0,0.3,14.48
+Lesotho,Africa,Wheat,Rabi,1991,1959.0,788.0,0.3,14.66
+Lesotho,Africa,Wheat,Rabi,1992,8580.0,788.0,0.3,15.16
+Lesotho,Africa,Wheat,Rabi,1993,7330.0,788.0,0.3,14.95
+Lesotho,Africa,Wheat,Rabi,1994,4199.0,788.0,0.3,14.22
+Lesotho,Africa,Wheat,Rabi,1995,6166.0,788.0,0.3,14.55
+Lesotho,Africa,Wheat,Rabi,1996,14108.0,788.0,0.3,13.93
+Lesotho,Africa,Wheat,Rabi,1997,16291.0,788.0,0.3,14.28
+Lesotho,Africa,Wheat,Rabi,1998,14810.0,788.0,0.3,14.81
+Lesotho,Africa,Wheat,Rabi,1999,7388.0,788.0,0.3,15.34
+Lesotho,Africa,Wheat,Rabi,2000,6547.0,788.0,0.3,14.37
+Lesotho,Africa,Wheat,Rabi,2001,20515.0,788.0,0.3,14.62
+Lesotho,Africa,Wheat,Rabi,2002,7172.0,788.0,0.3,14.69
+Lesotho,Africa,Wheat,Rabi,2004,6401.0,788.0,0.3,14.91
+Lesotho,Africa,Wheat,Rabi,2005,7234.0,788.0,0.53,14.89
+Lesotho,Africa,Wheat,Rabi,2006,2685.0,788.0,5.25,14.18
+Lesotho,Africa,Wheat,Rabi,2007,4316.0,788.0,35.27,14.81
+Lesotho,Africa,Wheat,Rabi,2008,2415.0,788.0,37.44,14.74
+Lesotho,Africa,Wheat,Rabi,2009,3473.0,788.0,77.7,14.62
+Lesotho,Africa,Wheat,Rabi,2010,14693.0,788.0,80.07,15.23
+Lesotho,Africa,Wheat,Rabi,2011,9965.0,788.0,175.27,14.32
+Lesotho,Africa,Wheat,Rabi,2012,8641.0,788.0,271.84,14.62
+Lesotho,Africa,Wheat,Rabi,2013,12345.0,788.0,62.32,14.03
+Libya,Africa,Wheat,Rabi,1990,12317.0,56.0,87.0,20.065
+Libya,Africa,Wheat,Rabi,1991,12381.0,56.0,87.0,19.215
+Libya,Africa,Wheat,Rabi,1992,10015.0,56.0,87.0,19.35
+Libya,Africa,Wheat,Rabi,1993,8400.0,56.0,87.0,19.815
+Libya,Africa,Wheat,Rabi,1994,7742.0,56.0,87.0,20.205
+Libya,Africa,Wheat,Rabi,1995,7313.0,56.0,87.0,19.75
+Libya,Africa,Wheat,Rabi,1996,7294.0,56.0,87.0,19.725
+Libya,Africa,Wheat,Rabi,1997,10090.0,56.0,255.0,19.81
+Libya,Africa,Wheat,Rabi,1998,8750.0,56.0,1262.38,19.995
+Libya,Africa,Wheat,Rabi,1999,7879.0,56.0,2269.75,20.675
+Libya,Africa,Wheat,Rabi,2000,8085.0,56.0,3277.13,19.98
+Libya,Africa,Wheat,Rabi,2001,7974.0,56.0,4284.5,20.595
+Libya,Africa,Wheat,Rabi,2002,7966.0,56.0,5291.88,20.345
+Libya,Africa,Wheat,Rabi,2004,7841.0,56.0,7306.63,20.11
+Libya,Africa,Wheat,Rabi,2005,7576.0,56.0,8314.0,19.88
+Libya,Africa,Wheat,Rabi,2006,7879.0,56.0,4847.0,20.06
+Libya,Africa,Wheat,Rabi,2007,7879.0,56.0,3170.0,20.275
+Libya,Africa,Wheat,Rabi,2008,7879.0,56.0,3824.0,20.39
+Libya,Africa,Wheat,Rabi,2009,7895.0,56.0,6046.0,20.235
+Libya,Africa,Wheat,Rabi,2010,7717.0,56.0,3548.0,20.84
+Libya,Africa,Wheat,Rabi,2011,7784.0,56.0,3548.0,19.865
+Libya,Africa,Wheat,Rabi,2012,7958.0,56.0,3548.0,20.41
+Libya,Africa,Wheat,Rabi,2013,7955.0,56.0,3548.0,20.355
+Madagascar,Africa,Wheat,Rabi,1990,20000.0,1513.0,128.41,19.62
+Madagascar,Africa,Wheat,Rabi,1991,22500.0,1513.0,131.0,19.79
+Madagascar,Africa,Wheat,Rabi,1992,25000.0,1513.0,101.06,19.76
+Madagascar,Africa,Wheat,Rabi,1993,26667.0,1513.0,109.41,19.95
+Madagascar,Africa,Wheat,Rabi,1994,20000.0,1513.0,76.15,19.96
+Madagascar,Africa,Wheat,Rabi,1995,20000.0,1513.0,73.08,19.96
+Madagascar,Africa,Wheat,Rabi,1996,20000.0,1513.0,152.01,19.71
+Madagascar,Africa,Wheat,Rabi,1997,25000.0,1513.0,139.89,19.97
+Madagascar,Africa,Wheat,Rabi,1998,25000.0,1513.0,88.26,20.11
+Madagascar,Africa,Wheat,Rabi,1999,23480.0,1513.0,49.52,19.82
+Madagascar,Africa,Wheat,Rabi,2000,23442.0,1513.0,130.46,19.65
+Madagascar,Africa,Wheat,Rabi,2001,23810.0,1513.0,87.59,20.12
+Madagascar,Africa,Wheat,Rabi,2002,23462.0,1513.0,240.84,20.14
+Madagascar,Africa,Wheat,Rabi,2004,23454.0,1513.0,68.01,19.87
+Madagascar,Africa,Wheat,Rabi,2005,23440.0,1513.0,114.51,20.05
+Madagascar,Africa,Wheat,Rabi,2006,23256.0,1513.0,109.39,20.09
+Madagascar,Africa,Wheat,Rabi,2007,24444.0,1513.0,93.88,20.02
+Madagascar,Africa,Wheat,Rabi,2008,23810.0,1513.0,112.11,19.79
+Madagascar,Africa,Wheat,Rabi,2009,23859.0,1513.0,143.9,20.13
+Madagascar,Africa,Wheat,Rabi,2010,23982.0,1513.0,241.89,20.31
+Madagascar,Africa,Wheat,Rabi,2011,23968.0,1513.0,310.36,20.33
+Madagascar,Africa,Wheat,Rabi,2012,24045.0,1513.0,377.71,19.78
+Madagascar,Africa,Wheat,Rabi,2013,24122.0,1513.0,507.94,19.34
+Malawi,Africa,Wheat,Rabi,1990,7735.0,1181.0,173.19,20.86
+Malawi,Africa,Wheat,Rabi,1991,5870.0,1181.0,173.19,20.4
+Malawi,Africa,Wheat,Rabi,1992,4239.0,1181.0,173.19,20.89
+Malawi,Africa,Wheat,Rabi,1993,6306.0,1181.0,173.19,20.43
+Malawi,Africa,Wheat,Rabi,1994,2244.0,1181.0,173.19,20.59
+Malawi,Africa,Wheat,Rabi,1995,6865.0,1181.0,173.19,20.86
+Malawi,Africa,Wheat,Rabi,1996,8619.0,1181.0,173.19,20.47
+Malawi,Africa,Wheat,Rabi,1997,5896.0,1181.0,173.19,20.62
+Malawi,Africa,Wheat,Rabi,1998,7418.0,1181.0,131.59,20.92
+Malawi,Africa,Wheat,Rabi,1999,7877.0,1181.0,123.64,20.26
+Malawi,Africa,Wheat,Rabi,2000,7968.0,1181.0,220.22,20.22
+Malawi,Africa,Wheat,Rabi,2001,8989.0,1181.0,177.24,20.59
+Malawi,Africa,Wheat,Rabi,2002,5588.0,1181.0,134.25,20.76
+Malawi,Africa,Wheat,Rabi,2004,7537.0,1181.0,48.28,20.44
+Malawi,Africa,Wheat,Rabi,2005,8707.0,1181.0,295.51,21.37
+Malawi,Africa,Wheat,Rabi,2006,12071.0,1181.0,202.35,20.63
+Malawi,Africa,Wheat,Rabi,2007,22968.0,1181.0,524.46,20.67
+Malawi,Africa,Wheat,Rabi,2008,16133.0,1181.0,624.52,20.42
+Malawi,Africa,Wheat,Rabi,2009,15006.0,1181.0,736.25,20.68
+Malawi,Africa,Wheat,Rabi,2010,15123.0,1181.0,584.12,21.34
+Malawi,Africa,Wheat,Rabi,2011,15214.0,1181.0,553.57,20.92
+Malawi,Africa,Wheat,Rabi,2012,15104.0,1181.0,775.83,20.42
+Malawi,Africa,Wheat,Rabi,2013,14058.0,1181.0,1500.27,19.68
+Mali,Africa,Wheat,Rabi,1990,11991.0,282.0,95.7,27.61
+Mali,Africa,Wheat,Rabi,1991,20000.0,282.0,54.63,27.58
+Mali,Africa,Wheat,Rabi,1992,13987.0,282.0,35.42,27.2
+Mali,Africa,Wheat,Rabi,1993,30909.0,282.0,33.19,27.55
+Mali,Africa,Wheat,Rabi,1994,16278.0,282.0,30.96,27.05
+Mali,Africa,Wheat,Rabi,1995,21040.0,282.0,28.73,27.25
+Mali,Africa,Wheat,Rabi,1996,19658.0,282.0,26.51,27.64
+Mali,Africa,Wheat,Rabi,1997,12752.0,282.0,24.28,27.38
+Mali,Africa,Wheat,Rabi,1998,24925.0,282.0,22.05,28.08
+Mali,Africa,Wheat,Rabi,1999,21696.0,282.0,19.82,27.26
+Mali,Africa,Wheat,Rabi,2000,23515.0,282.0,17.59,27.51
+Mali,Africa,Wheat,Rabi,2001,25237.0,282.0,15.36,27.79
+Mali,Africa,Wheat,Rabi,2002,25687.0,282.0,13.13,28.18
+Mali,Africa,Wheat,Rabi,2004,25296.0,282.0,8.67,28.07
+Mali,Africa,Wheat,Rabi,2005,22001.0,282.0,14.84,28.13
+Mali,Africa,Wheat,Rabi,2006,24025.0,282.0,11.87,27.62
+Mali,Africa,Wheat,Rabi,2007,25029.0,282.0,7.72,27.94
+Mali,Africa,Wheat,Rabi,2008,24409.0,282.0,9.99,27.62
+Mali,Africa,Wheat,Rabi,2009,29665.0,282.0,4.12,27.89
+Mali,Africa,Wheat,Rabi,2010,25543.0,282.0,3.84,28.18
+Mali,Africa,Wheat,Rabi,2011,34378.0,282.0,3.25,27.79
+Mali,Africa,Wheat,Rabi,2012,40285.0,282.0,1.52,27.39
+Mali,Africa,Wheat,Rabi,2013,39754.0,282.0,1.52,28.53
+Mauritania,Africa,Wheat,Rabi,1990,10769.0,92.0,39.09,27.67
+Mauritania,Africa,Wheat,Rabi,1991,12000.0,92.0,39.09,27.38
+Mauritania,Africa,Wheat,Rabi,1992,12340.0,92.0,39.09,27.52
+Mauritania,Africa,Wheat,Rabi,1993,10000.0,92.0,39.09,27.37
+Mauritania,Africa,Wheat,Rabi,1994,12145.0,92.0,39.09,27.24
+Mauritania,Africa,Wheat,Rabi,1995,12868.0,92.0,39.09,27.7
+Mauritania,Africa,Wheat,Rabi,1996,13062.0,92.0,39.09,27.93
+Mauritania,Africa,Wheat,Rabi,1997,10000.0,92.0,39.09,28.28
+Mauritania,Africa,Wheat,Rabi,1998,13986.0,92.0,39.09,28.52
+Mauritania,Africa,Wheat,Rabi,1999,14988.0,92.0,39.09,27.23
+Mauritania,Africa,Wheat,Rabi,2000,15271.0,92.0,39.09,27.66
+Mauritania,Africa,Wheat,Rabi,2001,15855.0,92.0,39.09,28.28
+Mauritania,Africa,Wheat,Rabi,2002,16541.0,92.0,3.2,27.84
+Mauritania,Africa,Wheat,Rabi,2004,24906.0,92.0,702.5,27.81
+Mauritania,Africa,Wheat,Rabi,2005,20000.0,92.0,1.1,28.14
+Mauritania,Africa,Wheat,Rabi,2006,21026.0,92.0,1.7,27.82
+Mauritania,Africa,Wheat,Rabi,2007,20000.0,92.0,9.8,27.88
+Mauritania,Africa,Wheat,Rabi,2008,20000.0,92.0,17.22,28.14
+Mauritania,Africa,Wheat,Rabi,2009,19780.0,92.0,4.29,27.57
+Mauritania,Africa,Wheat,Rabi,2010,20820.0,92.0,67.59,28.7
+Mauritania,Africa,Wheat,Rabi,2011,16018.0,92.0,13.35,27.87
+Mauritania,Africa,Wheat,Rabi,2012,21278.0,92.0,26.41,27.77
+Mauritania,Africa,Wheat,Rabi,2013,21172.0,92.0,26.41,28.24
+Morocco,Africa,Wheat,Rabi,1990,13290.0,346.0,9364.0,18.23
+Morocco,Africa,Wheat,Rabi,1991,18699.0,346.0,9771.14,17.36
+Morocco,Africa,Wheat,Rabi,1992,7011.0,346.0,10178.29,17.47
+Morocco,Africa,Wheat,Rabi,1993,6808.0,346.0,10585.43,17.025
+Morocco,Africa,Wheat,Rabi,1994,18111.0,346.0,10992.57,17.93
+Morocco,Africa,Wheat,Rabi,1995,5543.0,346.0,11399.71,18.64
+Morocco,Africa,Wheat,Rabi,1996,18415.0,346.0,11806.86,17.86
+Morocco,Africa,Wheat,Rabi,1997,9292.0,346.0,12214.0,18.48
+Morocco,Africa,Wheat,Rabi,1998,14184.0,346.0,12621.14,18.225
+Morocco,Africa,Wheat,Rabi,1999,8004.0,346.0,13028.29,17.78
+Morocco,Africa,Wheat,Rabi,2000,4758.0,346.0,13435.43,18.15
+Morocco,Africa,Wheat,Rabi,2001,12280.0,346.0,13842.57,18.645
+Morocco,Africa,Wheat,Rabi,2002,12793.0,346.0,14249.71,18.22
+Morocco,Africa,Wheat,Rabi,2004,18082.0,346.0,15064.0,18.14
+Morocco,Africa,Wheat,Rabi,2005,10261.0,346.0,13966.0,18.165
+Morocco,Africa,Wheat,Rabi,2006,20365.0,346.0,13697.0,18.445
+Morocco,Africa,Wheat,Rabi,2007,6154.0,346.0,13697.0,17.96
+Morocco,Africa,Wheat,Rabi,2008,13189.0,346.0,13697.0,17.88
+Morocco,Africa,Wheat,Rabi,2009,21398.0,346.0,13697.0,18.645
+Morocco,Africa,Wheat,Rabi,2010,17095.0,346.0,13697.0,18.85
+Morocco,Africa,Wheat,Rabi,2011,19488.0,346.0,13697.0,18.56
+Morocco,Africa,Wheat,Rabi,2012,12342.0,346.0,13697.0,18.22
+Morocco,Africa,Wheat,Rabi,2013,21640.0,346.0,13697.0,18.705
+Mozambique,Africa,Wheat,Rabi,1990,18001.0,1032.0,102.26,21.51
+Mozambique,Africa,Wheat,Rabi,1991,15000.0,1032.0,102.26,21.77
+Mozambique,Africa,Wheat,Rabi,1992,11111.0,1032.0,102.26,22.6
+Mozambique,Africa,Wheat,Rabi,1993,11541.0,1032.0,102.26,22.04
+Mozambique,Africa,Wheat,Rabi,1994,11379.0,1032.0,102.26,21.35
+Mozambique,Africa,Wheat,Rabi,1995,11314.0,1032.0,72.19,21.89
+Mozambique,Africa,Wheat,Rabi,1996,11268.0,1032.0,65.85,21.53
+Mozambique,Africa,Wheat,Rabi,1997,11241.0,1032.0,60.63,21.54
+Mozambique,Africa,Wheat,Rabi,1998,11255.0,1032.0,51.98,22.22
+Mozambique,Africa,Wheat,Rabi,1999,11297.0,1032.0,43.34,22.19
+Mozambique,Africa,Wheat,Rabi,2000,10000.0,1032.0,34.69,21.51
+Mozambique,Africa,Wheat,Rabi,2001,10000.0,1032.0,26.05,21.94
+Mozambique,Africa,Wheat,Rabi,2002,10385.0,1032.0,17.4,21.96
+Mozambique,Africa,Wheat,Rabi,2004,10870.0,1032.0,572.99,21.89
+Mozambique,Africa,Wheat,Rabi,2005,11071.0,1032.0,770.88,22.27
+Mozambique,Africa,Wheat,Rabi,2006,12353.0,1032.0,891.54,21.68
+Mozambique,Africa,Wheat,Rabi,2007,11765.0,1032.0,547.31,21.91
+Mozambique,Africa,Wheat,Rabi,2008,12500.0,1032.0,890.47,21.76
+Mozambique,Africa,Wheat,Rabi,2009,12500.0,1032.0,914.92,21.7
+Mozambique,Africa,Wheat,Rabi,2010,13367.0,1032.0,1187.1,22.1
+Mozambique,Africa,Wheat,Rabi,2011,17042.0,1032.0,766.93,21.69
+Mozambique,Africa,Wheat,Rabi,2012,9958.0,1032.0,766.93,21.92
+Mozambique,Africa,Wheat,Rabi,2013,10951.0,1032.0,766.93,21.37
+Namibia,Africa,Wheat,Rabi,1990,44250.0,285.0,42.0,20.4
+Namibia,Africa,Wheat,Rabi,1991,59000.0,285.0,39.0,19.92
+Namibia,Africa,Wheat,Rabi,1992,51933.0,285.0,48.0,20.36
+Namibia,Africa,Wheat,Rabi,1993,43846.0,285.0,56.0,20.43
+Namibia,Africa,Wheat,Rabi,1994,52500.0,285.0,56.0,20.14
+Namibia,Africa,Wheat,Rabi,1995,55172.0,285.0,56.0,20.76
+Namibia,Africa,Wheat,Rabi,1996,43846.0,285.0,56.0,19.79
+Namibia,Africa,Wheat,Rabi,1997,46361.0,285.0,56.0,19.97
+Namibia,Africa,Wheat,Rabi,1998,49336.0,285.0,56.0,20.83
+Namibia,Africa,Wheat,Rabi,1999,36440.0,285.0,56.0,20.62
+Namibia,Africa,Wheat,Rabi,2000,50847.0,285.0,56.0,20.26
+Namibia,Africa,Wheat,Rabi,2001,60464.0,285.0,56.0,20.37
+Namibia,Africa,Wheat,Rabi,2002,63724.0,285.0,56.0,20.76
+Namibia,Africa,Wheat,Rabi,2004,41622.0,285.0,56.0,21.01
+Namibia,Africa,Wheat,Rabi,2005,45255.0,285.0,56.0,20.46
+Namibia,Africa,Wheat,Rabi,2006,59308.0,285.0,56.0,19.42
+Namibia,Africa,Wheat,Rabi,2007,51342.0,285.0,56.0,20.49
+Namibia,Africa,Wheat,Rabi,2008,61420.0,285.0,56.0,20.18
+Namibia,Africa,Wheat,Rabi,2009,67214.0,285.0,56.0,20.02
+Namibia,Africa,Wheat,Rabi,2010,61022.0,285.0,56.0,20.62
+Namibia,Africa,Wheat,Rabi,2011,61267.0,285.0,56.0,19.26
+Namibia,Africa,Wheat,Rabi,2012,61692.0,285.0,56.0,20.11
+Namibia,Africa,Wheat,Rabi,2013,62084.0,285.0,56.0,20.73
+Niger,Africa,Wheat,Rabi,1990,28889.0,151.0,62.0,29.71
+Niger,Africa,Wheat,Rabi,1991,26000.0,151.0,62.0,29.4
+Niger,Africa,Wheat,Rabi,1992,28000.0,151.0,62.0,28.99
+Niger,Africa,Wheat,Rabi,1993,22000.0,151.0,62.0,29.64
+Niger,Africa,Wheat,Rabi,1994,28800.0,151.0,62.0,29.05
+Niger,Africa,Wheat,Rabi,1995,34444.0,151.0,62.0,29.56
+Niger,Africa,Wheat,Rabi,1996,21250.0,151.0,22.0,29.71
+Niger,Africa,Wheat,Rabi,1997,20000.0,151.0,34.0,29.73
+Niger,Africa,Wheat,Rabi,1998,21882.0,151.0,36.0,29.97
+Niger,Africa,Wheat,Rabi,1999,21115.0,151.0,26.0,29.65
+Niger,Africa,Wheat,Rabi,2000,19855.0,151.0,62.0,29.43
+Niger,Africa,Wheat,Rabi,2001,18412.0,151.0,31.0,29.46
+Niger,Africa,Wheat,Rabi,2002,10606.0,151.0,29.44,29.71
+Niger,Africa,Wheat,Rabi,2004,17019.0,151.0,26.31,29.8
+Niger,Africa,Wheat,Rabi,2005,17276.0,151.0,24.75,30.02
+Niger,Africa,Wheat,Rabi,2006,14992.0,151.0,21.12,29.78
+Niger,Africa,Wheat,Rabi,2007,14894.0,151.0,30.57,29.85
+Niger,Africa,Wheat,Rabi,2008,18096.0,151.0,12.04,29.3
+Niger,Africa,Wheat,Rabi,2009,18696.0,151.0,7.32,30.32
+Niger,Africa,Wheat,Rabi,2010,19868.0,151.0,11.49,30.32
+Niger,Africa,Wheat,Rabi,2011,19770.0,151.0,10.59,30.1
+Niger,Africa,Wheat,Rabi,2012,16537.0,151.0,21.37,29.61
+Niger,Africa,Wheat,Rabi,2013,30090.0,151.0,21.37,30.42
+Rwanda,Africa,Wheat,Rabi,1990,11811.0,1212.0,157.0,19.39
+Rwanda,Africa,Wheat,Rabi,1991,12333.0,1212.0,107.0,19.22
+Rwanda,Africa,Wheat,Rabi,1992,11455.0,1212.0,97.0,19.54
+Rwanda,Africa,Wheat,Rabi,1993,12000.0,1212.0,127.4,19.53
+Rwanda,Africa,Wheat,Rabi,1994,11852.0,1212.0,157.8,19.55
+Rwanda,Africa,Wheat,Rabi,1995,10442.0,1212.0,188.2,19.81
+Rwanda,Africa,Wheat,Rabi,1996,11357.0,1212.0,218.6,19.31
+Rwanda,Africa,Wheat,Rabi,1997,9557.0,1212.0,249.0,19.78
+Rwanda,Africa,Wheat,Rabi,1998,7263.0,1212.0,157.0,19.79
+Rwanda,Africa,Wheat,Rabi,1999,6974.0,1212.0,152.0,19.35
+Rwanda,Africa,Wheat,Rabi,2000,6416.0,1212.0,147.0,19.59
+Rwanda,Africa,Wheat,Rabi,2001,7694.0,1212.0,72.0,19.5
+Rwanda,Africa,Wheat,Rabi,2002,6171.0,1212.0,106.34,19.77
+Rwanda,Africa,Wheat,Rabi,2004,7987.0,1212.0,159.54,19.93
+Rwanda,Africa,Wheat,Rabi,2005,9083.0,1212.0,222.92,20.29
+Rwanda,Africa,Wheat,Rabi,2006,8510.0,1212.0,288.72,20.02
+Rwanda,Africa,Wheat,Rabi,2007,8948.0,1212.0,398.11,19.6
+Rwanda,Africa,Wheat,Rabi,2008,12968.0,1212.0,321.75,19.56
+Rwanda,Africa,Wheat,Rabi,2009,17079.0,1212.0,1187.6,19.84
+Rwanda,Africa,Wheat,Rabi,2010,15631.0,1212.0,953.85,20.12
+Rwanda,Africa,Wheat,Rabi,2011,20478.0,1212.0,181.6,19.59
+Rwanda,Africa,Wheat,Rabi,2012,21680.0,1212.0,925.52,19.79
+Rwanda,Africa,Wheat,Rabi,2013,19924.0,1212.0,1841.5,19.93
+South Africa,Africa,Wheat,Rabi,1990,10934.0,495.0,16582.0,18.3433
+South Africa,Africa,Wheat,Rabi,1991,14916.0,495.0,16582.0,18.4933
+South Africa,Africa,Wheat,Rabi,1992,17653.0,495.0,16582.0,19.32
+South Africa,Africa,Wheat,Rabi,1993,18454.0,495.0,16582.0,18.8833
+South Africa,Africa,Wheat,Rabi,1994,17561.0,495.0,16582.0,18.0767
+South Africa,Africa,Wheat,Rabi,1995,14507.0,495.0,18025.0,18.5767
+South Africa,Africa,Wheat,Rabi,1996,20961.0,495.0,19508.0,18.07
+South Africa,Africa,Wheat,Rabi,1997,17575.0,495.0,21596.0,18.1967
+South Africa,Africa,Wheat,Rabi,1998,25295.0,495.0,24304.0,18.9167
+South Africa,Africa,Wheat,Rabi,1999,24137.0,495.0,26098.8,19.0
+South Africa,Africa,Wheat,Rabi,2000,25997.0,495.0,26857.0,18.0433
+South Africa,Africa,Wheat,Rabi,2001,25708.0,495.0,26857.0,18.6167
+South Africa,Africa,Wheat,Rabi,2002,25906.0,495.0,26857.0,18.7433
+South Africa,Africa,Wheat,Rabi,2004,20325.0,495.0,26857.0,18.45
+South Africa,Africa,Wheat,Rabi,2005,23665.0,495.0,26857.0,19.0567
+South Africa,Africa,Wheat,Rabi,2006,27516.0,495.0,26857.0,18.18
+South Africa,Africa,Wheat,Rabi,2007,30142.0,495.0,26857.0,18.65
+South Africa,Africa,Wheat,Rabi,2008,28476.0,495.0,26857.0,18.5167
+South Africa,Africa,Wheat,Rabi,2009,30475.0,495.0,26857.0,18.2733
+South Africa,Africa,Wheat,Rabi,2010,25623.0,495.0,26857.0,18.9867
+South Africa,Africa,Wheat,Rabi,2011,33157.0,495.0,26857.0,18.32
+South Africa,Africa,Wheat,Rabi,2012,37476.0,495.0,26857.0,18.7567
+South Africa,Africa,Wheat,Rabi,2013,36993.0,495.0,26857.0,18.0967
+Sudan,Africa,Wheat,Rabi,2012,17297.0,1712.0,2469.47,28.19
+Sudan,Africa,Wheat,Rabi,2013,19534.0,1712.0,2469.47,28.745
+Tunisia,Africa,Wheat,Rabi,1990,12721.0,207.0,909.0,19.34
+Tunisia,Africa,Wheat,Rabi,1991,17006.0,207.0,909.0,18.41
+Tunisia,Africa,Wheat,Rabi,1992,17030.0,207.0,909.0,18.54
+Tunisia,Africa,Wheat,Rabi,1993,13700.0,207.0,909.0,18.9
+Tunisia,Africa,Wheat,Rabi,1994,10694.0,207.0,909.0,19.93
+Tunisia,Africa,Wheat,Rabi,1995,12780.0,207.0,909.0,19.22
+Tunisia,Africa,Wheat,Rabi,1996,16151.0,207.0,909.0,18.88
+Tunisia,Africa,Wheat,Rabi,1997,11061.0,207.0,909.0,19.54
+Tunisia,Africa,Wheat,Rabi,1998,14248.0,207.0,868.44,19.19
+Tunisia,Africa,Wheat,Rabi,1999,14184.0,207.0,827.87,19.97
+Tunisia,Africa,Wheat,Rabi,2000,11727.0,207.0,787.31,19.76
+Tunisia,Africa,Wheat,Rabi,2001,20000.0,207.0,746.75,20.04
+Tunisia,Africa,Wheat,Rabi,2002,14144.0,207.0,706.18,19.74
+Tunisia,Africa,Wheat,Rabi,2004,16634.0,207.0,625.06,19.37
+Tunisia,Africa,Wheat,Rabi,2005,16918.0,207.0,584.49,19.12
+Tunisia,Africa,Wheat,Rabi,2006,14941.0,207.0,543.93,19.82
+Tunisia,Africa,Wheat,Rabi,2007,18762.0,207.0,503.37,19.71
+Tunisia,Africa,Wheat,Rabi,2008,17174.0,207.0,462.8,19.76
+Tunisia,Africa,Wheat,Rabi,2009,21038.0,207.0,422.24,19.64
+Tunisia,Africa,Wheat,Rabi,2010,18923.0,207.0,422.24,19.76
+Tunisia,Africa,Wheat,Rabi,2011,20791.0,207.0,422.24,19.53
+Tunisia,Africa,Wheat,Rabi,2012,20203.0,207.0,422.24,20.12
+Tunisia,Africa,Wheat,Rabi,2013,14614.0,207.0,422.24,20.0
+Uganda,Africa,Wheat,Rabi,1990,20000.0,1180.0,72.0,23.36
+Uganda,Africa,Wheat,Rabi,1991,18000.0,1180.0,72.0,23.3
+Uganda,Africa,Wheat,Rabi,1992,17600.0,1180.0,72.0,23.46
+Uganda,Africa,Wheat,Rabi,1993,18000.0,1180.0,71.0,23.62
+Uganda,Africa,Wheat,Rabi,1994,18000.0,1180.0,59.0,23.6
+Uganda,Africa,Wheat,Rabi,1995,18000.0,1180.0,88.0,23.72
+Uganda,Africa,Wheat,Rabi,1996,18000.0,1180.0,88.0,23.49
+Uganda,Africa,Wheat,Rabi,1997,18000.0,1180.0,88.0,24.04
+Uganda,Africa,Wheat,Rabi,1998,18000.0,1180.0,88.0,23.97
+Uganda,Africa,Wheat,Rabi,1999,18333.0,1180.0,88.0,23.52
+Uganda,Africa,Wheat,Rabi,2000,17143.0,1180.0,88.0,23.75
+Uganda,Africa,Wheat,Rabi,2001,17500.0,1180.0,88.0,23.47
+Uganda,Africa,Wheat,Rabi,2002,17500.0,1180.0,88.0,23.99
+Uganda,Africa,Wheat,Rabi,2004,16667.0,1180.0,88.0,24.02
+Uganda,Africa,Wheat,Rabi,2005,16667.0,1180.0,88.0,24.29
+Uganda,Africa,Wheat,Rabi,2006,18000.0,1180.0,88.0,23.95
+Uganda,Africa,Wheat,Rabi,2007,17273.0,1180.0,88.0,23.68
+Uganda,Africa,Wheat,Rabi,2008,17273.0,1180.0,88.0,23.68
+Uganda,Africa,Wheat,Rabi,2009,16667.0,1180.0,88.0,24.18
+Uganda,Africa,Wheat,Rabi,2010,16667.0,1180.0,88.0,24.14
+Uganda,Africa,Wheat,Rabi,2011,17692.0,1180.0,88.0,23.89
+Uganda,Africa,Wheat,Rabi,2012,14286.0,1180.0,88.0,24.03
+Uganda,Africa,Wheat,Rabi,2013,14286.0,1180.0,88.0,24.13
+Zambia,Africa,Wheat,Rabi,1990,43938.0,1020.0,1080.0,21.43
+Zambia,Africa,Wheat,Rabi,1991,43841.0,1020.0,1080.0,20.84
+Zambia,Africa,Wheat,Rabi,1992,41004.0,1020.0,1080.0,21.85
+Zambia,Africa,Wheat,Rabi,1993,50737.0,1020.0,1080.0,21.0
+Zambia,Africa,Wheat,Rabi,1994,52692.0,1020.0,1080.0,21.2
+Zambia,Africa,Wheat,Rabi,1995,48705.0,1020.0,716.0,21.86
+Zambia,Africa,Wheat,Rabi,1996,55771.0,1020.0,1670.0,21.19
+Zambia,Africa,Wheat,Rabi,1997,66221.0,1020.0,1670.0,20.9
+Zambia,Africa,Wheat,Rabi,1998,56681.0,1020.0,1670.0,21.32
+Zambia,Africa,Wheat,Rabi,1999,69777.0,1020.0,1670.0,20.53
+Zambia,Africa,Wheat,Rabi,2000,62102.0,1020.0,1670.0,20.66
+Zambia,Africa,Wheat,Rabi,2001,66667.0,1020.0,1670.0,20.9
+Zambia,Africa,Wheat,Rabi,2002,62500.0,1020.0,1670.0,21.55
+Zambia,Africa,Wheat,Rabi,2004,61181.0,1020.0,1670.0,20.79
+Zambia,Africa,Wheat,Rabi,2005,62104.0,1020.0,1670.0,21.97
+Zambia,Africa,Wheat,Rabi,2006,54946.0,1020.0,1670.0,21.05
+Zambia,Africa,Wheat,Rabi,2007,61511.0,1020.0,1670.0,20.87
+Zambia,Africa,Wheat,Rabi,2008,99387.0,1020.0,1670.0,20.66
+Zambia,Africa,Wheat,Rabi,2009,56991.0,1020.0,1670.0,20.76
+Zambia,Africa,Wheat,Rabi,2010,63118.0,1020.0,1670.0,21.34
+Zambia,Africa,Wheat,Rabi,2011,63068.0,1020.0,1670.0,20.88
+Zambia,Africa,Wheat,Rabi,2012,68135.0,1020.0,1670.0,20.8
+Zambia,Africa,Wheat,Rabi,2013,65435.0,1020.0,1670.0,20.14
+Zimbabwe,Africa,Wheat,Rabi,1990,58211.0,657.0,5727.0,21.19
+Zimbabwe,Africa,Wheat,Rabi,1991,58912.0,657.0,6753.0,20.95
+Zimbabwe,Africa,Wheat,Rabi,1992,50893.0,657.0,3303.0,21.93
+Zimbabwe,Africa,Wheat,Rabi,1993,57708.0,657.0,1716.0,20.88
+Zimbabwe,Africa,Wheat,Rabi,1994,54649.0,657.0,1664.0,20.64
+Zimbabwe,Africa,Wheat,Rabi,1995,50360.0,657.0,2599.0,21.57
+Zimbabwe,Africa,Wheat,Rabi,1996,54999.0,657.0,2538.0,20.7
+Zimbabwe,Africa,Wheat,Rabi,1997,56000.0,657.0,2762.0,20.63
+Zimbabwe,Africa,Wheat,Rabi,1998,55000.0,657.0,2883.0,21.3
+Zimbabwe,Africa,Wheat,Rabi,1999,55000.0,657.0,2918.18,20.44
+Zimbabwe,Africa,Wheat,Rabi,2000,54000.0,657.0,2953.36,20.28
+Zimbabwe,Africa,Wheat,Rabi,2001,53000.0,657.0,2988.54,20.86
+Zimbabwe,Africa,Wheat,Rabi,2002,50000.0,657.0,3023.72,21.08
+Zimbabwe,Africa,Wheat,Rabi,2004,35000.0,657.0,3094.08,20.31
+Zimbabwe,Africa,Wheat,Rabi,2005,35000.0,657.0,3129.26,21.49
+Zimbabwe,Africa,Wheat,Rabi,2006,36000.0,657.0,3164.45,20.7
+Zimbabwe,Africa,Wheat,Rabi,2007,29998.0,657.0,3199.63,20.75
+Zimbabwe,Africa,Wheat,Rabi,2008,30097.0,657.0,3234.81,20.68
+Zimbabwe,Africa,Wheat,Rabi,2009,30000.0,657.0,3269.99,20.52
+Zimbabwe,Africa,Wheat,Rabi,2010,27681.0,657.0,3305.17,21.17
+Zimbabwe,Africa,Wheat,Rabi,2011,26274.0,657.0,3340.35,20.78
+Zimbabwe,Africa,Wheat,Rabi,2012,24420.0,657.0,3375.53,20.52
+Zimbabwe,Africa,Wheat,Rabi,2013,22888.0,657.0,2550.07,19.76
+Armenia,Asia,Wheat,Rabi,1992,21600.0,562.0,8.0,7.44
+Armenia,Asia,Wheat,Rabi,1993,22257.0,562.0,8.0,7.69
+Armenia,Asia,Wheat,Rabi,1994,17842.0,562.0,23.0,8.84
+Armenia,Asia,Wheat,Rabi,1995,25480.0,562.0,23.9,9.76
+Armenia,Asia,Wheat,Rabi,1996,23569.0,562.0,32.0,9.55
+Armenia,Asia,Wheat,Rabi,1997,17009.0,562.0,41.46,9.1
+Armenia,Asia,Wheat,Rabi,1998,20651.0,562.0,50.92,10.28
+Armenia,Asia,Wheat,Rabi,1999,19466.0,562.0,60.38,10.11
+Armenia,Asia,Wheat,Rabi,2000,16679.0,562.0,69.85,9.68
+Armenia,Asia,Wheat,Rabi,2001,22263.0,562.0,79.31,10.18
+Armenia,Asia,Wheat,Rabi,2002,23877.0,562.0,88.77,9.41
+Armenia,Asia,Wheat,Rabi,2004,23416.0,562.0,204.77,9.55
+Armenia,Asia,Wheat,Rabi,2005,20252.0,562.0,220.51,9.58
+Armenia,Asia,Wheat,Rabi,2006,14627.0,562.0,227.55,9.89
+Armenia,Asia,Wheat,Rabi,2007,25837.0,562.0,241.71,9.44
+Armenia,Asia,Wheat,Rabi,2008,24322.0,562.0,218.2,9.51
+Armenia,Asia,Wheat,Rabi,2009,22374.0,562.0,198.36,9.67
+Armenia,Asia,Wheat,Rabi,2010,21192.0,562.0,278.72,11.31
+Armenia,Asia,Wheat,Rabi,2011,28800.0,562.0,278.72,8.93
+Armenia,Asia,Wheat,Rabi,2012,26010.0,562.0,278.72,10.2
+Armenia,Asia,Wheat,Rabi,2013,31273.0,562.0,278.72,11.08
+Azerbaijan,Asia,Wheat,Rabi,1992,21705.0,447.0,148.68,10.93
+Azerbaijan,Asia,Wheat,Rabi,1993,16855.0,447.0,148.68,10.53
+Azerbaijan,Asia,Wheat,Rabi,1994,16296.0,447.0,148.68,11.32
+Azerbaijan,Asia,Wheat,Rabi,1995,14940.0,447.0,148.68,12.81
+Azerbaijan,Asia,Wheat,Rabi,1996,16627.0,447.0,148.68,11.96
+Azerbaijan,Asia,Wheat,Rabi,1997,16914.0,447.0,148.68,11.89
+Azerbaijan,Asia,Wheat,Rabi,1998,15764.0,447.0,148.68,12.79
+Azerbaijan,Asia,Wheat,Rabi,1999,19992.0,447.0,148.68,12.74
+Azerbaijan,Asia,Wheat,Rabi,2000,23223.0,447.0,148.68,12.61
+Azerbaijan,Asia,Wheat,Rabi,2001,26154.0,447.0,148.68,12.97
+Azerbaijan,Asia,Wheat,Rabi,2002,26028.0,447.0,148.68,12.45
+Azerbaijan,Asia,Wheat,Rabi,2004,25748.0,447.0,148.68,12.76
+Azerbaijan,Asia,Wheat,Rabi,2005,25818.0,447.0,148.68,12.88
+Azerbaijan,Asia,Wheat,Rabi,2006,26050.0,447.0,148.68,12.66
+Azerbaijan,Asia,Wheat,Rabi,2007,26722.0,447.0,148.68,12.75
+Azerbaijan,Asia,Wheat,Rabi,2008,27251.0,447.0,262.99,12.3
+Azerbaijan,Asia,Wheat,Rabi,2009,25946.0,447.0,316.18,12.6
+Azerbaijan,Asia,Wheat,Rabi,2010,19381.0,447.0,333.85,13.85
+Azerbaijan,Asia,Wheat,Rabi,2011,24376.0,447.0,461.84,11.79
+Azerbaijan,Asia,Wheat,Rabi,2012,26144.0,447.0,516.35,13.0
+Azerbaijan,Asia,Wheat,Rabi,2013,26719.0,447.0,489.8,14.12
+Bangladesh,Asia,Wheat,Rabi,1990,15034.0,2666.0,1266.0,25.98
+Bangladesh,Asia,Wheat,Rabi,1991,16767.0,2666.0,1287.0,25.85
+Bangladesh,Asia,Wheat,Rabi,1992,18534.0,2666.0,1453.0,25.86
+Bangladesh,Asia,Wheat,Rabi,1993,18457.0,2666.0,1487.0,25.73
+Bangladesh,Asia,Wheat,Rabi,1994,18390.0,2666.0,1594.5,25.91
+Bangladesh,Asia,Wheat,Rabi,1995,19483.0,2666.0,1702.0,26.09
+Bangladesh,Asia,Wheat,Rabi,1996,19531.0,2666.0,1919.0,26.15
+Bangladesh,Asia,Wheat,Rabi,1997,20544.0,2666.0,2035.0,25.55
+Bangladesh,Asia,Wheat,Rabi,1998,22408.0,2666.0,2068.0,26.13
+Bangladesh,Asia,Wheat,Rabi,1999,21627.0,2666.0,2532.0,26.31
+Bangladesh,Asia,Wheat,Rabi,2000,22104.0,2666.0,3170.0,25.91
+Bangladesh,Asia,Wheat,Rabi,2001,21643.0,2666.0,3295.78,25.93
+Bangladesh,Asia,Wheat,Rabi,2002,21644.0,2666.0,2954.29,26.1
+Bangladesh,Asia,Wheat,Rabi,2004,19527.0,2666.0,5587.81,26.14
+Bangladesh,Asia,Wheat,Rabi,2005,17478.0,2666.0,7605.01,26.19
+Bangladesh,Asia,Wheat,Rabi,2006,15344.0,2666.0,9074.43,26.44
+Bangladesh,Asia,Wheat,Rabi,2007,18471.0,2666.0,10962.31,25.95
+Bangladesh,Asia,Wheat,Rabi,2008,21753.0,2666.0,12936.5,26.0
+Bangladesh,Asia,Wheat,Rabi,2009,21516.0,2666.0,13790.09,26.54
+Bangladesh,Asia,Wheat,Rabi,2010,23959.0,2666.0,13283.72,26.65
+Bangladesh,Asia,Wheat,Rabi,2011,26012.0,2666.0,14798.28,25.8
+Bangladesh,Asia,Wheat,Rabi,2012,27789.0,2666.0,13289.18,26.28
+Bangladesh,Asia,Wheat,Rabi,2013,30138.0,2666.0,15330.16,26.59
+India,Asia,Wheat,Rabi,1990,21211.0,1083.0,75000.0,25.6439
+India,Asia,Wheat,Rabi,1991,22814.0,1083.0,72133.0,25.8111
+India,Asia,Wheat,Rabi,1992,23940.0,1083.0,70791.0,25.7758
+India,Asia,Wheat,Rabi,1993,23267.0,1083.0,66388.0,25.9447
+India,Asia,Wheat,Rabi,1994,23796.0,1083.0,61357.0,25.7641
+India,Asia,Wheat,Rabi,1995,25590.0,1083.0,61257.0,25.9379
+India,Asia,Wheat,Rabi,1996,24828.0,1083.0,56114.0,25.9194
+India,Asia,Wheat,Rabi,1997,26789.0,1083.0,52279.0,25.4606
+India,Asia,Wheat,Rabi,1998,24852.0,1083.0,49157.0,26.1965
+India,Asia,Wheat,Rabi,1999,25901.0,1083.0,46195.0,26.1
+India,Asia,Wheat,Rabi,2000,27785.0,1083.0,44957.52,26.0128
+India,Asia,Wheat,Rabi,2001,27081.0,1083.0,43720.04,25.9883
+India,Asia,Wheat,Rabi,2002,27621.0,1083.0,42482.56,26.4811
+India,Asia,Wheat,Rabi,2004,27132.0,1083.0,35113.0,26.1647
+India,Asia,Wheat,Rabi,2005,26016.0,1083.0,35342.0,25.9547
+India,Asia,Wheat,Rabi,2006,26188.0,1083.0,37423.0,26.215
+India,Asia,Wheat,Rabi,2007,27079.0,1083.0,27422.77,26.0874
+India,Asia,Wheat,Rabi,2008,28022.0,1083.0,14485.33,25.7937
+India,Asia,Wheat,Rabi,2009,29071.0,1083.0,28707.01,26.6553
+India,Asia,Wheat,Rabi,2010,28395.0,1083.0,40093.69,26.6084
+India,Asia,Wheat,Rabi,2011,29886.0,1083.0,55540.0,25.82
+India,Asia,Wheat,Rabi,2012,31775.0,1083.0,52980.0,26.0647
+India,Asia,Wheat,Rabi,2013,31538.0,1083.0,45620.0,26.7868
+Iraq,Asia,Wheat,Rabi,1990,10129.0,216.0,692.0,21.585
+Iraq,Asia,Wheat,Rabi,1991,8056.0,216.0,692.0,21.445
+Iraq,Asia,Wheat,Rabi,1992,5999.0,216.0,692.0,19.64
+Iraq,Asia,Wheat,Rabi,1993,5897.0,216.0,692.0,20.805
+Iraq,Asia,Wheat,Rabi,1994,7431.0,216.0,692.0,21.745
+Iraq,Asia,Wheat,Rabi,1995,8052.0,216.0,816.0,21.59
+Iraq,Asia,Wheat,Rabi,1996,8667.0,216.0,616.0,22.045
+Iraq,Asia,Wheat,Rabi,1997,7566.0,216.0,848.0,20.985
+Iraq,Asia,Wheat,Rabi,1998,8071.0,216.0,755.0,22.49
+Iraq,Asia,Wheat,Rabi,1999,6154.0,216.0,508.0,22.635
+Iraq,Asia,Wheat,Rabi,2000,3200.0,216.0,548.0,22.09
+Iraq,Asia,Wheat,Rabi,2001,7405.0,216.0,837.47,22.625
+Iraq,Asia,Wheat,Rabi,2002,15703.0,216.0,878.68,21.93
+Iraq,Asia,Wheat,Rabi,2004,11898.0,216.0,828.62,21.86
+Iraq,Asia,Wheat,Rabi,2005,8738.0,216.0,873.01,21.77
+Iraq,Asia,Wheat,Rabi,2006,13783.0,216.0,824.14,21.97
+Iraq,Asia,Wheat,Rabi,2007,14031.0,216.0,1062.61,22.02
+Iraq,Asia,Wheat,Rabi,2008,13678.0,216.0,1245.94,22.275
+Iraq,Asia,Wheat,Rabi,2009,18756.0,216.0,1429.27,22.065
+Iraq,Asia,Wheat,Rabi,2010,19872.0,216.0,1612.61,23.73
+Iraq,Asia,Wheat,Rabi,2011,19552.0,216.0,1795.94,21.61
+Iraq,Asia,Wheat,Rabi,2012,24181.0,216.0,1979.27,22.52
+Iraq,Asia,Wheat,Rabi,2013,23068.0,216.0,2162.6,23.455
+Japan,Asia,Wheat,Rabi,1990,36540.0,1668.0,79821.18,15.858
+Japan,Asia,Wheat,Rabi,1991,31797.0,1668.0,79821.18,15.044
+Japan,Asia,Wheat,Rabi,1992,35371.0,1668.0,79821.18,14.944
+Japan,Asia,Wheat,Rabi,1993,34739.0,1668.0,79821.18,14.362
+Japan,Asia,Wheat,Rabi,1994,37182.0,1668.0,79821.18,15.73
+Japan,Asia,Wheat,Rabi,1995,29319.0,1668.0,79821.18,14.67
+Japan,Asia,Wheat,Rabi,1996,30164.0,1668.0,79821.18,14.544
+Japan,Asia,Wheat,Rabi,1997,36387.0,1668.0,79821.18,15.168
+Japan,Asia,Wheat,Rabi,1998,35111.0,1668.0,79821.18,16.008
+Japan,Asia,Wheat,Rabi,1999,34544.0,1668.0,79821.18,15.29
+Japan,Asia,Wheat,Rabi,2000,37607.0,1668.0,79821.18,15.324
+Japan,Asia,Wheat,Rabi,2001,35546.0,1668.0,78735.45,15.166
+Japan,Asia,Wheat,Rabi,2002,40010.0,1668.0,70262.54,15.39
+Japan,Asia,Wheat,Rabi,2004,40466.0,1668.0,64688.88,15.934
+Japan,Asia,Wheat,Rabi,2005,40970.0,1668.0,63829.77,14.7
+Japan,Asia,Wheat,Rabi,2006,38351.0,1668.0,65248.26,15.19
+Japan,Asia,Wheat,Rabi,2007,43400.0,1668.0,61164.07,15.746
+Japan,Asia,Wheat,Rabi,2008,42203.0,1668.0,58750.0,15.274
+Japan,Asia,Wheat,Rabi,2009,32367.0,1668.0,60970.8,15.356
+Japan,Asia,Wheat,Rabi,2010,27612.0,1668.0,55576.0,15.524
+Japan,Asia,Wheat,Rabi,2011,35286.0,1668.0,51796.3,15.092
+Japan,Asia,Wheat,Rabi,2012,41004.0,1668.0,54716.4,14.906
+Japan,Asia,Wheat,Rabi,2013,38616.0,1668.0,52794.3,15.754
+Kazakhstan,Asia,Wheat,Rabi,1992,13324.0,250.0,17182.0,4.49
+Kazakhstan,Asia,Wheat,Rabi,1993,9178.0,250.0,17182.0,3.57
+Kazakhstan,Asia,Wheat,Rabi,1994,7490.0,250.0,17182.0,4.58
+Kazakhstan,Asia,Wheat,Rabi,1995,5748.0,250.0,13535.0,5.43
+Kazakhstan,Asia,Wheat,Rabi,1996,6835.0,250.0,13047.0,3.795
+Kazakhstan,Asia,Wheat,Rabi,1997,8449.0,250.0,8112.0,6.025
+Kazakhstan,Asia,Wheat,Rabi,1998,5200.0,250.0,6416.14,5.095
+Kazakhstan,Asia,Wheat,Rabi,1999,12868.0,250.0,4720.28,5.41
+Kazakhstan,Asia,Wheat,Rabi,2000,9028.0,250.0,3024.42,5.245
+Kazakhstan,Asia,Wheat,Rabi,2001,11803.0,250.0,3007.26,5.54
+Kazakhstan,Asia,Wheat,Rabi,2002,10895.0,250.0,3361.84,6.085
+Kazakhstan,Asia,Wheat,Rabi,2004,8432.0,250.0,3802.92,5.85
+Kazakhstan,Asia,Wheat,Rabi,2005,9480.0,250.0,3666.62,5.535
+Kazakhstan,Asia,Wheat,Rabi,2006,11348.0,250.0,3926.27,5.765
+Kazakhstan,Asia,Wheat,Rabi,2007,12983.0,250.0,5575.89,5.96
+Kazakhstan,Asia,Wheat,Rabi,2008,9715.0,250.0,7044.9,5.72
+Kazakhstan,Asia,Wheat,Rabi,2009,11941.0,250.0,8716.14,4.9
+Kazakhstan,Asia,Wheat,Rabi,2010,7336.0,250.0,6283.85,4.955
+Kazakhstan,Asia,Wheat,Rabi,2011,16609.0,250.0,10656.6,4.605
+Kazakhstan,Asia,Wheat,Rabi,2012,7929.0,250.0,8674.58,4.285
+Kazakhstan,Asia,Wheat,Rabi,2013,10762.0,250.0,8738.38,7.1
+Lebanon,Asia,Wheat,Rabi,1990,19704.0,661.0,1221.0,19.4
+Lebanon,Asia,Wheat,Rabi,1991,22299.0,661.0,1221.0,19.31
+Lebanon,Asia,Wheat,Rabi,1992,22807.0,661.0,1221.0,18.18
+Lebanon,Asia,Wheat,Rabi,1993,22917.0,661.0,1221.0,19.14
+Lebanon,Asia,Wheat,Rabi,1994,22244.0,661.0,1221.0,19.93
+Lebanon,Asia,Wheat,Rabi,1995,24765.0,661.0,1221.0,19.35
+Lebanon,Asia,Wheat,Rabi,1996,24726.0,661.0,1221.0,19.65
+Lebanon,Asia,Wheat,Rabi,1997,16263.0,661.0,1816.0,18.99
+Lebanon,Asia,Wheat,Rabi,1998,20667.0,661.0,1816.0,20.19
+Lebanon,Asia,Wheat,Rabi,1999,18814.0,661.0,1816.0,20.25
+Lebanon,Asia,Wheat,Rabi,2000,27025.0,661.0,1816.0,19.65
+Lebanon,Asia,Wheat,Rabi,2001,31995.0,661.0,1816.0,20.29
+Lebanon,Asia,Wheat,Rabi,2002,27356.0,661.0,1816.0,19.91
+Lebanon,Asia,Wheat,Rabi,2004,29344.0,661.0,1816.0,19.72
+Lebanon,Asia,Wheat,Rabi,2005,29030.0,661.0,1816.0,19.68
+Lebanon,Asia,Wheat,Rabi,2006,28998.0,661.0,1816.0,19.59
+Lebanon,Asia,Wheat,Rabi,2007,22008.0,661.0,1816.0,20.04
+Lebanon,Asia,Wheat,Rabi,2008,28798.0,661.0,1816.0,20.24
+Lebanon,Asia,Wheat,Rabi,2009,27990.0,661.0,1816.0,20.19
+Lebanon,Asia,Wheat,Rabi,2010,27815.0,661.0,1816.0,21.26
+Lebanon,Asia,Wheat,Rabi,2011,29667.0,661.0,1816.0,19.67
+Lebanon,Asia,Wheat,Rabi,2012,31012.0,661.0,1816.0,20.19
+Lebanon,Asia,Wheat,Rabi,2013,32122.0,661.0,1816.0,20.08
+Nepal,Asia,Wheat,Rabi,1990,14149.0,1500.0,60.11,15.11
+Nepal,Asia,Wheat,Rabi,1991,14103.0,1500.0,60.11,14.94
+Nepal,Asia,Wheat,Rabi,1992,13338.0,1500.0,60.11,14.95
+Nepal,Asia,Wheat,Rabi,1993,12460.0,1500.0,60.11,15.16
+Nepal,Asia,Wheat,Rabi,1994,14704.0,1500.0,60.11,15.3
+Nepal,Asia,Wheat,Rabi,1995,14416.0,1500.0,60.11,15.3
+Nepal,Asia,Wheat,Rabi,1996,15500.0,1500.0,70.43,15.37
+Nepal,Asia,Wheat,Rabi,1997,16072.0,1500.0,80.75,14.5
+Nepal,Asia,Wheat,Rabi,1998,15463.0,1500.0,91.07,15.49
+Nepal,Asia,Wheat,Rabi,1999,16955.0,1500.0,101.39,15.78
+Nepal,Asia,Wheat,Rabi,2000,17931.0,1500.0,111.72,15.13
+Nepal,Asia,Wheat,Rabi,2001,18063.0,1500.0,122.04,15.41
+Nepal,Asia,Wheat,Rabi,2002,18859.0,1500.0,132.36,15.44
+Nepal,Asia,Wheat,Rabi,2004,20873.0,1500.0,153.0,15.36
+Nepal,Asia,Wheat,Rabi,2005,21344.0,1500.0,127.99,15.53
+Nepal,Asia,Wheat,Rabi,2006,20745.0,1500.0,128.73,15.92
+Nepal,Asia,Wheat,Rabi,2007,21563.0,1500.0,344.06,15.54
+Nepal,Asia,Wheat,Rabi,2008,22252.0,1500.0,353.43,15.27
+Nepal,Asia,Wheat,Rabi,2009,19338.0,1500.0,209.52,15.91
+Nepal,Asia,Wheat,Rabi,2010,21289.0,1500.0,332.01,15.96
+Nepal,Asia,Wheat,Rabi,2011,22747.0,1500.0,342.92,15.12
+Nepal,Asia,Wheat,Rabi,2012,24123.0,1500.0,410.32,15.2
+Nepal,Asia,Wheat,Rabi,2013,22902.0,1500.0,454.53,15.79
+Pakistan,Asia,Wheat,Rabi,1990,18249.0,494.0,5299.0,24.4883
+Pakistan,Asia,Wheat,Rabi,1991,18410.0,494.0,5962.0,24.0883
+Pakistan,Asia,Wheat,Rabi,1992,19910.0,494.0,5518.0,23.9983
+Pakistan,Asia,Wheat,Rabi,1993,19466.0,494.0,4945.0,24.7517
+Pakistan,Asia,Wheat,Rabi,1994,18935.0,494.0,6183.0,24.3083
+Pakistan,Asia,Wheat,Rabi,1995,20811.0,494.0,7681.0,24.2833
+Pakistan,Asia,Wheat,Rabi,1996,20184.0,494.0,11955.0,24.225
+Pakistan,Asia,Wheat,Rabi,1997,20533.0,494.0,16936.0,23.7983
+Pakistan,Asia,Wheat,Rabi,1998,22376.0,494.0,18406.0,24.805
+Pakistan,Asia,Wheat,Rabi,1999,21698.0,494.0,20450.0,25.1033
+Pakistan,Asia,Wheat,Rabi,2000,24907.0,494.0,27885.0,25.0267
+Pakistan,Asia,Wheat,Rabi,2001,23254.0,494.0,11871.0,25.0117
+Pakistan,Asia,Wheat,Rabi,2002,22621.0,494.0,10881.83,25.2033
+Pakistan,Asia,Wheat,Rabi,2004,23733.0,494.0,8903.48,25.2767
+Pakistan,Asia,Wheat,Rabi,2005,25858.0,494.0,7914.31,24.3767
+Pakistan,Asia,Wheat,Rabi,2006,25186.0,494.0,6925.13,24.7433
+Pakistan,Asia,Wheat,Rabi,2007,27156.0,494.0,5935.96,24.9033
+Pakistan,Asia,Wheat,Rabi,2008,24514.0,494.0,4946.79,24.6233
+Pakistan,Asia,Wheat,Rabi,2009,26568.0,494.0,3957.61,25.0433
+Pakistan,Asia,Wheat,Rabi,2010,25528.0,494.0,2968.44,25.165
+Pakistan,Asia,Wheat,Rabi,2011,28328.0,494.0,1979.27,24.77
+Pakistan,Asia,Wheat,Rabi,2012,27138.0,494.0,990.09,24.4667
+Pakistan,Asia,Wheat,Rabi,2013,27957.0,494.0,0.92,25.4483
+Qatar,Asia,Wheat,Rabi,1990,22996.0,74.0,3.0,27.38
+Qatar,Asia,Wheat,Rabi,1991,23048.0,74.0,3.0,26.77
+Qatar,Asia,Wheat,Rabi,1992,23088.0,74.0,3.0,26.22
+Qatar,Asia,Wheat,Rabi,1993,23103.0,74.0,3.0,27.1
+Qatar,Asia,Wheat,Rabi,1994,23065.0,74.0,3.0,27.59
+Qatar,Asia,Wheat,Rabi,1995,22969.0,74.0,4.0,27.16
+Qatar,Asia,Wheat,Rabi,1996,22881.0,74.0,6.0,27.66
+Qatar,Asia,Wheat,Rabi,1997,23077.0,74.0,21.5,27.23
+Qatar,Asia,Wheat,Rabi,1998,22951.0,74.0,37.0,28.48
+Qatar,Asia,Wheat,Rabi,1999,23056.0,74.0,52.5,28.62
+Qatar,Asia,Wheat,Rabi,2000,23056.0,74.0,68.0,28.06
+Qatar,Asia,Wheat,Rabi,2001,23333.0,74.0,68.0,28.36
+Qatar,Asia,Wheat,Rabi,2002,22727.0,74.0,68.0,28.25
+Qatar,Asia,Wheat,Rabi,2004,24444.0,74.0,68.0,28.2
+Qatar,Asia,Wheat,Rabi,2005,23333.0,74.0,68.0,28.09
+Qatar,Asia,Wheat,Rabi,2006,20000.0,74.0,68.0,28.12
+Qatar,Asia,Wheat,Rabi,2007,23188.0,74.0,68.0,28.23
+Qatar,Asia,Wheat,Rabi,2008,30000.0,74.0,68.0,27.92
+Qatar,Asia,Wheat,Rabi,2009,23333.0,74.0,68.0,28.17
+Qatar,Asia,Wheat,Rabi,2010,22500.0,74.0,68.0,28.93
+Qatar,Asia,Wheat,Rabi,2011,23636.0,74.0,68.0,28.23
+Qatar,Asia,Wheat,Rabi,2012,22857.0,74.0,68.0,28.54
+Qatar,Asia,Wheat,Rabi,2013,22632.0,74.0,68.0,28.68
+Saudi Arabia,Asia,Wheat,Rabi,1990,46461.0,59.0,994.0,25.78
+Saudi Arabia,Asia,Wheat,Rabi,1991,45030.0,59.0,994.0,25.685
+Saudi Arabia,Asia,Wheat,Rabi,1992,44609.0,59.0,994.0,24.555
+Saudi Arabia,Asia,Wheat,Rabi,1993,44886.0,59.0,994.0,25.66
+Saudi Arabia,Asia,Wheat,Rabi,1994,45503.0,59.0,994.0,26.17
+Saudi Arabia,Asia,Wheat,Rabi,1995,44720.0,59.0,994.0,25.985
+Saudi Arabia,Asia,Wheat,Rabi,1996,43821.0,59.0,994.0,26.325
+Saudi Arabia,Asia,Wheat,Rabi,1997,44497.0,59.0,2513.0,25.685
+Saudi Arabia,Asia,Wheat,Rabi,1998,44999.0,59.0,2683.37,26.605
+Saudi Arabia,Asia,Wheat,Rabi,1999,42526.0,59.0,2853.74,26.835
+Saudi Arabia,Asia,Wheat,Rabi,2000,42640.0,59.0,3024.11,26.585
+Saudi Arabia,Asia,Wheat,Rabi,2001,49081.0,59.0,3194.48,26.635
+Saudi Arabia,Asia,Wheat,Rabi,2002,48875.0,59.0,3364.86,26.535
+Saudi Arabia,Asia,Wheat,Rabi,2004,53066.0,59.0,3705.6,26.365
+Saudi Arabia,Asia,Wheat,Rabi,2005,54175.0,59.0,3875.97,26.37
+Saudi Arabia,Asia,Wheat,Rabi,2006,56172.0,59.0,4046.34,26.33
+Saudi Arabia,Asia,Wheat,Rabi,2007,56844.0,59.0,4216.71,26.535
+Saudi Arabia,Asia,Wheat,Rabi,2008,60877.0,59.0,4372.61,26.425
+Saudi Arabia,Asia,Wheat,Rabi,2009,58833.0,59.0,4528.51,26.805
+Saudi Arabia,Asia,Wheat,Rabi,2010,61474.0,59.0,4684.4,27.335
+Saudi Arabia,Asia,Wheat,Rabi,2011,61429.0,59.0,4840.3,26.485
+Saudi Arabia,Asia,Wheat,Rabi,2012,59254.0,59.0,4996.2,26.925
+Saudi Arabia,Asia,Wheat,Rabi,2013,64333.0,59.0,5412.5,27.675
+Tajikistan,Asia,Wheat,Rabi,1992,9073.0,691.0,2280.0,7.9
+Tajikistan,Asia,Wheat,Rabi,1993,8513.0,691.0,2280.0,7.29
+Tajikistan,Asia,Wheat,Rabi,1994,8409.0,691.0,714.0,8.01
+Tajikistan,Asia,Wheat,Rabi,1995,8882.0,691.0,54.0,8.49
+Tajikistan,Asia,Wheat,Rabi,1996,8566.0,691.0,826.0,7.55
+Tajikistan,Asia,Wheat,Rabi,1997,12687.0,691.0,751.31,8.69
+Tajikistan,Asia,Wheat,Rabi,1998,11448.0,691.0,676.63,8.34
+Tajikistan,Asia,Wheat,Rabi,1999,11486.0,691.0,601.94,8.74
+Tajikistan,Asia,Wheat,Rabi,2000,11839.0,691.0,527.25,8.78
+Tajikistan,Asia,Wheat,Rabi,2001,13098.0,691.0,452.56,9.16
+Tajikistan,Asia,Wheat,Rabi,2002,17898.0,691.0,377.88,8.63
+Tajikistan,Asia,Wheat,Rabi,2004,19897.0,691.0,228.5,9.24
+Tajikistan,Asia,Wheat,Rabi,2005,19603.0,691.0,235.4,8.61
+Tajikistan,Asia,Wheat,Rabi,2006,19967.0,691.0,241.9,8.97
+Tajikistan,Asia,Wheat,Rabi,2007,23500.0,691.0,247.9,8.69
+Tajikistan,Asia,Wheat,Rabi,2008,19866.0,691.0,253.5,8.29
+Tajikistan,Asia,Wheat,Rabi,2009,30343.0,691.0,258.1,8.42
+Tajikistan,Asia,Wheat,Rabi,2010,30159.0,691.0,262.1,8.98
+Tajikistan,Asia,Wheat,Rabi,2011,23359.0,691.0,264.6,8.45
+Tajikistan,Asia,Wheat,Rabi,2012,26758.0,691.0,264.6,7.71
+Tajikistan,Asia,Wheat,Rabi,2013,29735.0,691.0,264.6,10.1
+Thailand,Asia,Wheat,Rabi,1990,6107.0,1622.0,18849.0,27.96
+Thailand,Asia,Wheat,Rabi,1991,4861.0,1622.0,18849.0,27.85
+Thailand,Asia,Wheat,Rabi,1992,6753.0,1622.0,18849.0,27.55
+Thailand,Asia,Wheat,Rabi,1993,6167.0,1622.0,18849.0,27.58
+Thailand,Asia,Wheat,Rabi,1994,7000.0,1622.0,20448.0,27.76
+Thailand,Asia,Wheat,Rabi,1995,6820.0,1622.0,24062.0,27.68
+Thailand,Asia,Wheat,Rabi,1996,6455.0,1622.0,21901.0,27.37
+Thailand,Asia,Wheat,Rabi,1997,6903.0,1622.0,23960.0,28.01
+Thailand,Asia,Wheat,Rabi,1998,6951.0,1622.0,19212.0,28.44
+Thailand,Asia,Wheat,Rabi,1999,6995.0,1622.0,22761.0,27.34
+Thailand,Asia,Wheat,Rabi,2000,7039.0,1622.0,20334.0,27.52
+Thailand,Asia,Wheat,Rabi,2001,7087.0,1622.0,30629.67,27.81
+Thailand,Asia,Wheat,Rabi,2002,7148.0,1622.0,40925.33,27.98
+Thailand,Asia,Wheat,Rabi,2004,7642.0,1622.0,88548.0,27.8
+Thailand,Asia,Wheat,Rabi,2005,7816.0,1622.0,43831.0,27.92
+Thailand,Asia,Wheat,Rabi,2006,7963.0,1622.0,41220.0,27.92
+Thailand,Asia,Wheat,Rabi,2007,8108.0,1622.0,66858.0,27.79
+Thailand,Asia,Wheat,Rabi,2008,8256.0,1622.0,65423.0,27.48
+Thailand,Asia,Wheat,Rabi,2009,8473.0,1622.0,67933.0,27.79
+Thailand,Asia,Wheat,Rabi,2010,8756.0,1622.0,68986.0,28.54
+Thailand,Asia,Wheat,Rabi,2011,9085.0,1622.0,87191.0,27.56
+Thailand,Asia,Wheat,Rabi,2012,8696.0,1622.0,69921.0,28.48
+Thailand,Asia,Wheat,Rabi,2013,12500.0,1622.0,8136.0,28.98
+Turkey,Asia,Wheat,Rabi,1990,21227.0,593.0,29918.0,14.718
+Turkey,Asia,Wheat,Rabi,1991,21288.0,593.0,24343.0,14.152
+Turkey,Asia,Wheat,Rabi,1992,20405.0,593.0,27110.0,13.486
+Turkey,Asia,Wheat,Rabi,1993,21642.0,593.0,28042.0,14.188
+Turkey,Asia,Wheat,Rabi,1994,17975.0,593.0,24219.0,15.504
+Turkey,Asia,Wheat,Rabi,1995,19315.0,593.0,27328.0,14.784
+Turkey,Asia,Wheat,Rabi,1996,19852.0,593.0,30286.0,14.788
+Turkey,Asia,Wheat,Rabi,1997,20174.0,593.0,34431.0,14.096
+Turkey,Asia,Wheat,Rabi,1998,22564.0,593.0,30162.0,15.352
+Turkey,Asia,Wheat,Rabi,1999,19409.0,593.0,33089.0,15.694
+Turkey,Asia,Wheat,Rabi,2000,22928.0,593.0,33471.0,14.802
+Turkey,Asia,Wheat,Rabi,2001,20765.0,593.0,25539.0,15.862
+Turkey,Asia,Wheat,Rabi,2002,21006.0,593.0,27915.0,15.056
+Turkey,Asia,Wheat,Rabi,2004,22658.0,593.0,28831.0,14.986
+Turkey,Asia,Wheat,Rabi,2005,23309.0,593.0,40332.0,14.978
+Turkey,Asia,Wheat,Rabi,2006,23595.0,593.0,27421.0,14.868
+Turkey,Asia,Wheat,Rabi,2007,21675.0,593.0,48715.51,15.636
+Turkey,Asia,Wheat,Rabi,2008,23451.0,593.0,37640.2,15.466
+Turkey,Asia,Wheat,Rabi,2009,25667.0,593.0,37651.15,15.536
+Turkey,Asia,Wheat,Rabi,2010,24400.0,593.0,38554.69,16.592
+Turkey,Asia,Wheat,Rabi,2011,27038.0,593.0,39534.43,14.52
+Turkey,Asia,Wheat,Rabi,2012,26723.0,593.0,42610.59,15.518
+Turkey,Asia,Wheat,Rabi,2013,28451.0,593.0,39440.0,16.558
+Albania,Europe,Wheat,Rabi,1990,30197.0,1485.0,121.0,16.37
+Albania,Europe,Wheat,Rabi,1991,20698.0,1485.0,121.0,15.36
+Albania,Europe,Wheat,Rabi,1992,24388.0,1485.0,121.0,16.06
+Albania,Europe,Wheat,Rabi,1993,29976.0,1485.0,121.0,16.05
+Albania,Europe,Wheat,Rabi,1994,24745.0,1485.0,201.0,16.96
+Albania,Europe,Wheat,Rabi,1995,28703.0,1485.0,251.0,15.67
+Albania,Europe,Wheat,Rabi,1996,21741.0,1485.0,313.96,15.64
+Albania,Europe,Wheat,Rabi,1997,28516.0,1485.0,376.93,15.9
+Albania,Europe,Wheat,Rabi,1998,28037.0,1485.0,439.89,16.27
+Albania,Europe,Wheat,Rabi,1999,24954.0,1485.0,502.86,16.57
+Albania,Europe,Wheat,Rabi,2000,30455.0,1485.0,565.82,16.67
+Albania,Europe,Wheat,Rabi,2001,28220.0,1485.0,628.79,16.59
+Albania,Europe,Wheat,Rabi,2002,31617.0,1485.0,691.75,16.47
+Albania,Europe,Wheat,Rabi,2004,31130.0,1485.0,817.68,16.16
+Albania,Europe,Wheat,Rabi,2005,31582.0,1485.0,880.64,15.67
+Albania,Europe,Wheat,Rabi,2006,30787.0,1485.0,943.61,15.92
+Albania,Europe,Wheat,Rabi,2007,35496.0,1485.0,1006.57,16.67
+Albania,Europe,Wheat,Rabi,2008,40168.0,1485.0,1069.54,16.71
+Albania,Europe,Wheat,Rabi,2009,40229.0,1485.0,1132.5,16.73
+Albania,Europe,Wheat,Rabi,2010,39905.0,1485.0,1311.17,16.52
+Albania,Europe,Wheat,Rabi,2011,42301.0,1485.0,1302.63,16.45
+Albania,Europe,Wheat,Rabi,2012,41096.0,1485.0,766.25,16.7
+Albania,Europe,Wheat,Rabi,2013,41292.0,1485.0,982.32,17.41
+Austria,Europe,Wheat,Rabi,1990,50479.0,1110.0,4246.0,9.23
+Austria,Europe,Wheat,Rabi,1991,50735.0,1110.0,4487.0,8.15
+Austria,Europe,Wheat,Rabi,1992,53938.0,1110.0,3897.0,9.49
+Austria,Europe,Wheat,Rabi,1993,42246.0,1110.0,3984.0,8.48
+Austria,Europe,Wheat,Rabi,1994,52088.0,1110.0,3619.0,9.89
+Austria,Europe,Wheat,Rabi,1995,50856.0,1110.0,3402.0,8.79
+Austria,Europe,Wheat,Rabi,1996,50069.0,1110.0,3565.0,7.4
+Austria,Europe,Wheat,Rabi,1997,52044.0,1110.0,3689.6,8.37
+Austria,Europe,Wheat,Rabi,1998,50749.0,1110.0,3340.3,9.01
+Austria,Europe,Wheat,Rabi,1999,54348.0,1110.0,3418.6,9.17
+Austria,Europe,Wheat,Rabi,2000,44688.0,1110.0,3563.2,10.08
+Austria,Europe,Wheat,Rabi,2001,52412.0,1110.0,3132.2,8.75
+Austria,Europe,Wheat,Rabi,2002,49667.0,1110.0,3079.2,9.62
+Austria,Europe,Wheat,Rabi,2004,59234.0,1110.0,3301.7,8.76
+Austria,Europe,Wheat,Rabi,2005,50286.0,1110.0,3404.0,8.6
+Austria,Europe,Wheat,Rabi,2006,49066.0,1110.0,3415.7,9.13
+Austria,Europe,Wheat,Rabi,2007,47763.0,1110.0,3526.6,10.03
+Austria,Europe,Wheat,Rabi,2008,56935.0,1110.0,4246.7,9.96
+Austria,Europe,Wheat,Rabi,2009,49295.0,1110.0,3531.8,9.48
+Austria,Europe,Wheat,Rabi,2010,50117.0,1110.0,3692.4,8.36
+Austria,Europe,Wheat,Rabi,2011,58549.0,1110.0,3441.5,9.42
+Austria,Europe,Wheat,Rabi,2012,41388.0,1110.0,3563.3,9.42
+Austria,Europe,Wheat,Rabi,2013,53743.0,1110.0,3108.6,10.03
+Belarus,Europe,Wheat,Rabi,1992,27983.0,618.0,8306.31,6.74
+Belarus,Europe,Wheat,Rabi,1993,26826.0,618.0,8306.31,5.61
+Belarus,Europe,Wheat,Rabi,1994,22802.0,618.0,8306.31,6.26
+Belarus,Europe,Wheat,Rabi,1995,24791.0,618.0,8306.31,6.68
+Belarus,Europe,Wheat,Rabi,1996,21989.0,618.0,8306.31,5.32
+Belarus,Europe,Wheat,Rabi,1997,25132.0,618.0,8306.31,5.98
+Belarus,Europe,Wheat,Rabi,1998,21347.0,618.0,8306.31,6.11
+Belarus,Europe,Wheat,Rabi,1999,17322.0,618.0,8306.31,7.38
+Belarus,Europe,Wheat,Rabi,2000,21367.0,618.0,8306.31,7.52
+Belarus,Europe,Wheat,Rabi,2001,21255.0,618.0,8306.31,6.71
+Belarus,Europe,Wheat,Rabi,2002,26919.0,618.0,8306.31,7.34
+Belarus,Europe,Wheat,Rabi,2004,33040.0,618.0,8306.31,6.49
+Belarus,Europe,Wheat,Rabi,2005,32812.0,618.0,8306.31,6.53
+Belarus,Europe,Wheat,Rabi,2006,28191.0,618.0,8306.31,6.6
+Belarus,Europe,Wheat,Rabi,2007,32771.0,618.0,8306.31,7.51
+Belarus,Europe,Wheat,Rabi,2008,39752.0,618.0,8306.31,7.75
+Belarus,Europe,Wheat,Rabi,2009,35428.0,618.0,8306.31,6.75
+Belarus,Europe,Wheat,Rabi,2010,28851.0,618.0,8306.31,6.71
+Belarus,Europe,Wheat,Rabi,2011,33088.0,618.0,8306.31,7.29
+Belarus,Europe,Wheat,Rabi,2012,35822.0,618.0,9578.67,6.33
+Belarus,Europe,Wheat,Rabi,2013,30610.0,618.0,9163.51,7.83
+Belgium,Europe,Wheat,Rabi,2000,79198.0,847.0,9560.49,11.37
+Belgium,Europe,Wheat,Rabi,2001,80475.0,847.0,8529.07,10.94
+Belgium,Europe,Wheat,Rabi,2002,82757.0,847.0,9204.0,11.44
+Belgium,Europe,Wheat,Rabi,2004,89806.0,847.0,9186.0,10.94
+Belgium,Europe,Wheat,Rabi,2005,82733.0,847.0,9776.0,11.16
+Belgium,Europe,Wheat,Rabi,2006,82549.0,847.0,8244.02,11.48
+Belgium,Europe,Wheat,Rabi,2007,78908.0,847.0,6712.05,11.52
+Belgium,Europe,Wheat,Rabi,2008,87585.0,847.0,6516.47,10.9
+Belgium,Europe,Wheat,Rabi,2009,94652.0,847.0,5496.04,11.0
+Belgium,Europe,Wheat,Rabi,2010,88272.0,847.0,4644.53,9.74
+Belgium,Europe,Wheat,Rabi,2011,84046.0,847.0,5740.44,11.69
+Belgium,Europe,Wheat,Rabi,2012,84522.0,847.0,6139.3,10.68
+Belgium,Europe,Wheat,Rabi,2013,89349.0,847.0,5905.6,10.36
+Bulgaria,Europe,Wheat,Rabi,1990,45514.0,608.0,3906.0,9.51
+Bulgaria,Europe,Wheat,Rabi,1991,37480.0,608.0,3906.0,8.14
+Bulgaria,Europe,Wheat,Rabi,1992,31071.0,608.0,3906.0,9.07
+Bulgaria,Europe,Wheat,Rabi,1993,28580.0,608.0,3777.25,9.0
+Bulgaria,Europe,Wheat,Rabi,1994,28447.0,608.0,3648.5,10.23
+Bulgaria,Europe,Wheat,Rabi,1995,29085.0,608.0,3519.75,8.69
+Bulgaria,Europe,Wheat,Rabi,1996,18818.0,608.0,3391.0,8.44
+Bulgaria,Europe,Wheat,Rabi,1997,29502.0,608.0,3262.25,8.26
+Bulgaria,Europe,Wheat,Rabi,1998,28058.0,608.0,3133.5,9.16
+Bulgaria,Europe,Wheat,Rabi,1999,27352.0,608.0,3004.75,9.67
+Bulgaria,Europe,Wheat,Rabi,2000,28421.0,608.0,2876.0,9.9
+Bulgaria,Europe,Wheat,Rabi,2001,30081.0,608.0,2747.25,9.55
+Bulgaria,Europe,Wheat,Rabi,2002,30123.0,608.0,2618.5,9.6
+Bulgaria,Europe,Wheat,Rabi,2004,38100.0,608.0,2361.0,9.18
+Bulgaria,Europe,Wheat,Rabi,2005,31567.0,608.0,2232.25,8.58
+Bulgaria,Europe,Wheat,Rabi,2006,34026.0,608.0,2103.5,9.08
+Bulgaria,Europe,Wheat,Rabi,2007,21973.0,608.0,1974.75,10.23
+Bulgaria,Europe,Wheat,Rabi,2008,41674.0,608.0,1846.0,9.9
+Bulgaria,Europe,Wheat,Rabi,2009,31873.0,608.0,1717.25,9.74
+Bulgaria,Europe,Wheat,Rabi,2010,36185.0,608.0,1588.5,9.65
+Bulgaria,Europe,Wheat,Rabi,2011,39197.0,608.0,1459.75,9.17
+Bulgaria,Europe,Wheat,Rabi,2012,37596.0,608.0,1331.0,9.99
+Bulgaria,Europe,Wheat,Rabi,2013,41885.0,608.0,1197.0,11.26
+Croatia,Europe,Wheat,Rabi,1992,38967.0,1113.0,2304.0,10.78
+Croatia,Europe,Wheat,Rabi,1993,41867.0,1113.0,2675.33,10.19
+Croatia,Europe,Wheat,Rabi,1994,37823.0,1113.0,3046.67,11.33
+Croatia,Europe,Wheat,Rabi,1995,38605.0,1113.0,3418.0,10.14
+Croatia,Europe,Wheat,Rabi,1996,36905.0,1113.0,3148.0,9.24
+Croatia,Europe,Wheat,Rabi,1997,40000.0,1113.0,3026.25,10.18
+Croatia,Europe,Wheat,Rabi,1998,42214.0,1113.0,2904.5,10.42
+Croatia,Europe,Wheat,Rabi,1999,32976.0,1113.0,2782.75,10.51
+Croatia,Europe,Wheat,Rabi,2000,47455.0,1113.0,2661.0,11.45
+Croatia,Europe,Wheat,Rabi,2001,44047.0,1113.0,2539.25,10.74
+Croatia,Europe,Wheat,Rabi,2002,45919.0,1113.0,2417.5,11.18
+Croatia,Europe,Wheat,Rabi,2004,49278.0,1113.0,2174.0,10.06
+Croatia,Europe,Wheat,Rabi,2005,41144.0,1113.0,2053.0,9.62
+Croatia,Europe,Wheat,Rabi,2006,45833.0,1113.0,2150.0,10.56
+Croatia,Europe,Wheat,Rabi,2007,46408.0,1113.0,2015.0,11.31
+Croatia,Europe,Wheat,Rabi,2008,54833.0,1113.0,2388.0,11.09
+Croatia,Europe,Wheat,Rabi,2009,51896.0,1113.0,2070.0,11.06
+Croatia,Europe,Wheat,Rabi,2010,40415.0,1113.0,1540.0,10.0
+Croatia,Europe,Wheat,Rabi,2011,52237.0,1113.0,1638.74,11.02
+Croatia,Europe,Wheat,Rabi,2012,53473.0,1113.0,1737.47,11.12
+Croatia,Europe,Wheat,Rabi,2013,48846.0,1113.0,1836.21,11.58
+Denmark,Europe,Wheat,Rabi,1990,74180.0,703.0,5650.0,9.83
+Denmark,Europe,Wheat,Rabi,1991,70749.0,703.0,4628.0,8.62
+Denmark,Europe,Wheat,Rabi,1992,61510.0,703.0,4566.0,9.47
+Denmark,Europe,Wheat,Rabi,1993,69791.0,703.0,4103.0,8.16
+Denmark,Europe,Wheat,Rabi,1994,64948.0,703.0,3922.0,9.15
+Denmark,Europe,Wheat,Rabi,1995,75633.0,703.0,5043.0,8.75
+Denmark,Europe,Wheat,Rabi,1996,69864.0,703.0,3672.0,7.31
+Denmark,Europe,Wheat,Rabi,1997,72057.0,703.0,3679.0,8.91
+Denmark,Europe,Wheat,Rabi,1998,72476.0,703.0,3623.0,8.65
+Denmark,Europe,Wheat,Rabi,1999,70074.0,703.0,2867.0,9.37
+Denmark,Europe,Wheat,Rabi,2000,74797.0,703.0,3174.0,9.67
+Denmark,Europe,Wheat,Rabi,2001,73559.0,703.0,3311.0,8.78
+Denmark,Europe,Wheat,Rabi,2002,70345.0,703.0,2868.0,9.54
+Denmark,Europe,Wheat,Rabi,2004,71406.0,703.0,2899.0,9.0
+Denmark,Europe,Wheat,Rabi,2005,72328.0,703.0,3246.0,9.11
+Denmark,Europe,Wheat,Rabi,2006,69964.0,703.0,3212.0,9.74
+Denmark,Europe,Wheat,Rabi,2007,65610.0,703.0,3336.0,9.87
+Denmark,Europe,Wheat,Rabi,2008,78638.0,703.0,4145.0,9.82
+Denmark,Europe,Wheat,Rabi,2009,80373.0,703.0,2836.0,9.22
+Denmark,Europe,Wheat,Rabi,2010,66264.0,703.0,3894.0,7.54
+Denmark,Europe,Wheat,Rabi,2011,64672.0,703.0,4249.48,9.31
+Denmark,Europe,Wheat,Rabi,2012,73687.0,703.0,5716.0,8.7
+Denmark,Europe,Wheat,Rabi,2013,72992.0,703.0,4118.0,8.81
+Estonia,Europe,Wheat,Rabi,1992,20562.0,626.0,469.0,6.51
+Estonia,Europe,Wheat,Rabi,1993,20994.0,626.0,170.0,5.26
+Estonia,Europe,Wheat,Rabi,1994,16686.0,626.0,176.0,5.35
+Estonia,Europe,Wheat,Rabi,1995,19974.0,626.0,154.0,6.23
+Estonia,Europe,Wheat,Rabi,1996,22046.0,626.0,133.0,4.63
+Estonia,Europe,Wheat,Rabi,1997,21850.0,626.0,200.0,5.95
+Estonia,Europe,Wheat,Rabi,1998,17666.0,626.0,195.0,5.5
+Estonia,Europe,Wheat,Rabi,1999,13377.0,626.0,187.0,6.55
+Estonia,Europe,Wheat,Rabi,2000,21285.0,626.0,315.0,7.12
+Estonia,Europe,Wheat,Rabi,2001,22302.0,626.0,329.0,6.08
+Estonia,Europe,Wheat,Rabi,2002,23025.0,626.0,331.0,6.34
+Estonia,Europe,Wheat,Rabi,2004,25083.0,626.0,351.0,6.03
+Estonia,Europe,Wheat,Rabi,2005,30818.0,626.0,386.0,6.04
+Estonia,Europe,Wheat,Rabi,2006,24173.0,626.0,452.0,6.7
+Estonia,Europe,Wheat,Rabi,2007,34746.0,626.0,460.0,6.97
+Estonia,Europe,Wheat,Rabi,2008,31831.0,626.0,551.0,7.39
+Estonia,Europe,Wheat,Rabi,2009,30146.0,626.0,402.0,6.14
+Estonia,Europe,Wheat,Rabi,2010,27440.0,626.0,514.0,5.06
+Estonia,Europe,Wheat,Rabi,2011,28065.0,626.0,460.0,6.98
+Estonia,Europe,Wheat,Rabi,2012,38994.0,626.0,553.0,5.57
+Estonia,Europe,Wheat,Rabi,2013,32754.0,626.0,567.0,7.28
+Finland,Europe,Wheat,Rabi,1990,34847.0,536.0,2001.0,6.07
+Finland,Europe,Wheat,Rabi,1991,36391.0,536.0,1738.0,5.62
+Finland,Europe,Wheat,Rabi,1992,24152.0,536.0,1372.0,5.8
+Finland,Europe,Wheat,Rabi,1993,36212.0,536.0,1200.0,4.74
+Finland,Europe,Wheat,Rabi,1994,37953.0,536.0,1247.0,4.66
+Finland,Europe,Wheat,Rabi,1995,37686.0,536.0,1041.0,5.63
+Finland,Europe,Wheat,Rabi,1996,40827.0,536.0,909.0,4.2
+Finland,Europe,Wheat,Rabi,1997,37188.0,536.0,999.0,5.36
+Finland,Europe,Wheat,Rabi,1998,28929.0,536.0,1164.0,4.71
+Finland,Europe,Wheat,Rabi,1999,21589.0,536.0,1139.0,5.7
+Finland,Europe,Wheat,Rabi,2000,36007.0,536.0,1147.48,6.57
+Finland,Europe,Wheat,Rabi,2001,33811.0,536.0,1423.27,5.35
+Finland,Europe,Wheat,Rabi,2002,32585.0,536.0,1620.36,5.54
+Finland,Europe,Wheat,Rabi,2004,34738.0,536.0,1489.12,5.4
+Finland,Europe,Wheat,Rabi,2005,37304.0,536.0,1431.04,5.8
+Finland,Europe,Wheat,Rabi,2006,35575.0,536.0,1645.3,5.91
+Finland,Europe,Wheat,Rabi,2007,39329.0,536.0,1479.45,6.23
+Finland,Europe,Wheat,Rabi,2008,36408.0,536.0,1621.86,6.77
+Finland,Europe,Wheat,Rabi,2009,41027.0,536.0,1693.8,5.49
+Finland,Europe,Wheat,Rabi,2010,34299.0,536.0,1746.71,4.36
+Finland,Europe,Wheat,Rabi,2011,38469.0,536.0,1707.54,6.38
+Finland,Europe,Wheat,Rabi,2012,39028.0,536.0,1545.25,5.12
+Finland,Europe,Wheat,Rabi,2013,38215.0,536.0,1475.39,6.17
+France,Europe,Wheat,Rabi,1990,64787.0,867.0,97701.0,11.96
+France,Europe,Wheat,Rabi,1991,66764.0,867.0,103434.0,10.6
+France,Europe,Wheat,Rabi,1992,63992.0,867.0,85249.0,11.15
+France,Europe,Wheat,Rabi,1993,64739.0,867.0,91953.0,10.7
+France,Europe,Wheat,Rabi,1994,66685.0,867.0,89515.0,11.96
+France,Europe,Wheat,Rabi,1995,65079.0,867.0,84011.0,11.69
+France,Europe,Wheat,Rabi,1996,71361.0,867.0,97890.0,10.14
+France,Europe,Wheat,Rabi,1997,66288.0,867.0,109792.0,11.59
+France,Europe,Wheat,Rabi,1998,76063.0,867.0,107753.0,11.25
+France,Europe,Wheat,Rabi,1999,72395.0,867.0,114695.0,11.83
+France,Europe,Wheat,Rabi,2000,71175.0,867.0,97878.0,11.74
+France,Europe,Wheat,Rabi,2001,66169.0,867.0,99694.0,11.37
+France,Europe,Wheat,Rabi,2002,74455.0,867.0,82448.0,11.87
+France,Europe,Wheat,Rabi,2004,75788.0,867.0,76099.0,11.34
+France,Europe,Wheat,Rabi,2005,69887.0,867.0,78265.0,11.55
+France,Europe,Wheat,Rabi,2006,67414.0,867.0,71612.0,11.79
+France,Europe,Wheat,Rabi,2007,62542.0,867.0,77255.0,11.75
+France,Europe,Wheat,Rabi,2008,71018.0,867.0,78577.0,11.28
+France,Europe,Wheat,Rabi,2009,74478.0,867.0,63676.0,11.46
+France,Europe,Wheat,Rabi,2010,70405.0,867.0,61903.0,10.41
+France,Europe,Wheat,Rabi,2011,66563.0,867.0,61039.0,12.33
+France,Europe,Wheat,Rabi,2012,71512.0,867.0,63547.59,11.22
+France,Europe,Wheat,Rabi,2013,72656.0,867.0,66497.29,11.01
+Germany,Europe,Wheat,Rabi,1990,62734.0,700.0,31289.0,8.9033
+Germany,Europe,Wheat,Rabi,1991,67712.0,700.0,32006.0,7.6933
+Germany,Europe,Wheat,Rabi,1992,59811.0,700.0,29542.0,8.71
+Germany,Europe,Wheat,Rabi,1993,65841.0,700.0,25170.0,7.7467
+Germany,Europe,Wheat,Rabi,1994,67684.0,700.0,26330.0,8.9333
+Germany,Europe,Wheat,Rabi,1995,68882.0,700.0,30090.0,8.08
+Germany,Europe,Wheat,Rabi,1996,72932.0,700.0,31683.0,6.5967
+Germany,Europe,Wheat,Rabi,1997,72902.0,700.0,30414.0,8.2633
+Germany,Europe,Wheat,Rabi,1998,72035.0,700.0,33377.0,8.34
+Germany,Europe,Wheat,Rabi,1999,75411.0,700.0,30019.0,8.7167
+Germany,Europe,Wheat,Rabi,2000,72826.0,700.0,35273.17,9.1367
+Germany,Europe,Wheat,Rabi,2001,78827.0,700.0,33423.49,8.1567
+Germany,Europe,Wheat,Rabi,2002,69056.0,700.0,34431.72,8.7933
+Germany,Europe,Wheat,Rabi,2004,81716.0,700.0,34930.37,8.2433
+Germany,Europe,Wheat,Rabi,2005,74651.0,700.0,36386.27,8.17
+Germany,Europe,Wheat,Rabi,2006,72007.0,700.0,38540.15,8.88
+Germany,Europe,Wheat,Rabi,2007,69611.0,700.0,40740.64,9.1767
+Germany,Europe,Wheat,Rabi,2008,80873.0,700.0,43413.01,8.88
+Germany,Europe,Wheat,Rabi,2009,78091.0,700.0,39289.43,8.52
+Germany,Europe,Wheat,Rabi,2010,72120.0,700.0,40832.42,7.1433
+Germany,Europe,Wheat,Rabi,2011,70139.0,700.0,43754.35,8.95
+Germany,Europe,Wheat,Rabi,2012,73312.0,700.0,45522.5,8.3467
+Germany,Europe,Wheat,Rabi,2013,79979.0,700.0,43756.1,8.43
+Greece,Europe,Wheat,Rabi,1990,19332.0,652.0,7420.0,18.05
+Greece,Europe,Wheat,Rabi,1991,31183.0,652.0,7420.0,17.07
+Greece,Europe,Wheat,Rabi,1992,24315.0,652.0,7869.0,17.13
+Greece,Europe,Wheat,Rabi,1993,22952.0,652.0,8826.0,17.53
+Greece,Europe,Wheat,Rabi,1994,27510.0,652.0,6341.0,18.47
+Greece,Europe,Wheat,Rabi,1995,26341.0,652.0,6663.0,17.82
+Greece,Europe,Wheat,Rabi,1996,24149.0,652.0,7296.0,17.46
+Greece,Europe,Wheat,Rabi,1997,24172.0,652.0,9223.0,17.35
+Greece,Europe,Wheat,Rabi,1998,24379.0,652.0,10702.0,18.15
+Greece,Europe,Wheat,Rabi,1999,23910.0,652.0,9635.0,18.82
+Greece,Europe,Wheat,Rabi,2000,26666.0,652.0,10627.0,18.2
+Greece,Europe,Wheat,Rabi,2001,25096.0,652.0,10725.0,18.67
+Greece,Europe,Wheat,Rabi,2002,23432.0,652.0,11852.0,18.33
+Greece,Europe,Wheat,Rabi,2004,24757.0,652.0,11594.0,18.07
+Greece,Europe,Wheat,Rabi,2005,24058.0,652.0,12083.0,17.91
+Greece,Europe,Wheat,Rabi,2006,22859.0,652.0,7505.3,17.78
+Greece,Europe,Wheat,Rabi,2007,22353.0,652.0,7345.7,18.67
+Greece,Europe,Wheat,Rabi,2008,27769.0,652.0,5130.8,18.61
+Greece,Europe,Wheat,Rabi,2009,27436.0,652.0,3404.4,18.52
+Greece,Europe,Wheat,Rabi,2010,26044.0,652.0,5607.7,19.3
+Greece,Europe,Wheat,Rabi,2011,27004.0,652.0,8189.8,17.67
+Greece,Europe,Wheat,Rabi,2012,26650.0,652.0,8002.2,18.82
+Greece,Europe,Wheat,Rabi,2013,27777.0,652.0,8081.72,19.36
+Hungary,Europe,Wheat,Rabi,1990,50771.0,589.0,12756.0,10.96
+Hungary,Europe,Wheat,Rabi,1991,51900.0,589.0,8069.0,9.66
+Hungary,Europe,Wheat,Rabi,1992,40700.0,589.0,5777.0,11.01
+Hungary,Europe,Wheat,Rabi,1993,30649.0,589.0,10197.0,10.22
+Hungary,Europe,Wheat,Rabi,1994,46033.0,589.0,9574.0,11.58
+Hungary,Europe,Wheat,Rabi,1995,41644.0,589.0,7715.0,10.34
+Hungary,Europe,Wheat,Rabi,1996,32780.0,589.0,6946.0,9.44
+Hungary,Europe,Wheat,Rabi,1997,42153.0,589.0,4445.0,9.89
+Hungary,Europe,Wheat,Rabi,1998,41390.0,589.0,5280.0,10.35
+Hungary,Europe,Wheat,Rabi,1999,35948.0,589.0,4598.0,10.64
+Hungary,Europe,Wheat,Rabi,2000,36044.0,589.0,4151.0,11.69
+Hungary,Europe,Wheat,Rabi,2001,43105.0,589.0,5458.0,10.47
+Hungary,Europe,Wheat,Rabi,2002,35212.0,589.0,8231.5,11.43
+Hungary,Europe,Wheat,Rabi,2004,51174.0,589.0,9940.5,10.37
+Hungary,Europe,Wheat,Rabi,2005,45000.0,589.0,9676.0,10.05
+Hungary,Europe,Wheat,Rabi,2006,40719.0,589.0,11523.0,10.67
+Hungary,Europe,Wheat,Rabi,2007,35875.0,589.0,11178.0,11.82
+Hungary,Europe,Wheat,Rabi,2008,50024.0,589.0,12084.0,11.55
+Hungary,Europe,Wheat,Rabi,2009,38546.0,589.0,11144.0,11.48
+Hungary,Europe,Wheat,Rabi,2010,37038.0,589.0,10299.5,10.35
+Hungary,Europe,Wheat,Rabi,2011,41994.0,589.0,8473.26,10.92
+Hungary,Europe,Wheat,Rabi,2012,37485.0,589.0,8141.17,11.31
+Hungary,Europe,Wheat,Rabi,2013,46386.0,589.0,7744.5,12.44
+Ireland,Europe,Wheat,Rabi,1990,85307.0,1118.0,2014.0,9.59
+Ireland,Europe,Wheat,Rabi,1991,78646.0,1118.0,2014.0,9.07
+Ireland,Europe,Wheat,Rabi,1992,78808.0,1118.0,2014.0,9.07
+Ireland,Europe,Wheat,Rabi,1993,68056.0,1118.0,2014.0,8.85
+Ireland,Europe,Wheat,Rabi,1994,77193.0,1118.0,2014.0,9.13
+Ireland,Europe,Wheat,Rabi,1995,82461.0,1118.0,2152.0,9.75
+Ireland,Europe,Wheat,Rabi,1996,89965.0,1118.0,1577.0,8.85
+Ireland,Europe,Wheat,Rabi,1997,77210.0,1118.0,2201.0,9.95
+Ireland,Europe,Wheat,Rabi,1998,80310.0,1118.0,2257.0,9.71
+Ireland,Europe,Wheat,Rabi,1999,87665.0,1118.0,1930.0,9.75
+Ireland,Europe,Wheat,Rabi,2000,94538.0,1118.0,1942.21,9.43
+Ireland,Europe,Wheat,Rabi,2001,90601.0,1118.0,2333.67,9.27
+Ireland,Europe,Wheat,Rabi,2002,84440.0,1118.0,2614.27,9.75
+Ireland,Europe,Wheat,Rabi,2004,99241.0,1118.0,2978.49,9.77
+Ireland,Europe,Wheat,Rabi,2005,84317.0,1118.0,2624.89,9.91
+Ireland,Europe,Wheat,Rabi,2006,91543.0,1118.0,2766.64,10.0
+Ireland,Europe,Wheat,Rabi,2007,84626.0,1118.0,3083.02,10.11
+Ireland,Europe,Wheat,Rabi,2008,89684.0,1118.0,2790.17,9.42
+Ireland,Europe,Wheat,Rabi,2009,81669.0,1118.0,2268.1,9.47
+Ireland,Europe,Wheat,Rabi,2010,86015.0,1118.0,2529.2,8.38
+Ireland,Europe,Wheat,Rabi,2011,98641.0,1118.0,3664.3,9.76
+Ireland,Europe,Wheat,Rabi,2012,72235.0,1118.0,2925.1,9.28
+Ireland,Europe,Wheat,Rabi,2013,89983.0,1118.0,2950.8,9.28
+Italy,Europe,Wheat,Rabi,1990,29243.0,832.0,100596.4,10.4
+Italy,Europe,Wheat,Rabi,1991,35094.0,832.0,88916.6,9.665
+Italy,Europe,Wheat,Rabi,1992,35506.0,832.0,88227.6,10.325
+Italy,Europe,Wheat,Rabi,1993,35533.0,832.0,89282.2,10.07
+Italy,Europe,Wheat,Rabi,1994,34796.0,832.0,81217.6,10.96
+Italy,Europe,Wheat,Rabi,1995,32013.0,832.0,84153.0,9.95
+Italy,Europe,Wheat,Rabi,1996,33170.0,832.0,74617.2,9.67
+Italy,Europe,Wheat,Rabi,1997,28563.0,832.0,84799.0,10.655
+Italy,Europe,Wheat,Rabi,1998,35818.0,832.0,84117.0,10.365
+Italy,Europe,Wheat,Rabi,1999,32434.0,832.0,81583.0,10.295
+Italy,Europe,Wheat,Rabi,2000,32133.0,832.0,79447.0,10.775
+Italy,Europe,Wheat,Rabi,2001,28013.0,832.0,75978.0,10.53
+Italy,Europe,Wheat,Rabi,2002,31247.0,832.0,94211.0,10.645
+Italy,Europe,Wheat,Rabi,2004,36698.0,832.0,83810.0,10.245
+Italy,Europe,Wheat,Rabi,2005,36352.0,832.0,84647.0,9.745
+Italy,Europe,Wheat,Rabi,2006,37295.0,832.0,74349.0,10.51
+Italy,Europe,Wheat,Rabi,2007,34137.0,832.0,80454.0,10.86
+Italy,Europe,Wheat,Rabi,2008,38689.0,832.0,79643.0,10.46
+Italy,Europe,Wheat,Rabi,2009,35859.0,832.0,74172.0,10.695
+Italy,Europe,Wheat,Rabi,2010,37421.0,832.0,71613.0,9.84
+Italy,Europe,Wheat,Rabi,2011,38335.0,832.0,70690.0,11.07
+Italy,Europe,Wheat,Rabi,2012,41293.0,832.0,61889.0,10.75
+Italy,Europe,Wheat,Rabi,2013,38441.0,832.0,55633.0,10.82
+Latvia,Europe,Wheat,Rabi,1992,25848.0,641.0,1005.0,6.89
+Latvia,Europe,Wheat,Rabi,1993,20006.0,641.0,476.0,5.58
+Latvia,Europe,Wheat,Rabi,1994,21078.0,641.0,294.0,5.87
+Latvia,Europe,Wheat,Rabi,1995,22235.0,641.0,358.0,6.54
+Latvia,Europe,Wheat,Rabi,1996,23961.0,641.0,361.0,4.9
+Latvia,Europe,Wheat,Rabi,1997,25909.0,641.0,334.0,6.17
+Latvia,Europe,Wheat,Rabi,1998,25533.0,641.0,369.0,5.95
+Latvia,Europe,Wheat,Rabi,1999,24103.0,641.0,326.86,7.07
+Latvia,Europe,Wheat,Rabi,2000,27034.0,641.0,284.72,7.47
+Latvia,Europe,Wheat,Rabi,2001,27080.0,641.0,367.4,6.5
+Latvia,Europe,Wheat,Rabi,2002,33844.0,641.0,335.31,6.83
+Latvia,Europe,Wheat,Rabi,2004,29423.0,641.0,594.46,6.28
+Latvia,Europe,Wheat,Rabi,2005,36099.0,641.0,723.54,6.3
+Latvia,Europe,Wheat,Rabi,2006,27815.0,641.0,743.57,6.95
+Latvia,Europe,Wheat,Rabi,2007,35944.0,641.0,1113.49,7.25
+Latvia,Europe,Wheat,Rabi,2008,38566.0,641.0,1033.0,7.67
+Latvia,Europe,Wheat,Rabi,2009,36276.0,641.0,881.2,6.51
+Latvia,Europe,Wheat,Rabi,2010,32849.0,641.0,1027.5,5.67
+Latvia,Europe,Wheat,Rabi,2011,30613.0,641.0,1070.5,7.25
+Latvia,Europe,Wheat,Rabi,2012,43695.0,641.0,1396.96,5.96
+Latvia,Europe,Wheat,Rabi,2013,38857.0,641.0,1250.0,7.25
+Lithuania,Europe,Wheat,Rabi,1992,29411.0,656.0,1380.0,7.04
+Lithuania,Europe,Wheat,Rabi,1993,23718.0,656.0,936.0,5.79
+Lithuania,Europe,Wheat,Rabi,1994,20348.0,656.0,713.0,6.3
+Lithuania,Europe,Wheat,Rabi,1995,24455.0,656.0,737.0,6.68
+Lithuania,Europe,Wheat,Rabi,1996,26926.0,656.0,979.0,5.09
+Lithuania,Europe,Wheat,Rabi,1997,30016.0,656.0,928.0,6.29
+Lithuania,Europe,Wheat,Rabi,1998,28671.0,656.0,812.0,6.27
+Lithuania,Europe,Wheat,Rabi,1999,26098.0,656.0,695.0,7.31
+Lithuania,Europe,Wheat,Rabi,2000,33413.0,656.0,688.06,7.69
+Lithuania,Europe,Wheat,Rabi,2001,30559.0,656.0,726.09,6.75
+Lithuania,Europe,Wheat,Rabi,2002,36335.0,656.0,792.6,7.26
+Lithuania,Europe,Wheat,Rabi,2004,40276.0,656.0,1023.6,6.43
+Lithuania,Europe,Wheat,Rabi,2005,37332.0,656.0,1048.5,6.5
+Lithuania,Europe,Wheat,Rabi,2006,23554.0,656.0,1197.0,6.98
+Lithuania,Europe,Wheat,Rabi,2007,39219.0,656.0,2722.82,7.44
+Lithuania,Europe,Wheat,Rabi,2008,42689.0,656.0,2722.55,7.84
+Lithuania,Europe,Wheat,Rabi,2009,42004.0,656.0,2748.8,6.7
+Lithuania,Europe,Wheat,Rabi,2010,33045.0,656.0,1803.77,6.14
+Lithuania,Europe,Wheat,Rabi,2011,33919.0,656.0,2062.34,7.32
+Lithuania,Europe,Wheat,Rabi,2012,47829.0,656.0,2559.9,6.31
+Lithuania,Europe,Wheat,Rabi,2013,43022.0,656.0,2515.69,7.42
+Montenegro,Europe,Wheat,Rabi,2006,30903.0,241.0,0.55,10.56
+Montenegro,Europe,Wheat,Rabi,2007,24026.0,241.0,0.55,11.59
+Montenegro,Europe,Wheat,Rabi,2008,35016.0,241.0,0.55,11.62
+Montenegro,Europe,Wheat,Rabi,2009,35981.0,241.0,0.55,11.46
+Montenegro,Europe,Wheat,Rabi,2010,34029.0,241.0,66.0,11.25
+Montenegro,Europe,Wheat,Rabi,2011,32024.0,241.0,75.0,11.25
+Montenegro,Europe,Wheat,Rabi,2012,27984.0,241.0,71.0,11.53
+Montenegro,Europe,Wheat,Rabi,2013,34357.0,241.0,82.0,12.87
+Netherlands,Europe,Wheat,Rabi,1990,76528.0,778.0,9729.0,10.63
+Netherlands,Europe,Wheat,Rabi,1991,76608.0,778.0,9338.0,9.32
+Netherlands,Europe,Wheat,Rabi,1992,80154.0,778.0,9030.0,10.39
+Netherlands,Europe,Wheat,Rabi,1993,87712.0,778.0,10505.0,9.47
+Netherlands,Europe,Wheat,Rabi,1994,80674.0,778.0,8646.0,10.45
+Netherlands,Europe,Wheat,Rabi,1995,86189.0,778.0,12601.0,10.25
+Netherlands,Europe,Wheat,Rabi,1996,89612.0,778.0,8923.0,8.32
+Netherlands,Europe,Wheat,Rabi,1997,77309.0,778.0,10568.0,10.03
+Netherlands,Europe,Wheat,Rabi,1998,76956.0,778.0,11762.0,10.18
+Netherlands,Europe,Wheat,Rabi,1999,83311.0,778.0,11152.0,10.74
+Netherlands,Europe,Wheat,Rabi,2000,83592.0,778.0,11382.84,10.75
+Netherlands,Europe,Wheat,Rabi,2001,79447.0,778.0,9424.73,10.24
+Netherlands,Europe,Wheat,Rabi,2002,78145.0,778.0,9700.44,10.64
+Netherlands,Europe,Wheat,Rabi,2004,89149.0,778.0,10655.4,10.27
+Netherlands,Europe,Wheat,Rabi,2005,85932.0,778.0,10703.85,10.48
+Netherlands,Europe,Wheat,Rabi,2006,83940.0,778.0,10461.35,10.97
+Netherlands,Europe,Wheat,Rabi,2007,72714.0,778.0,12073.15,11.04
+Netherlands,Europe,Wheat,Rabi,2008,87295.0,778.0,10777.08,10.42
+Netherlands,Europe,Wheat,Rabi,2009,92919.0,778.0,9857.2,10.33
+Netherlands,Europe,Wheat,Rabi,2010,89092.0,778.0,9586.03,8.84
+Netherlands,Europe,Wheat,Rabi,2011,77812.0,778.0,10953.91,10.73
+Netherlands,Europe,Wheat,Rabi,2012,85870.0,778.0,11348.39,10.08
+Netherlands,Europe,Wheat,Rabi,2013,87412.0,778.0,10720.17,9.54
+Norway,Europe,Wheat,Rabi,1990,46634.0,1414.0,1183.0,4.55
+Norway,Europe,Wheat,Rabi,1991,46547.0,1414.0,760.0,3.4
+Norway,Europe,Wheat,Rabi,1992,35295.0,1414.0,767.9,3.83
+Norway,Europe,Wheat,Rabi,1993,51096.0,1414.0,749.0,2.72
+Norway,Europe,Wheat,Rabi,1994,28362.0,1414.0,848.0,2.74
+Norway,Europe,Wheat,Rabi,1995,47468.0,1414.0,913.14,3.08
+Norway,Europe,Wheat,Rabi,1996,45258.0,1414.0,698.25,1.88
+Norway,Europe,Wheat,Rabi,1997,43101.0,1414.0,735.43,3.87
+Norway,Europe,Wheat,Rabi,1998,46878.0,1414.0,934.02,3.06
+Norway,Europe,Wheat,Rabi,1999,44533.0,1414.0,802.02,3.73
+Norway,Europe,Wheat,Rabi,2000,46025.0,1414.0,348.24,4.52
+Norway,Europe,Wheat,Rabi,2001,40738.0,1414.0,512.66,2.68
+Norway,Europe,Wheat,Rabi,2002,40994.0,1414.0,799.19,3.57
+Norway,Europe,Wheat,Rabi,2004,47668.0,1414.0,827.45,3.79
+Norway,Europe,Wheat,Rabi,2005,48925.0,1414.0,518.94,4.26
+Norway,Europe,Wheat,Rabi,2006,41634.0,1414.0,696.34,4.43
+Norway,Europe,Wheat,Rabi,2007,43973.0,1414.0,722.07,3.96
+Norway,Europe,Wheat,Rabi,2008,48653.0,1414.0,800.9,4.16
+Norway,Europe,Wheat,Rabi,2009,34069.0,1414.0,534.56,3.31
+Norway,Europe,Wheat,Rabi,2010,45975.0,1414.0,698.98,1.3
+Norway,Europe,Wheat,Rabi,2011,38517.0,1414.0,823.96,4.14
+Norway,Europe,Wheat,Rabi,2012,41011.0,1414.0,813.93,3.09
+Norway,Europe,Wheat,Rabi,2013,38841.0,1414.0,761.97,3.5
+Poland,Europe,Wheat,Rabi,1990,39575.0,600.0,5422.0,9.2
+Poland,Europe,Wheat,Rabi,1991,38032.0,600.0,5422.0,7.9
+Poland,Europe,Wheat,Rabi,1992,30635.0,600.0,7363.0,8.65
+Poland,Europe,Wheat,Rabi,1993,33279.0,600.0,8825.0,7.67
+Poland,Europe,Wheat,Rabi,1994,31817.0,600.0,9330.0,8.78
+Poland,Europe,Wheat,Rabi,1995,36015.0,600.0,7136.0,8.16
+Poland,Europe,Wheat,Rabi,1996,34574.0,600.0,9824.0,6.71
+Poland,Europe,Wheat,Rabi,1997,32064.0,600.0,9501.0,7.81
+Poland,Europe,Wheat,Rabi,1998,36243.0,600.0,8699.0,8.17
+Poland,Europe,Wheat,Rabi,1999,35042.0,600.0,8466.0,8.96
+Poland,Europe,Wheat,Rabi,2000,32268.0,600.0,8848.0,9.56
+Poland,Europe,Wheat,Rabi,2001,35336.0,600.0,8855.0,8.26
+Poland,Europe,Wheat,Rabi,2002,38539.0,600.0,10358.0,9.14
+Poland,Europe,Wheat,Rabi,2004,42811.0,600.0,8726.0,8.33
+Poland,Europe,Wheat,Rabi,2005,39545.0,600.0,16039.0,8.43
+Poland,Europe,Wheat,Rabi,2006,32447.0,600.0,17101.0,8.64
+Poland,Europe,Wheat,Rabi,2007,39381.0,600.0,18721.0,9.32
+Poland,Europe,Wheat,Rabi,2008,40716.0,600.0,20611.02,9.51
+Poland,Europe,Wheat,Rabi,2009,41725.0,600.0,18493.03,8.5
+Poland,Europe,Wheat,Rabi,2010,44290.0,600.0,19449.02,7.67
+Poland,Europe,Wheat,Rabi,2011,41348.0,600.0,21779.27,8.84
+Poland,Europe,Wheat,Rabi,2012,41438.0,600.0,21885.99,8.48
+Poland,Europe,Wheat,Rabi,2013,44367.0,600.0,22204.46,9.32
+Portugal,Europe,Wheat,Rabi,1990,14269.0,854.0,9357.0,16.55
+Portugal,Europe,Wheat,Rabi,1991,20982.0,854.0,9357.0,16.09
+Portugal,Europe,Wheat,Rabi,1992,12914.0,854.0,6117.0,15.95
+Portugal,Europe,Wheat,Rabi,1993,16861.0,854.0,8985.0,15.33
+Portugal,Europe,Wheat,Rabi,1994,19667.0,854.0,9580.0,16.12
+Portugal,Europe,Wheat,Rabi,1995,13872.0,854.0,11815.0,17.23
+Portugal,Europe,Wheat,Rabi,1996,17139.0,854.0,12457.0,16.12
+Portugal,Europe,Wheat,Rabi,1997,11905.0,854.0,12750.0,17.1
+Portugal,Europe,Wheat,Rabi,1998,10151.0,854.0,14389.0,16.4
+Portugal,Europe,Wheat,Rabi,1999,15986.0,854.0,15411.0,16.09
+Portugal,Europe,Wheat,Rabi,2000,15678.0,854.0,15470.0,16.23
+Portugal,Europe,Wheat,Rabi,2001,8371.0,854.0,15503.0,16.2
+Portugal,Europe,Wheat,Rabi,2002,17904.0,854.0,17452.0,16.19
+Portugal,Europe,Wheat,Rabi,2004,15625.0,854.0,16942.0,16.31
+Portugal,Europe,Wheat,Rabi,2005,6644.0,854.0,16353.0,16.43
+Portugal,Europe,Wheat,Rabi,2006,23847.0,854.0,15702.0,16.84
+Portugal,Europe,Wheat,Rabi,2007,18630.0,854.0,16682.39,16.11
+Portugal,Europe,Wheat,Rabi,2008,23028.0,854.0,17080.26,16.12
+Portugal,Europe,Wheat,Rabi,2009,17008.0,854.0,13984.91,16.84
+Portugal,Europe,Wheat,Rabi,2010,14305.0,854.0,13774.18,16.5
+Portugal,Europe,Wheat,Rabi,2011,12002.0,854.0,14024.98,16.91
+Portugal,Europe,Wheat,Rabi,2012,10766.0,854.0,12444.24,16.24
+Portugal,Europe,Wheat,Rabi,2013,17635.0,854.0,10126.8,16.77
+Romania,Europe,Wheat,Rabi,1990,32351.0,637.0,25255.0,12.26
+Romania,Europe,Wheat,Rabi,1991,25406.0,637.0,19898.0,10.55
+Romania,Europe,Wheat,Rabi,1992,21950.0,637.0,15134.0,11.55
+Romania,Europe,Wheat,Rabi,1993,23291.0,637.0,24252.0,10.78
+Romania,Europe,Wheat,Rabi,1994,25435.0,637.0,21811.0,12.7
+Romania,Europe,Wheat,Rabi,1995,30903.0,637.0,20113.0,11.21
+Romania,Europe,Wheat,Rabi,1996,17645.0,637.0,17425.0,10.71
+Romania,Europe,Wheat,Rabi,1997,30103.0,637.0,15349.0,10.46
+Romania,Europe,Wheat,Rabi,1998,25963.0,637.0,13979.0,11.37
+Romania,Europe,Wheat,Rabi,1999,27993.0,637.0,11280.0,12.34
+Romania,Europe,Wheat,Rabi,2000,22996.0,637.0,9427.4,12.44
+Romania,Europe,Wheat,Rabi,2001,30449.0,637.0,7871.1,11.9
+Romania,Europe,Wheat,Rabi,2002,20580.0,637.0,7875.7,12.24
+Romania,Europe,Wheat,Rabi,2004,34775.0,637.0,6778.2,11.63
+Romania,Europe,Wheat,Rabi,2005,29985.0,637.0,7565.7,11.25
+Romania,Europe,Wheat,Rabi,2006,27737.0,637.0,6733.2,11.63
+Romania,Europe,Wheat,Rabi,2007,16100.0,637.0,6314.0,12.99
+Romania,Europe,Wheat,Rabi,2008,34222.0,637.0,7193.7,12.5
+Romania,Europe,Wheat,Rabi,2009,24305.0,637.0,6548.7,12.47
+Romania,Europe,Wheat,Rabi,2010,27000.0,637.0,7249.2,11.94
+Romania,Europe,Wheat,Rabi,2011,36650.0,637.0,6582.9,11.26
+Romania,Europe,Wheat,Rabi,2012,26593.0,637.0,6418.7,12.33
+Romania,Europe,Wheat,Rabi,2013,34786.0,637.0,6947.9,13.94
+Slovenia,Europe,Wheat,Rabi,1992,41937.0,1162.0,1309.0,10.78
+Slovenia,Europe,Wheat,Rabi,1993,38430.0,1162.0,1112.0,10.19
+Slovenia,Europe,Wheat,Rabi,1994,43300.0,1162.0,944.0,11.33
+Slovenia,Europe,Wheat,Rabi,1995,42300.0,1162.0,987.0,10.14
+Slovenia,Europe,Wheat,Rabi,1996,39000.0,1162.0,953.0,9.24
+Slovenia,Europe,Wheat,Rabi,1997,41557.0,1162.0,1245.0,10.18
+Slovenia,Europe,Wheat,Rabi,1998,48279.0,1162.0,1091.0,10.42
+Slovenia,Europe,Wheat,Rabi,1999,37087.0,1162.0,1133.0,10.51
+Slovenia,Europe,Wheat,Rabi,2000,42492.0,1162.0,1468.0,11.45
+Slovenia,Europe,Wheat,Rabi,2001,46036.0,1162.0,1387.0,10.74
+Slovenia,Europe,Wheat,Rabi,2002,48943.0,1162.0,1164.1,11.18
+Slovenia,Europe,Wheat,Rabi,2004,45339.0,1162.0,1557.98,10.06
+Slovenia,Europe,Wheat,Rabi,2005,47005.0,1162.0,1383.88,9.62
+Slovenia,Europe,Wheat,Rabi,2006,41907.0,1162.0,1280.98,10.56
+Slovenia,Europe,Wheat,Rabi,2007,41616.0,1162.0,1155.23,11.31
+Slovenia,Europe,Wheat,Rabi,2008,45265.0,1162.0,1218.15,11.09
+Slovenia,Europe,Wheat,Rabi,2009,39643.0,1162.0,1162.87,11.06
+Slovenia,Europe,Wheat,Rabi,2010,48044.0,1162.0,1134.37,10.0
+Slovenia,Europe,Wheat,Rabi,2011,51770.0,1162.0,1121.91,11.02
+Slovenia,Europe,Wheat,Rabi,2012,54376.0,1162.0,1016.08,11.12
+Slovenia,Europe,Wheat,Rabi,2013,43528.0,1162.0,917.49,11.58
+Spain,Europe,Wheat,Rabi,1990,23789.0,636.0,39562.0,15.78
+Spain,Europe,Wheat,Rabi,1991,24592.0,636.0,39147.0,14.9567
+Spain,Europe,Wheat,Rabi,1992,19426.0,636.0,31839.0,14.9633
+Spain,Europe,Wheat,Rabi,1993,24492.0,636.0,29408.0,14.6
+Spain,Europe,Wheat,Rabi,1994,21843.0,636.0,31244.0,15.8767
+Spain,Europe,Wheat,Rabi,1995,14761.0,636.0,27852.0,15.9933
+Spain,Europe,Wheat,Rabi,1996,30016.0,636.0,33236.0,15.23
+Spain,Europe,Wheat,Rabi,1997,22498.0,636.0,34023.0,16.1633
+Spain,Europe,Wheat,Rabi,1998,28424.0,636.0,35070.0,15.67
+Spain,Europe,Wheat,Rabi,1999,20987.0,636.0,33614.0,15.5533
+Spain,Europe,Wheat,Rabi,2000,30997.0,636.0,34597.0,15.6067
+Spain,Europe,Wheat,Rabi,2001,23003.0,636.0,35700.0,15.8133
+Spain,Europe,Wheat,Rabi,2002,28347.0,636.0,40727.0,15.73
+Spain,Europe,Wheat,Rabi,2004,32628.0,636.0,47445.0,15.5667
+Spain,Europe,Wheat,Rabi,2005,17707.0,636.0,41017.0,15.3067
+Spain,Europe,Wheat,Rabi,2006,28755.0,636.0,39767.0,16.28
+Spain,Europe,Wheat,Rabi,2007,35692.0,636.0,39286.0,15.5133
+Spain,Europe,Wheat,Rabi,2008,32483.0,636.0,40719.0,15.35
+Spain,Europe,Wheat,Rabi,2009,27103.0,636.0,35199.0,16.0067
+Spain,Europe,Wheat,Rabi,2010,30498.0,636.0,39043.0,15.1167
+Spain,Europe,Wheat,Rabi,2011,34475.0,636.0,53549.0,16.3867
+Spain,Europe,Wheat,Rabi,2012,23718.0,636.0,48668.0,15.83
+Spain,Europe,Wheat,Rabi,2013,36447.0,636.0,54197.0,15.7133
+Sweden,Europe,Wheat,Rabi,1990,64494.0,624.0,2310.0,8.43
+Sweden,Europe,Wheat,Rabi,1991,58591.0,624.0,1841.0,7.49
+Sweden,Europe,Wheat,Rabi,1992,53249.0,624.0,1497.0,7.94
+Sweden,Europe,Wheat,Rabi,1993,58993.0,624.0,1466.0,6.98
+Sweden,Europe,Wheat,Rabi,1994,53403.0,624.0,1962.0,7.23
+Sweden,Europe,Wheat,Rabi,1995,59441.0,624.0,1225.0,7.17
+Sweden,Europe,Wheat,Rabi,1996,60597.0,624.0,1529.0,6.15
+Sweden,Europe,Wheat,Rabi,1997,59742.0,624.0,1534.0,7.66
+Sweden,Europe,Wheat,Rabi,1998,56494.0,624.0,1555.0,6.89
+Sweden,Europe,Wheat,Rabi,1999,60236.0,624.0,1602.0,8.02
+Sweden,Europe,Wheat,Rabi,2000,59066.0,624.0,1721.0,8.42
+Sweden,Europe,Wheat,Rabi,2001,59412.0,624.0,1789.0,7.48
+Sweden,Europe,Wheat,Rabi,2002,61487.0,624.0,2198.0,7.96
+Sweden,Europe,Wheat,Rabi,2004,59798.0,624.0,1353.0,7.53
+Sweden,Europe,Wheat,Rabi,2005,63334.0,624.0,2132.0,7.72
+Sweden,Europe,Wheat,Rabi,2006,54627.0,624.0,2220.0,8.3
+Sweden,Europe,Wheat,Rabi,2007,62571.0,624.0,2157.0,8.16
+Sweden,Europe,Wheat,Rabi,2008,61087.0,624.0,2352.0,8.49
+Sweden,Europe,Wheat,Rabi,2009,60776.0,624.0,1935.0,7.54
+Sweden,Europe,Wheat,Rabi,2010,53966.0,624.0,1982.0,6.01
+Sweden,Europe,Wheat,Rabi,2011,53786.0,624.0,1781.0,8.18
+Sweden,Europe,Wheat,Rabi,2012,62379.0,624.0,1814.0,7.21
+Sweden,Europe,Wheat,Rabi,2013,57792.0,624.0,1620.0,7.1
+Switzerland,Europe,Wheat,Rabi,1990,56376.0,1537.0,2282.0,8.19
+Switzerland,Europe,Wheat,Rabi,1991,59471.0,1537.0,2055.9,7.24
+Switzerland,Europe,Wheat,Rabi,1992,55114.0,1537.0,2018.7,7.98
+Switzerland,Europe,Wheat,Rabi,1993,59382.0,1537.0,1934.5,7.48
+Switzerland,Europe,Wheat,Rabi,1994,54925.0,1537.0,1922.5,8.78
+Switzerland,Europe,Wheat,Rabi,1995,59798.0,1537.0,1826.3,7.65
+Switzerland,Europe,Wheat,Rabi,1996,66149.0,1537.0,1746.3,6.66
+Switzerland,Europe,Wheat,Rabi,1997,59787.0,1537.0,1644.3,7.96
+Switzerland,Europe,Wheat,Rabi,1998,61811.0,1537.0,1563.6,7.81
+Switzerland,Europe,Wheat,Rabi,1999,52609.0,1537.0,1526.6,7.76
+Switzerland,Europe,Wheat,Rabi,2000,59477.0,1537.0,1576.9,8.54
+Switzerland,Europe,Wheat,Rabi,2001,55116.0,1537.0,1561.9,7.82
+Switzerland,Europe,Wheat,Rabi,2002,56340.0,1537.0,1526.6,8.42
+Switzerland,Europe,Wheat,Rabi,2004,61177.0,1537.0,1390.7,7.67
+Switzerland,Europe,Wheat,Rabi,2005,57316.0,1537.0,1388.3,7.49
+Switzerland,Europe,Wheat,Rabi,2006,58130.0,1537.0,1359.04,8.19
+Switzerland,Europe,Wheat,Rabi,2007,59803.0,1537.0,2099.3,8.43
+Switzerland,Europe,Wheat,Rabi,2008,60014.0,1537.0,2011.47,7.98
+Switzerland,Europe,Wheat,Rabi,2009,60214.0,1537.0,2170.4,8.15
+Switzerland,Europe,Wheat,Rabi,2010,57490.0,1537.0,2059.6,7.06
+Switzerland,Europe,Wheat,Rabi,2011,62952.0,1537.0,2132.14,8.68
+Switzerland,Europe,Wheat,Rabi,2012,57763.0,1537.0,2077.9,7.96
+Switzerland,Europe,Wheat,Rabi,2013,53834.0,1537.0,2098.5,7.94
+Ukraine,Europe,Wheat,Rabi,1992,30926.0,565.0,66772.0,8.07
+Ukraine,Europe,Wheat,Rabi,1993,37980.0,565.0,61843.46,6.89
+Ukraine,Europe,Wheat,Rabi,1994,30745.0,565.0,56914.93,7.98
+Ukraine,Europe,Wheat,Rabi,1995,29699.0,565.0,51986.39,8.26
+Ukraine,Europe,Wheat,Rabi,1996,22993.0,565.0,47057.85,7.0
+Ukraine,Europe,Wheat,Rabi,1997,28277.0,565.0,42129.32,7.21
+Ukraine,Europe,Wheat,Rabi,1998,26479.0,565.0,37200.78,7.74
+Ukraine,Europe,Wheat,Rabi,1999,22903.0,565.0,32272.25,8.97
+Ukraine,Europe,Wheat,Rabi,2000,19756.0,565.0,27343.71,8.82
+Ukraine,Europe,Wheat,Rabi,2001,31020.0,565.0,22415.17,8.42
+Ukraine,Europe,Wheat,Rabi,2002,30455.0,565.0,17486.64,8.87
+Ukraine,Europe,Wheat,Rabi,2004,31661.0,565.0,15344.4,8.32
+Ukraine,Europe,Wheat,Rabi,2005,28457.0,565.0,23021.7,8.39
+Ukraine,Europe,Wheat,Rabi,2006,25308.0,565.0,28832.6,7.88
+Ukraine,Europe,Wheat,Rabi,2007,23420.0,565.0,36476.0,9.46
+Ukraine,Europe,Wheat,Rabi,2008,36698.0,565.0,54080.5,9.24
+Ukraine,Europe,Wheat,Rabi,2009,30930.0,565.0,36444.7,8.82
+Ukraine,Europe,Wheat,Rabi,2010,26816.0,565.0,62534.6,8.97
+Ukraine,Europe,Wheat,Rabi,2011,33533.0,565.0,79491.7,8.48
+Ukraine,Europe,Wheat,Rabi,2012,27999.0,565.0,90814.8,8.56
+Ukraine,Europe,Wheat,Rabi,2013,33931.0,565.0,86781.8,10.33
+United Kingdom,Europe,Wheat,Rabi,1990,69712.0,1220.0,29517.0,9.895
+United Kingdom,Europe,Wheat,Rabi,1991,72519.0,1220.0,29022.0,9.0025
+United Kingdom,Europe,Wheat,Rabi,1992,68194.0,1220.0,31077.0,9.2125
+United Kingdom,Europe,Wheat,Rabi,1993,73282.0,1220.0,32387.0,8.7925
+United Kingdom,Europe,Wheat,Rabi,1994,73520.0,1220.0,33929.0,9.355
+United Kingdom,Europe,Wheat,Rabi,1995,76992.0,1220.0,33743.0,9.6825
+United Kingdom,Europe,Wheat,Rabi,1996,81315.0,1220.0,35579.0,8.6625
+United Kingdom,Europe,Wheat,Rabi,1997,73776.0,1220.0,35490.0,9.905
+United Kingdom,Europe,Wheat,Rabi,1998,75542.0,1220.0,35422.0,9.6375
+United Kingdom,Europe,Wheat,Rabi,1999,80495.0,1220.0,35537.0,9.8925
+United Kingdom,Europe,Wheat,Rabi,2000,80075.0,1220.0,33031.28,9.61
+United Kingdom,Europe,Wheat,Rabi,2001,70827.0,1220.0,32893.1,9.3175
+United Kingdom,Europe,Wheat,Rabi,2002,80028.0,1220.0,30995.26,9.9325
+United Kingdom,Europe,Wheat,Rabi,2004,77754.0,1220.0,31223.91,9.955
+United Kingdom,Europe,Wheat,Rabi,2005,79609.0,1220.0,31415.27,9.905
+United Kingdom,Europe,Wheat,Rabi,2006,80361.0,1220.0,22588.09,10.2
+United Kingdom,Europe,Wheat,Rabi,2007,72244.0,1220.0,22331.7,10.0625
+United Kingdom,Europe,Wheat,Rabi,2008,82814.0,1220.0,21596.68,9.525
+United Kingdom,Europe,Wheat,Rabi,2009,79284.0,1220.0,21324.22,9.6625
+United Kingdom,Europe,Wheat,Rabi,2010,76746.0,1220.0,16770.87,8.5025
+United Kingdom,Europe,Wheat,Rabi,2011,77471.0,1220.0,16401.66,10.1475
+United Kingdom,Europe,Wheat,Rabi,2012,66571.0,1220.0,17718.64,9.225
+United Kingdom,Europe,Wheat,Rabi,2013,73838.0,1220.0,17673.46,9.1575
+Canada,North America,Wheat,Rabi,1990,22769.0,537.0,29568.0,7.425
+Canada,North America,Wheat,Rabi,1991,22559.0,537.0,29477.5,7.4283
+Canada,North America,Wheat,Rabi,1992,21603.0,537.0,29387.0,6.16
+Canada,North America,Wheat,Rabi,1993,22027.0,537.0,29296.5,6.105
+Canada,North America,Wheat,Rabi,1994,21275.0,537.0,29206.0,6.2717
+Canada,North America,Wheat,Rabi,1995,22467.0,537.0,32223.4,6.81
+Canada,North America,Wheat,Rabi,1996,24304.0,537.0,35240.8,6.2683
+Canada,North America,Wheat,Rabi,1997,21285.0,537.0,38258.2,6.2617
+Canada,North America,Wheat,Rabi,1998,22550.0,537.0,41275.6,8.425
+Canada,North America,Wheat,Rabi,1999,25971.0,537.0,44293.0,7.665
+Canada,North America,Wheat,Rabi,2000,24446.0,537.0,39667.0,6.6083
+Canada,North America,Wheat,Rabi,2001,19452.0,537.0,38456.0,7.6833
+Canada,North America,Wheat,Rabi,2002,18324.0,537.0,34226.0,7.4017
+Canada,North America,Wheat,Rabi,2004,26409.0,537.0,36138.0,6.7283
+Canada,North America,Wheat,Rabi,2005,27381.0,537.0,36363.0,7.3367
+Canada,North America,Wheat,Rabi,2006,26096.0,537.0,36572.75,7.9833
+Canada,North America,Wheat,Rabi,2007,23317.0,537.0,45140.03,6.9267
+Canada,North America,Wheat,Rabi,2008,28575.0,537.0,53707.3,6.77
+Canada,North America,Wheat,Rabi,2009,27897.0,537.0,54529.4,6.5933
+Canada,North America,Wheat,Rabi,2010,28085.0,537.0,61050.0,8.0083
+Canada,North America,Wheat,Rabi,2011,29568.0,537.0,62107.2,7.4717
+Canada,North America,Wheat,Rabi,2012,28645.0,537.0,73508.9,8.3233
+Canada,North America,Wheat,Rabi,2013,35943.0,537.0,81659.8,8.7583
+Guatemala,North America,Wheat,Rabi,1990,19983.0,1996.0,12004.33,19.64
+Guatemala,North America,Wheat,Rabi,1991,20124.0,1996.0,12004.33,19.91
+Guatemala,North America,Wheat,Rabi,1992,20000.0,1996.0,12004.33,19.89
+Guatemala,North America,Wheat,Rabi,1993,19924.0,1996.0,12004.33,19.85
+Guatemala,North America,Wheat,Rabi,1994,21025.0,1996.0,12004.33,20.08
+Guatemala,North America,Wheat,Rabi,1995,20987.0,1996.0,12004.33,19.98
+Guatemala,North America,Wheat,Rabi,1996,21020.0,1996.0,12004.33,19.48
+Guatemala,North America,Wheat,Rabi,1997,20408.0,1996.0,11419.53,20.16
+Guatemala,North America,Wheat,Rabi,1998,19721.0,1996.0,10834.74,20.36
+Guatemala,North America,Wheat,Rabi,1999,19633.0,1996.0,10249.94,19.44
+Guatemala,North America,Wheat,Rabi,2000,20934.0,1996.0,9665.14,19.47
+Guatemala,North America,Wheat,Rabi,2001,29638.0,1996.0,10023.42,19.62
+Guatemala,North America,Wheat,Rabi,2002,19146.0,1996.0,10381.71,19.93
+Guatemala,North America,Wheat,Rabi,2004,20184.0,1996.0,11959.92,19.85
+Guatemala,North America,Wheat,Rabi,2005,21288.0,1996.0,13506.02,19.99
+Guatemala,North America,Wheat,Rabi,2006,22712.0,1996.0,15951.27,19.88
+Guatemala,North America,Wheat,Rabi,2007,22229.0,1996.0,22883.17,19.9
+Guatemala,North America,Wheat,Rabi,2008,24013.0,1996.0,18091.67,19.51
+Guatemala,North America,Wheat,Rabi,2009,22131.0,1996.0,13276.7,19.99
+Guatemala,North America,Wheat,Rabi,2010,20574.0,1996.0,14898.25,19.85
+Guatemala,North America,Wheat,Rabi,2011,20509.0,1996.0,16540.71,19.85
+Guatemala,North America,Wheat,Rabi,2012,21677.0,1996.0,19726.3,19.88
+Guatemala,North America,Wheat,Rabi,2013,20240.0,1996.0,20489.4,20.37
+Honduras,North America,Wheat,Rabi,1990,5769.0,1976.0,9880.07,24.53
+Honduras,North America,Wheat,Rabi,1991,5797.0,1976.0,6289.7,24.61
+Honduras,North America,Wheat,Rabi,1992,5926.0,1976.0,9904.59,24.77
+Honduras,North America,Wheat,Rabi,1993,5808.0,1976.0,6768.0,24.58
+Honduras,North America,Wheat,Rabi,1994,6071.0,1976.0,3160.91,24.87
+Honduras,North America,Wheat,Rabi,1995,5940.0,1976.0,7800.0,24.95
+Honduras,North America,Wheat,Rabi,1996,5999.0,1976.0,6464.0,24.39
+Honduras,North America,Wheat,Rabi,1997,6667.0,1976.0,6980.0,25.03
+Honduras,North America,Wheat,Rabi,1998,5000.0,1976.0,3495.0,25.37
+Honduras,North America,Wheat,Rabi,1999,4750.0,1976.0,2387.0,24.41
+Honduras,North America,Wheat,Rabi,2000,5258.0,1976.0,4376.0,24.43
+Honduras,North America,Wheat,Rabi,2001,5305.0,1976.0,1141.0,24.4
+Honduras,North America,Wheat,Rabi,2002,5309.0,1976.0,1772.3,24.61
+Honduras,North America,Wheat,Rabi,2004,5287.0,1976.0,3034.91,24.68
+Honduras,North America,Wheat,Rabi,2005,5327.0,1976.0,3666.21,24.77
+Honduras,North America,Wheat,Rabi,2006,5367.0,1976.0,4297.51,24.88
+Honduras,North America,Wheat,Rabi,2007,5409.0,1976.0,5283.93,24.55
+Honduras,North America,Wheat,Rabi,2008,5452.0,1976.0,5130.42,24.25
+Honduras,North America,Wheat,Rabi,2009,5750.0,1976.0,4344.36,24.77
+Honduras,North America,Wheat,Rabi,2010,5524.0,1976.0,5736.63,24.49
+Honduras,North America,Wheat,Rabi,2011,5445.0,1976.0,6324.41,24.63
+Honduras,North America,Wheat,Rabi,2012,5517.0,1976.0,7194.91,24.47
+Honduras,North America,Wheat,Rabi,2013,5528.0,1976.0,7194.91,24.86
+Mexico,North America,Wheat,Rabi,1990,42143.0,758.0,34468.93,20.0671
+Mexico,North America,Wheat,Rabi,1991,41272.0,758.0,34468.93,19.9657
+Mexico,North America,Wheat,Rabi,1992,39530.0,758.0,34468.93,19.9914
+Mexico,North America,Wheat,Rabi,1993,40821.0,758.0,34468.93,20.04
+Mexico,North America,Wheat,Rabi,1994,43034.0,758.0,34468.93,20.2471
+Mexico,North America,Wheat,Rabi,1995,37320.0,758.0,34468.93,20.4414
+Mexico,North America,Wheat,Rabi,1996,41706.0,758.0,34468.93,20.3414
+Mexico,North America,Wheat,Rabi,1997,47347.0,758.0,34468.93,20.2586
+Mexico,North America,Wheat,Rabi,1998,42077.0,758.0,34468.93,20.4
+Mexico,North America,Wheat,Rabi,1999,46310.0,758.0,34468.93,20.0714
+Mexico,North America,Wheat,Rabi,2000,49355.0,758.0,34468.93,20.2629
+Mexico,North America,Wheat,Rabi,2001,47661.0,758.0,31373.3,20.1086
+Mexico,North America,Wheat,Rabi,2002,50999.0,758.0,16189.88,20.8467
+Mexico,North America,Wheat,Rabi,2004,44871.0,758.0,26433.14,20.1329
+Mexico,North America,Wheat,Rabi,2005,47517.0,758.0,51741.99,20.4414
+Mexico,North America,Wheat,Rabi,2006,52274.0,758.0,50891.95,20.5157
+Mexico,North America,Wheat,Rabi,2007,50824.0,758.0,64501.28,20.2086
+Mexico,North America,Wheat,Rabi,2008,50134.0,758.0,61732.11,20.3157
+Mexico,North America,Wheat,Rabi,2009,49688.0,758.0,61690.08,20.6457
+Mexico,North America,Wheat,Rabi,2010,54185.0,758.0,63402.29,19.8557
+Mexico,North America,Wheat,Rabi,2011,54778.0,758.0,65961.1,20.3757
+Mexico,North America,Wheat,Rabi,2012,56568.0,758.0,64512.22,20.6386
+Mexico,North America,Wheat,Rabi,2013,52934.0,758.0,59920.18,21.2243
+Australia,Oceania,Wheat,Rabi,1990,16344.0,534.0,17866.0,16.4417
+Australia,Oceania,Wheat,Rabi,1991,14698.0,534.0,17866.0,16.6067
+Australia,Oceania,Wheat,Rabi,1992,17812.0,534.0,22234.0,15.905
+Australia,Oceania,Wheat,Rabi,1993,19658.0,534.0,23899.0,16.3333
+Australia,Oceania,Wheat,Rabi,1994,11356.0,534.0,21057.0,16.2783
+Australia,Oceania,Wheat,Rabi,1995,17899.0,534.0,25598.0,16.1033
+Australia,Oceania,Wheat,Rabi,1996,21673.0,534.0,31185.0,16.1167
+Australia,Oceania,Wheat,Rabi,1997,18412.0,534.0,34091.0,16.525
+Australia,Oceania,Wheat,Rabi,1998,19153.0,534.0,37215.0,16.6533
+Australia,Oceania,Wheat,Rabi,1999,20066.0,534.0,34200.0,16.6083
+Australia,Oceania,Wheat,Rabi,2000,18209.0,534.0,33475.0,16.67
+Australia,Oceania,Wheat,Rabi,2001,18209.0,534.0,32710.0,16.5917
+Australia,Oceania,Wheat,Rabi,2002,21076.0,534.0,26651.0,16.6767
+Australia,Oceania,Wheat,Rabi,2004,19998.0,534.0,36276.0,16.6483
+Australia,Oceania,Wheat,Rabi,2005,16348.0,534.0,34310.0,16.7983
+Australia,Oceania,Wheat,Rabi,2006,20213.0,534.0,35900.0,16.6933
+Australia,Oceania,Wheat,Rabi,2007,9173.0,534.0,32446.25,17.08
+Australia,Oceania,Wheat,Rabi,2008,10788.0,534.0,42935.38,16.45
+Australia,Oceania,Wheat,Rabi,2009,15831.0,534.0,38065.68,17.125
+Australia,Oceania,Wheat,Rabi,2010,15729.0,534.0,42169.39,16.79
+Australia,Oceania,Wheat,Rabi,2011,20301.0,534.0,47632.99,16.805
+Australia,Oceania,Wheat,Rabi,2012,21511.0,534.0,48687.88,16.6667
+Australia,Oceania,Wheat,Rabi,2013,17609.0,534.0,45177.18,17.0883
+New Zealand,Oceania,Wheat,Rabi,1990,48842.0,1732.0,3490.0,13.64
+New Zealand,Oceania,Wheat,Rabi,1991,48149.0,1732.0,3490.0,12.82
+New Zealand,Oceania,Wheat,Rabi,1992,50543.0,1732.0,3490.0,12.14
+New Zealand,Oceania,Wheat,Rabi,1993,53698.0,1732.0,3489.0,12.35
+New Zealand,Oceania,Wheat,Rabi,1994,54145.0,1732.0,3515.0,12.89
+New Zealand,Oceania,Wheat,Rabi,1995,46823.0,1732.0,3904.0,13.15
+New Zealand,Oceania,Wheat,Rabi,1996,54738.0,1732.0,3499.0,13.07
+New Zealand,Oceania,Wheat,Rabi,1997,56607.0,1732.0,3249.0,12.77
+New Zealand,Oceania,Wheat,Rabi,1998,62160.0,1732.0,3055.16,13.97
+New Zealand,Oceania,Wheat,Rabi,1999,60610.0,1732.0,2535.3,13.87
+New Zealand,Oceania,Wheat,Rabi,2000,62095.0,1732.0,3634.3,13.4
+New Zealand,Oceania,Wheat,Rabi,2001,74286.0,1732.0,3333.2,13.58
+New Zealand,Oceania,Wheat,Rabi,2002,71467.0,1732.0,4170.0,13.28
+New Zealand,Oceania,Wheat,Rabi,2004,65501.0,1732.0,4050.0,12.76
+New Zealand,Oceania,Wheat,Rabi,2005,80920.0,1732.0,4058.0,13.63
+New Zealand,Oceania,Wheat,Rabi,2006,68963.0,1732.0,4388.0,13.04
+New Zealand,Oceania,Wheat,Rabi,2007,84966.0,1732.0,4939.0,13.44
+New Zealand,Oceania,Wheat,Rabi,2008,81120.0,1732.0,5857.0,13.55
+New Zealand,Oceania,Wheat,Rabi,2009,74918.0,1732.0,5086.0,12.84
+New Zealand,Oceania,Wheat,Rabi,2010,81241.0,1732.0,5086.0,13.54
+New Zealand,Oceania,Wheat,Rabi,2011,72858.0,1732.0,5086.0,13.46
+New Zealand,Oceania,Wheat,Rabi,2012,89245.0,1732.0,5086.0,12.89
+New Zealand,Oceania,Wheat,Rabi,2013,91053.0,1732.0,5086.0,13.57
+Argentina,South America,Wheat,Rabi,1990,18947.0,591.0,26156.0,17.565
+Argentina,South America,Wheat,Rabi,1991,18972.0,591.0,26156.0,17.75
+Argentina,South America,Wheat,Rabi,1992,21809.0,591.0,26156.0,17.3
+Argentina,South America,Wheat,Rabi,1993,23272.0,591.0,26156.0,17.425
+Argentina,South America,Wheat,Rabi,1994,20237.0,591.0,30195.0,18.24
+Argentina,South America,Wheat,Rabi,1995,21675.0,591.0,37842.0,17.68
+Argentina,South America,Wheat,Rabi,1996,19344.0,591.0,54595.0,17.805
+Argentina,South America,Wheat,Rabi,1997,22426.0,591.0,77691.0,18.415
+Argentina,South America,Wheat,Rabi,1998,26088.0,591.0,62397.0,17.375
+Argentina,South America,Wheat,Rabi,1999,23028.0,591.0,62831.39,17.43
+Argentina,South America,Wheat,Rabi,2000,24873.0,591.0,63265.78,17.32
+Argentina,South America,Wheat,Rabi,2001,24934.0,591.0,63700.17,18.065
+Argentina,South America,Wheat,Rabi,2002,22398.0,591.0,64134.56,17.825
+Argentina,South America,Wheat,Rabi,2004,25441.0,591.0,65003.34,17.89
+Argentina,South America,Wheat,Rabi,2005,26356.0,591.0,65437.73,17.575
+Argentina,South America,Wheat,Rabi,2006,25302.0,591.0,65872.12,18.225
+Argentina,South America,Wheat,Rabi,2007,26234.0,591.0,81582.64,16.925
+Argentina,South America,Wheat,Rabi,2008,28271.0,591.0,87149.01,18.05
+Argentina,South America,Wheat,Rabi,2009,19628.0,591.0,61586.56,18.125
+Argentina,South America,Wheat,Rabi,2010,27113.0,591.0,105915.04,17.585
+Argentina,South America,Wheat,Rabi,2011,35063.0,591.0,100424.62,17.755
+Argentina,South America,Wheat,Rabi,2012,32199.0,591.0,136185.08,18.305
+Argentina,South America,Wheat,Rabi,2013,26581.0,591.0,171945.54,16.665
+Brazil,South America,Wheat,Rabi,1990,11540.0,1761.0,49695.0,23.2022
+Brazil,South America,Wheat,Rabi,1991,14232.0,1761.0,58349.44,23.1167
+Brazil,South America,Wheat,Rabi,1992,14295.0,1761.0,67003.89,23.1
+Brazil,South America,Wheat,Rabi,1993,14825.0,1761.0,75658.33,23.36
+Brazil,South America,Wheat,Rabi,1994,15541.0,1761.0,84312.78,23.4289
+Brazil,South America,Wheat,Rabi,1995,15420.0,1761.0,92967.22,23.4633
+Brazil,South America,Wheat,Rabi,1996,18334.0,1761.0,101621.67,23.1711
+Brazil,South America,Wheat,Rabi,1997,16359.0,1761.0,110276.11,23.4944
+Brazil,South America,Wheat,Rabi,1998,16111.0,1761.0,118930.56,23.7267
+Brazil,South America,Wheat,Rabi,1999,19699.0,1761.0,127585.0,23.0211
+Brazil,South America,Wheat,Rabi,2000,15156.0,1761.0,140423.0,23.1567
+Brazil,South America,Wheat,Rabi,2001,19488.0,1761.0,151523.0,23.6589
+Brazil,South America,Wheat,Rabi,2002,14754.0,1761.0,145552.0,23.8056
+Brazil,South America,Wheat,Rabi,2004,20728.0,1761.0,214725.0,23.1978
+Brazil,South America,Wheat,Rabi,2005,19735.0,1761.0,232232.0,23.7011
+Brazil,South America,Wheat,Rabi,2006,15927.0,1761.0,238716.0,23.5089
+Brazil,South America,Wheat,Rabi,2007,22199.0,1761.0,304031.0,23.5822
+Brazil,South America,Wheat,Rabi,2008,25497.0,1761.0,312637.0,23.2222
+Brazil,South America,Wheat,Rabi,2009,20802.0,1761.0,335742.0,23.115
+Brazil,South America,Wheat,Rabi,2010,28288.0,1761.0,342580.0,23.6444
+Brazil,South America,Wheat,Rabi,2011,26602.0,1761.0,345026.0,23.2267
+Brazil,South America,Wheat,Rabi,2012,23100.0,1761.0,346583.0,23.7633
+Brazil,South America,Wheat,Rabi,2013,27491.0,1761.0,367778.0,23.2911
+Chile,South America,Wheat,Rabi,1990,29481.0,1522.0,15373.0,9.495
+Chile,South America,Wheat,Rabi,1991,34057.0,1522.0,15373.0,9.685
+Chile,South America,Wheat,Rabi,1992,33787.0,1522.0,15373.0,9.45
+Chile,South America,Wheat,Rabi,1993,33500.0,1522.0,15373.0,9.71
+Chile,South America,Wheat,Rabi,1994,35157.0,1522.0,15373.0,10.06
+Chile,South America,Wheat,Rabi,1995,35500.0,1522.0,15373.0,9.71
+Chile,South America,Wheat,Rabi,1996,33278.0,1522.0,15373.0,9.71
+Chile,South America,Wheat,Rabi,1997,40174.0,1522.0,15373.0,10.23
+Chile,South America,Wheat,Rabi,1998,43846.0,1522.0,15373.0,9.735
+Chile,South America,Wheat,Rabi,1999,35342.0,1522.0,15373.0,9.585
+Chile,South America,Wheat,Rabi,2000,38120.0,1522.0,14264.54,9.47
+Chile,South America,Wheat,Rabi,2001,42999.0,1522.0,13156.09,9.785
+Chile,South America,Wheat,Rabi,2002,42722.0,1522.0,12047.63,9.6
+Chile,South America,Wheat,Rabi,2004,45710.0,1522.0,9830.72,9.88
+Chile,South America,Wheat,Rabi,2005,44130.0,1522.0,9830.72,9.64
+Chile,South America,Wheat,Rabi,2006,44601.0,1522.0,9830.72,10.015
+Chile,South America,Wheat,Rabi,2007,47859.0,1522.0,9830.72,8.91
+Chile,South America,Wheat,Rabi,2008,45748.0,1522.0,9830.72,10.13
+Chile,South America,Wheat,Rabi,2009,40809.0,1522.0,9830.72,9.87
+Chile,South America,Wheat,Rabi,2010,57658.0,1522.0,9830.72,9.41
+Chile,South America,Wheat,Rabi,2011,58060.0,1522.0,9830.72,9.76
+Chile,South America,Wheat,Rabi,2012,49468.0,1522.0,9830.72,10.15
+Chile,South America,Wheat,Rabi,2013,58143.0,1522.0,9830.72,9.505
+Colombia,South America,Wheat,Rabi,1990,18483.0,3240.0,18058.29,24.81
+Colombia,South America,Wheat,Rabi,1991,19852.0,3240.0,16817.0,24.915
+Colombia,South America,Wheat,Rabi,1992,17490.0,3240.0,15305.94,25.025
+Colombia,South America,Wheat,Rabi,1993,18773.0,3240.0,14961.81,24.855
+Colombia,South America,Wheat,Rabi,1994,20547.0,3240.0,17051.34,24.75
+Colombia,South America,Wheat,Rabi,1995,21193.0,3240.0,20156.23,24.785
+Colombia,South America,Wheat,Rabi,1996,21824.0,3240.0,18131.0,24.595
+Colombia,South America,Wheat,Rabi,1997,21243.0,3240.0,16005.0,25.22
+Colombia,South America,Wheat,Rabi,1998,20497.0,3240.0,60687.0,25.37
+Colombia,South America,Wheat,Rabi,1999,21537.0,3240.0,66088.0,24.3
+Colombia,South America,Wheat,Rabi,2000,15992.0,3240.0,75843.0,24.495
+Colombia,South America,Wheat,Rabi,2001,15106.0,3240.0,85515.3,24.89
+Colombia,South America,Wheat,Rabi,2002,17353.0,3240.0,84023.26,25.25
+Colombia,South America,Wheat,Rabi,2004,18879.0,3240.0,105514.19,24.965
+Colombia,South America,Wheat,Rabi,2005,23371.0,3240.0,117881.45,25.125
+Colombia,South America,Wheat,Rabi,2006,15490.0,3240.0,98328.63,25.055
+Colombia,South America,Wheat,Rabi,2007,18709.0,3240.0,82439.06,24.965
+Colombia,South America,Wheat,Rabi,2008,18151.0,3240.0,48538.97,24.615
+Colombia,South America,Wheat,Rabi,2009,16946.0,3240.0,51435.13,25.275
+Colombia,South America,Wheat,Rabi,2010,17697.0,3240.0,48618.46,25.11
+Colombia,South America,Wheat,Rabi,2011,15964.0,3240.0,53797.0,24.755
+Colombia,South America,Wheat,Rabi,2012,15196.0,3240.0,48727.73,25.07
+Colombia,South America,Wheat,Rabi,2013,16938.0,3240.0,54563.38,25.225
+Ecuador,South America,Wheat,Rabi,1990,7967.0,2274.0,2537.0,20.5133
+Ecuador,South America,Wheat,Rabi,1991,5696.0,2274.0,2377.0,20.56
+Ecuador,South America,Wheat,Rabi,1992,5911.0,2274.0,2012.0,20.6
+Ecuador,South America,Wheat,Rabi,1993,6711.0,2274.0,1844.0,20.4767
+Ecuador,South America,Wheat,Rabi,1994,6162.0,2274.0,2670.0,20.22
+Ecuador,South America,Wheat,Rabi,1995,6951.0,2274.0,2658.0,20.6167
+Ecuador,South America,Wheat,Rabi,1996,6176.0,2274.0,2407.0,20.0867
+Ecuador,South America,Wheat,Rabi,1997,5976.0,2274.0,7612.0,21.2333
+Ecuador,South America,Wheat,Rabi,1998,6484.0,2274.0,21500.0,21.1433
+Ecuador,South America,Wheat,Rabi,1999,7001.0,2274.0,14216.0,19.8867
+Ecuador,South America,Wheat,Rabi,2000,6208.0,2274.0,17948.0,19.9533
+Ecuador,South America,Wheat,Rabi,2001,6100.0,2274.0,7344.0,20.26
+Ecuador,South America,Wheat,Rabi,2002,5696.0,2274.0,1302.49,20.8267
+Ecuador,South America,Wheat,Rabi,2004,8053.0,2274.0,29799.84,20.7
+Ecuador,South America,Wheat,Rabi,2005,7220.0,2274.0,18391.23,20.5667
+Ecuador,South America,Wheat,Rabi,2006,7774.0,2274.0,7953.42,20.6667
+Ecuador,South America,Wheat,Rabi,2007,8186.0,2274.0,14156.16,20.37
+Ecuador,South America,Wheat,Rabi,2008,7466.0,2274.0,15396.14,20.2567
+Ecuador,South America,Wheat,Rabi,2009,8617.0,2274.0,9666.87,20.73
+Ecuador,South America,Wheat,Rabi,2010,8912.0,2274.0,31637.12,20.69
+Ecuador,South America,Wheat,Rabi,2011,9249.0,2274.0,17529.44,20.4367
+Ecuador,South America,Wheat,Rabi,2012,7995.0,2274.0,11469.74,20.4933
+Ecuador,South America,Wheat,Rabi,2013,7064.0,2274.0,6471.77,20.3033
+Peru,South America,Wheat,Rabi,1990,10847.0,1738.0,3134.0,16.84
+Peru,South America,Wheat,Rabi,1991,8553.0,1738.0,3134.0,17.15
+Peru,South America,Wheat,Rabi,1992,13304.0,1738.0,3134.0,17.96
+Peru,South America,Wheat,Rabi,1993,14812.0,1738.0,3134.0,17.56
+Peru,South America,Wheat,Rabi,1994,12420.0,1738.0,3134.0,17.31
+Peru,South America,Wheat,Rabi,1995,12643.0,1738.0,3134.0,17.26
+Peru,South America,Wheat,Rabi,1996,12499.0,1738.0,3755.0,16.45
+Peru,South America,Wheat,Rabi,1997,11150.0,1738.0,4307.0,18.62
+Peru,South America,Wheat,Rabi,1998,11648.0,1738.0,4374.0,18.13
+Peru,South America,Wheat,Rabi,1999,12877.0,1738.0,4029.0,16.65
+Peru,South America,Wheat,Rabi,2000,12797.0,1738.0,5175.0,17.02
+Peru,South America,Wheat,Rabi,2001,12465.0,1738.0,8414.17,16.95
+Peru,South America,Wheat,Rabi,2002,13456.0,1738.0,8322.88,17.44
+Peru,South America,Wheat,Rabi,2004,13872.0,1738.0,8941.22,17.29
+Peru,South America,Wheat,Rabi,2005,13440.0,1738.0,10227.74,17.02
+Peru,South America,Wheat,Rabi,2006,13360.0,1738.0,12074.5,17.61
+Peru,South America,Wheat,Rabi,2007,12562.0,1738.0,9011.14,16.68
+Peru,South America,Wheat,Rabi,2008,13839.0,1738.0,12598.66,17.34
+Peru,South America,Wheat,Rabi,2009,14315.0,1738.0,11531.33,17.4
+Peru,South America,Wheat,Rabi,2010,14224.0,1738.0,15590.54,16.97
+Peru,South America,Wheat,Rabi,2011,14719.0,1738.0,15436.91,17.03
+Peru,South America,Wheat,Rabi,2012,14891.0,1738.0,18885.82,17.68
+Peru,South America,Wheat,Rabi,2013,14976.0,1738.0,17942.97,17.0
+Uruguay,South America,Wheat,Rabi,1990,18510.0,1300.0,1762.01,16.91
+Uruguay,South America,Wheat,Rabi,1991,16135.0,1300.0,1762.01,16.95
+Uruguay,South America,Wheat,Rabi,1992,23035.0,1300.0,2072.03,16.7
+Uruguay,South America,Wheat,Rabi,1993,16018.0,1300.0,1634.02,16.81
+Uruguay,South America,Wheat,Rabi,1994,25653.0,1300.0,2272.08,17.17
+Uruguay,South America,Wheat,Rabi,1995,23359.0,1300.0,2413.02,16.66
+Uruguay,South America,Wheat,Rabi,1996,25957.0,1300.0,3444.01,17.03
+Uruguay,South America,Wheat,Rabi,1997,19843.0,1300.0,3362.05,17.46
+Uruguay,South America,Wheat,Rabi,1998,28929.0,1300.0,4239.03,16.77
+Uruguay,South America,Wheat,Rabi,1999,19537.0,1300.0,3925.03,16.62
+Uruguay,South America,Wheat,Rabi,2000,25344.0,1300.0,3650.08,16.95
+Uruguay,South America,Wheat,Rabi,2001,11488.0,1300.0,4433.04,17.61
+Uruguay,South America,Wheat,Rabi,2002,15011.0,1300.0,5184.5,17.06
+Uruguay,South America,Wheat,Rabi,2004,29704.0,1300.0,9017.73,17.22
+Uruguay,South America,Wheat,Rabi,2005,29583.0,1300.0,9232.47,17.13
+Uruguay,South America,Wheat,Rabi,2006,31603.0,1300.0,9143.45,17.13
+Uruguay,South America,Wheat,Rabi,2007,28420.0,1300.0,14057.2,16.53
+Uruguay,South America,Wheat,Rabi,2008,28560.0,1300.0,13335.22,17.43
+Uruguay,South America,Wheat,Rabi,2009,33583.0,1300.0,13475.41,16.96
+Uruguay,South America,Wheat,Rabi,2010,32196.0,1300.0,14981.18,17.11
+Uruguay,South America,Wheat,Rabi,2011,33979.0,1300.0,17517.76,16.9
+Uruguay,South America,Wheat,Rabi,2012,21822.0,1300.0,23506.4,17.53
+Uruguay,South America,Wheat,Rabi,2013,33177.0,1300.0,19028.6,15.92

@@ -1,0 +1,16 @@
+Season,Model,RMSE,MAE,R2,Pearson_r,Train_Time_s
+Kharif,Linear Regression (Baseline),32099.53,20507.06,0.6753,0.8305,0.3
+Kharif,KNN Regressor (Paper),13904.4,7405.2,0.9391,0.971,0.04
+Kharif,Gradient Boosting (Paper),21426.94,13944.82,0.8553,0.9353,2.47
+Kharif,XGBoost Regressor (Paper),17104.37,10429.47,0.9078,0.9562,0.32
+Kharif,MLP Regressor (Paper),27277.62,16938.26,0.7655,0.8767,7.62
+Rabi,Linear Regression (Baseline),6182.82,4554.99,0.9158,0.9592,0.02
+Rabi,KNN Regressor (Paper),3939.75,3032.4,0.9658,0.9872,0.01
+Rabi,Gradient Boosting (Paper),6438.33,5313.32,0.9087,0.959,0.72
+Rabi,XGBoost Regressor (Paper),5223.08,4170.63,0.9399,0.9723,0.16
+Rabi,MLP Regressor (Paper),12312.25,8727.23,0.666,0.8478,2.34
+Seasonal,Linear Regression (Baseline),52357.5,36511.22,0.7459,0.8674,0.1
+Seasonal,KNN Regressor (Paper),23633.02,12427.63,0.9482,0.9757,0.02
+Seasonal,Gradient Boosting (Paper),42408.34,28114.3,0.8333,0.9237,3.45
+Seasonal,XGBoost Regressor (Paper),31680.99,19929.74,0.907,0.9557,0.4
+Seasonal,MLP Regressor (Paper),46850.34,33032.95,0.7965,0.8937,11.51

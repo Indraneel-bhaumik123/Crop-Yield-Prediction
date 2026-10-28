@@ -1,0 +1,63 @@
+{
+  "statistical_comparisons": {
+    "Kharif": {
+      "knn_vs_xgboost": {
+        "paired_t_stat": -2.5744908868835674,
+        "paired_t_pvalue": 0.010768743831100117,
+        "wilcoxon_stat": 5382.0,
+        "wilcoxon_pvalue": 1.9577050948574737e-08
+      },
+      "knn_vs_linear_reg": {
+        "paired_t_stat": -3.741210119551484,
+        "paired_t_pvalue": 0.0002398164246539033,
+        "wilcoxon_stat": 2210.0,
+        "wilcoxon_pvalue": 1.813378346548973e-21
+      }
+    },
+    "Rabi": {
+      "knn_vs_xgboost": {
+        "paired_t_stat": -3.2725317651530745,
+        "paired_t_pvalue": 0.0015749157145034266,
+        "wilcoxon_stat": 962.0,
+        "wilcoxon_pvalue": 0.0010063896529001425
+      },
+      "knn_vs_linear_reg": {
+        "paired_t_stat": -2.282296801487928,
+        "paired_t_pvalue": 0.025127965612731618,
+        "wilcoxon_stat": 1045.0,
+        "wilcoxon_pvalue": 0.003756140438992355
+      }
+    },
+    "Seasonal": {
+      "knn_vs_xgboost": {
+        "paired_t_stat": -3.9219571747052275,
+        "paired_t_pvalue": 0.0001081145492688568,
+        "wilcoxon_stat": 12859.0,
+        "wilcoxon_pvalue": 4.2990711620972393e-13
+      },
+      "knn_vs_linear_reg": {
+        "paired_t_stat": -7.831604261073823,
+        "paired_t_pvalue": 7.660466163339613e-14,
+        "wilcoxon_stat": 5066.0,
+        "wilcoxon_pvalue": 7.10001652633142e-34
+      }
+    }
+  },
+  "uncertainty_intervals": {
+    "Kharif": {
+      "empirical_coverage_rate": 0.5778894472361809,
+      "mean_interval_width": 13844.900504512563,
+      "median_interval_width": 4960.800002
+    },
+    "Rabi": {
+      "empirical_coverage_rate": 0.8271604938271605,
+      "mean_interval_width": 13167.65926125926,
+      "median_interval_width": 13816.800002000004
+    },
+    "Seasonal": {
+      "empirical_coverage_rate": 0.5224358974358975,
+      "mean_interval_width": 22123.192309692306,
+      "median_interval_width": 7864.800002000003
+    }
+  }
+}

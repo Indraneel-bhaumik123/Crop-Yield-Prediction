@@ -1,0 +1,453 @@
+• Web Microservices: Backend/main.py (FastAPI), Backend/auth.py (JWT), Backend/database.py (SQLAlchemy SQLite).
+• Software Environment: Python 3.11+, Scikit-Learn 1.3+, XGBoost 2.0+, FastAPI 0.104+, SQLAlchemy 2.0+.
+• Random Seed: Fixed seed 42 applied to all stochastic operations and cross-validation splits.
+• Hardware Specification: Executed on x86_64 CPU workstation with 16 GB RAM; GPU acceleration not required.
+1. Section 6.1 — Dataset Characteristics and Exploratory Analysis
+Current problem
+The section makes broad statements such as:
+“Kharif dataset displays standard deviations reflecting rainfed monsoon crops…”
+and
+“Rabi dataset exhibits a narrower yield distribution…”
+but gives almost no actual descriptive statistics.
+Required correction
+Add a proper descriptive-statistics table, preferably:
+Include at least:
+yield
+rainfall
+temperature
+pesticide use
+area
+relevant categorical variables
+number of countries
+number of crops
+Also add
+Figure: distribution of yield by season using violin/box plots.
+Then discuss:
+skewness
+outliers
+heteroscedasticity
+seasonal differences
+whether transformations were necessary
+whether normalization was applied before KNN
+Important
+Because KNN is distance-based, the paper must explicitly establish how numerical variables were scaled.
+This is particularly important because your later interpretation depends on normalized feature space. You state that KNN uses a “normalized feature representation,” but Section 6 itself does not explain the normalization procedure.
+2. Section 6.2 — Temporal Distribution Shift
+You correctly compare 1990–2012 with 2013 and recognize that temporal distribution shift matters.
+However, the current analysis is too descriptive.
+Current weakness
+You report:
+rainfall 1,162.07 vs 1,171.44 mm, −0.80%
+How was distribution shift statistically assessed?
+Add quantitative shift analysis
+Use one or more:
+Kolmogorov–Smirnov test
+Wasserstein distance
+Jensen–Shannon divergence
+Population Stability Index
+standardized mean difference
+For example:
+This would transform this section from descriptive commentary into a rigorous dataset-shift analysis.
+Very important
+Do not write:
+“2013 represents a representative prospective season”
+solely because its mean rainfall is close to the historical mean.
+That conclusion is too strong.
+Instead demonstrate representativeness using multiple variables and distributional tests.
+3. Section 6.3 — Prospective Temporal Evaluation
+You show:
+KNN
+XGBoost
+Gradient Boosting
+MLP
+Linear Regression
+and report RMSE, MAE, R² and Pearson correlation.
+3.1 Do not present only point estimates
+For example:
+KNN R² = 0.9380
+How stable is 0.9380?
+Add:
+95% confidence intervals
+For example:
+KNN achieved R² = 0.938 (95% CI: 0.921–0.951).
+Bootstrap confidence intervals would be appropriate.
+Do this for:
+R²
+RMSE
+MAE
+at minimum for the major models.
+4. Tables 3–5 need major redesign
+The extracted file shows the tables as extremely fragmented, with headers and values separated into individual rows.
+If this reflects the actual manuscript formatting, fix it immediately.
+The table should look like:
+Don't unnecessarily include columns such as:
+“Champion Model”
+“Intermediate Performer”
+“Moderate Performer”
+Those are editorial labels rather than scientific measurements.
+Use Rank instead.
+5. R² and Pearson correlation are not enough
+You report both R² and Pearson r.
+But Pearson correlation measures association, not agreement.
+You should add at least one of:
+normalized RMSE
+MAPE/sMAPE, if appropriate
+Median Absolute Error
+Mean Bias Error
+prediction bias
+calibration/error distribution
+For agricultural yield, MAPE may be problematic when yield values approach zero, so don't automatically add MAPE.
+I would recommend:
+MAE + RMSE + R² + bias + Pearson/Spearman correlation
+6. Section 6.3.4 — Cross-season comparison
+This section is useful, but the claim:
+“KNN consistently achieved the highest R² … and lowest RMSE”
+is descriptive.
+add a cross-season statistical comparison.
+For example:
+paired Wilcoxon signed-rank test
+corrected resampled t-test
+bootstrap comparison
+Diebold–Mariano test if framed as forecasting
+Then report:
+KNN reduced RMSE relative to XGBoost by X% in Kharif, X% in Rabi, and X% in Seasonal.
+That is much more informative.
+7. Section 6.4 — Rolling-Origin Temporal Validation
+You demonstrate that the KNN result is not simply a consequence of selecting 2013 as the test year.
+However, you currently report only Kharif:
+2010, 2011, 2012...
+extend this analysis to:
+Kharif
+Rabi
+Seasonal
+and ideally all competing models.
+Add a table
+Then report mean ± SD across temporal folds.
+This would substantially strengthen the paper.
+8. Section 6.5 — Random vs Temporal Validation
+Excellent idea but correct the interpretation.
+You report:
+random R² = 0.9603 vs temporal R² = 0.9380
+and RMSE reduction of 30.8%.
+This is potentially a very strong methodological contribution.
+But this sentence:
+“confirming that random evaluation produces an overly optimistic estimate by allowing future records to inform past predictions”
+needs careful wording.
+Random splitting does not necessarily mean that future observations literally "inform past predictions" unless the experimental setup establishes temporal dependence and leakage explicitly.
+Better scientific interpretation:
+Random splitting yielded substantially more optimistic performance than chronological evaluation, indicating that conventional random partitioning may underestimate generalization error in temporally ordered agricultural yield data.
+That is safer and more defensible.
+Add
+A figure:
+Random split vs chronological split
+with:
+RMSE
+MAE
+R²
+for every model.
+This could become one of your strongest figures.
+9. Section 6.6 — Season-Specific vs Pooled Modelling
+This is another high-value contribution.
+You report:
+season-specific R² = 0.9636
+pooled R² = 0.9412
+and a 20.7% RMSE penalty.
+But one problem exists:
+One season is insufficient.
+You should conduct:
+Kharif: pooled vs season-specific
+Rabi: pooled vs season-specific
+Seasonal: pooled vs season-specific
+Then calculate:
+Then statistically test the differences.
+This can become a significant contribution:
+“Agricultural yield prediction benefits from season-aware rather than globally pooled modelling.”
+But the evidence needs to support that statement across all seasons.
+10. Section 6.7 — Comparative Model Analysis
+The current section is too short and somewhat speculative.
+For example:
+“MLP struggled … due to the smaller sample size…”
+and
+“XGBoost … offering rapid inference speed…”
+and
+“Gradient Boosting … lagging XGBoost due to less aggressive regularization.”
+These explanations need evidence.
+Problem
+You cannot infer:
+“due to less aggressive regularization”
+unless you actually conducted an experiment supporting that mechanism.
+Likewise, you cannot claim MLP's lower performance was because of sample size without evidence.
+Change to cautious interpretation
+Use:
+“The comparatively lower performance of MLP may be associated with…”
+rather than:
+“The sample sizes … proved less favorable…”
+This distinction matters to reviewers.
+11. Section 6.8 — Historical-Neighborhood Analysis
+This is very interesting and potentially novel for a KNN paper.
+You report:
+mean neighbour distance = 0.3913
+and:
+r = +0.1971 between neighbour distance and absolute prediction error.
+But this needs much more depth.
+Add
+Scatter plot:
+Neighbour distance vs absolute prediction error
+Regression line / LOESS curve.
+Confidence interval.
+Statistical significance:
+p-value
+CI for correlation
+Analyze different k values.
+Show examples of:
+high-confidence prediction
+medium-confidence prediction
+low-confidence prediction
+This would make the KNN explainability argument much stronger.
+12. Section 6.9 — Explainability
+This section currently has a major conceptual issue.
+You say:
+“Permutation feature importance…”
+and then:
+“Formal cooperative game-theoretic SHAP explainability is discussed in Section 9 as future work.”
+That's okay if SHAP is genuinely future work, but if your paper's title/abstract claims explainability, permutation importance alone may not be sufficient depending on the framing.
+I recommend adding:
+Global explanation
+permutation importance
+SHAP/global importance
+Local explanation
+Show 3–5 individual predictions.
+For KNN, also show:
+nearest neighbours
+neighbour distances
+neighbour yield values
+This gives you model-specific explainability rather than simply applying generic feature importance.
+13. Section 6.10 — Feature Interaction and Nonlinear Effects
+You state:
+rainfall increases yield when temperatures are 12–22°C…
+but you don't provide the statistical or graphical evidence in the supplied text.
+Add a proper figure
+A 2D:
+Rainfall × Temperature → predicted yield
+response surface / contour plot.
+Then quantify the interaction.
+For example:
+or use:
+partial dependence
+ICE
+SHAP interaction values
+If you claim an optimal physiological window, cite agronomic literature and distinguish empirical model findings from established biological knowledge.
+14. Section 6.11 — Prediction Error and Subgroup Analysis
+Good idea, but currently too descriptive.
+You say:
+Maize, Wheat and Potatoes exhibited lower relative MAE than peripheral crops.
+Add a proper table
+Then investigate:
+Does training sample density predict model accuracy?
+This is actually a potentially publishable insight.
+For example:
+Then you can establish whether sparse representation systematically harms predictions.
+15. Section 6.12 — Ablation Study
+This is good, but it needs to be more systematic.
+You currently report:
+removing crop indicators → R² falls from 0.9380 to 0.7612.
+don't show only one ablation.
+Use:
+Then discuss the hierarchy of information.
+This could become an important contribution.
+16. Section 6.13 — Uncertainty
+You write:
+“variance among the k retrieved neighbor target yields provides an intuitive indicator of forecast confidence.”
+But this is not a formal uncertainty estimate.
+Improve it substantially.
+For each prediction, calculate:
+neighbour target variance
+neighbour distance
+prediction interval
+empirical coverage
+For example:
+90% prediction interval
+Then evaluate:
+What proportion of actual 2013 yields falls inside the predicted 90% interval?
+Report:
+coverage
+interval width
+calibration
+This would turn an intuitive confidence measure into an actual uncertainty quantification framework.
+17. Section 6.14 — Statistical Comparison
+This is one of the sections that needs the most methodological correction.
+You currently say:
+“paired absolute errors confirmed that KNN significantly outperformed…”
+and then use both:
+Wilcoxon signed-rank
+paired t-test.
+Problems
+First, you need to explain:
+What exactly was paired?
+For example:
+for the same test observations.
+Second, multiple model comparisons mean you should consider multiple-testing correction.
+Use:
+Holm correction
+Benjamini–Hochberg, if appropriate
+Third
+Don't report only p-values.
+Report:
+effect size
+confidence interval
+p-value
+For example:
+KNN reduced absolute prediction error relative to XGBoost by 18.4% (95% CI: …; Wilcoxon p < .001; rank-biserial correlation = …).
+18. Major issue: Why both Pearson r and R²?
+Your values are mathematically related.
+For example:
+Kharif KNN:
+Pearson r = 0.9688
+R² = 0.9380
+and:
+So Pearson r is contributing very little additional information.
+Instead, I would prioritize:
+R² + RMSE + MAE + bias + uncertainty
+and keep Pearson r as supplementary.
+19. Major issue: Units and magnitude of RMSE
+You report values such as:
+RMSE = 14,026.44 hg/ha
+This should be translated into a more interpretable agricultural unit.
+Since:
+14,026 hg/ha ≈ 1.40 t/ha.
+Therefore, write:
+RMSE = 14,026 hg ha⁻¹ (1.40 t ha⁻¹)
+at least on first occurrence.
+This dramatically improves practical interpretation.
+20. Figure 9 — Performance comparison
+The current figure caption is acceptable but generic.
+the figure should allow the reader to immediately see:
+model ranking
+seasonal variation
+uncertainty/variation
+I recommend:
+Panel A: RMSE by model and season
+Panel B: R² by model and season
+But if journal formatting discourages multi-panel figures, use separate figures.
+Also don't rely only on bar charts.
+A dot plot with confidence intervals would be more statistically informative.
+21. Figure 10 — Actual vs Predicted
+Good and necessary.
+But add:
+45° identity line
+fitted regression line
+R²
+MAE
+RMSE
+sample size
+Also avoid making the graph visually misleading by using unequal x/y scales.
+22. Figure 11 — Cross-season comparison
+This currently duplicates information already contained in Tables 3–5.
+You have:
+Tables 3–5
+Figure 9
+Figure 10
+Figure 11
+That is potentially too much redundancy.
+I would probably retain:
+Table 1
+Dataset characteristics
+Table 2
+Model/hyperparameter configuration
+Table 3
+Complete prospective performance
+Figure 1
+Temporal evaluation framework
+Figure 2
+Model performance
+Figure 3
+Actual vs predicted
+Figure 4
+Temporal robustness
+Figure 5
+Explainability / feature importance
+Figure 6
+Error/uncertainty analysis
+This would be stronger than many repetitive figures.
+23. Section 6.15 — Main Findings
+Your conclusion is good but too compressed:
+“season-specific stratification improves predictive accuracy…”
+“distance-weighted KNN achieves champion accuracy…”
+“chronological evaluation avoids the 30% optimistic error bias…”
+“crop cultivar and geographic zone constitute the dominant determinants…”
+Rewrite this as scientific contributions
+Instead of simply listing findings, structure it as:
+Finding 1 — Temporal evaluation matters
+Random splitting substantially overestimated predictive performance.
+Finding 2 — KNN was strongest under the tested representation
+Avoid universal claims.
+Finding 3 — Season-specific modelling improves generalization
+Support with all three seasonal comparisons.
+Finding 4 — Crop and geographic information dominate yield prediction
+Support through permutation and ablation analyses.
+Finding 5 — Prediction reliability depends on neighbourhood similarity
+Support using neighbour-distance/error analysis.
+That gives the paper a much stronger scientific narrative.
+25. One particularly important conceptual correction
+Be careful with the sentence:
+“KNN was the strongest model…”
+Your current wording already wisely limits this to:
+“under the feature representation, preprocessing pipeline, hyperparameter tuning procedure and chronological 2013 holdout used in this study.”
+Keep this limitation.
+In fact, I would make it even stronger:
+“The results establish the superiority of KNN within the evaluated model set and experimental protocol; they do not establish that KNN is universally superior for agricultural yield prediction.”
+This will protect you from a predictable reviewer criticism.
+26. Recommended new Section 6 structure
+I would actually restructure your entire Section 6.
+6. Results
+6.1 Dataset Characteristics and Distribution
+descriptive statistics
+seasonal differences
+distributions
+outliers
+6.2 Temporal Distribution Shift
+train vs 2013
+statistical shift tests
+covariate shift
+6.3 Prospective Model Performance
+Kharif
+Rabi
+Seasonal
+confidence intervals
+6.4 Cross-Season Model Comparison
+overall ranking
+effect sizes
+statistical comparison
+6.5 Temporal Robustness
+rolling-origin validation
+2010
+2011
+2012
+2013
+6.6 Random vs Chronological Evaluation
+leakage/optimism analysis
+6.7 Season-Specific vs Pooled Modelling
+all seasons
+6.8 Error and Subgroup Analysis
+crop-level
+geographic-level
+sample-density effects
+6.9 Explainability and Feature Contributions
+permutation importance
+SHAP, if available
+local explanations
+6.10 Nonlinear Effects and Interactions
+rainfall × temperature
+response curves
+6.11 Ablation Analysis
+crop
+geography
+climate
+pesticide
+6.12 Uncertainty and Reliability
+neighbour distance
+prediction intervals
+calibration
+6.13 Discussion of Findings
+This is the part that is currently missing most strongly.
+6.14 Summary of Key Findings

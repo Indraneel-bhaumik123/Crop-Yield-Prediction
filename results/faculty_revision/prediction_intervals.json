@@ -1,0 +1,29 @@
+[
+  {
+    "Season":"Kharif",
+    "Nominal_Interval":"90%",
+    "N_Holdout":199,
+    "Empirical_Coverage_Rate":0.8994974874,
+    "Mean_Interval_Width_hg_ha":41009.3823558314,
+    "Median_Interval_Width_hg_ha":14840.4518587485,
+    "Calibration_Bias":-0.0005025126
+  },
+  {
+    "Season":"Rabi",
+    "Nominal_Interval":"90%",
+    "N_Holdout":81,
+    "Empirical_Coverage_Rate":0.9012345679,
+    "Mean_Interval_Width_hg_ha":15918.6578501802,
+    "Median_Interval_Width_hg_ha":16640.1081491017,
+    "Calibration_Bias":0.0012345679
+  },
+  {
+    "Season":"Seasonal",
+    "Nominal_Interval":"90%",
+    "N_Holdout":312,
+    "Empirical_Coverage_Rate":0.8653846154,
+    "Mean_Interval_Width_hg_ha":65236.8932430438,
+    "Median_Interval_Width_hg_ha":24141.7618745851,
+    "Calibration_Bias":-0.0346153846
+  }
+]

@@ -1,0 +1,9 @@
+# Table 09 Seasonal Results
+
+| Model Architecture | Pipeline Status | RMSE (hg/ha) | MAE (hg/ha) | R² Score | Pearson r | Test Rank & Selection Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| K-Nearest Neighbors (KNN) | Tuned Champion (k=3, Manhattan) | 19,646.94 | 9,630.07 | 0.9642 | 0.9827 | Rank 1 (Selected Champion) |
+| XGBoost Regressor | Tuned (150 trees, depth 8) | 25,933.82 | 15,245.57 | 0.9377 | 0.9698 | Rank 2 (Runner-Up) |
+| Gradient Boosting Regressor | Tuned (150 trees, depth 4) | 44,947.15 | 29,792.24 | 0.8127 | 0.9149 | Rank 3 |
+| Multilayer Perceptron (MLP) | Tuned ((64, 32) layers) | 48,214.55 | 34,303.93 | 0.7845 | 0.8870 | Rank 4 |
+| Linear Regression | Untuned Baseline | 52,357.50 | 36,511.22 | 0.7459 | 0.8674 | Rank 5 (Linear Baseline) |

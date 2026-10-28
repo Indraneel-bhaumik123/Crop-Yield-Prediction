@@ -1,0 +1,92 @@
+{
+  "Kharif": {
+    "Area": {
+      "mean_rmse_increase": 11104.111646709915,
+      "std_rmse_increase": 2189.763754240837
+    },
+    "Continent": {
+      "mean_rmse_increase": 2969.7291155178646,
+      "std_rmse_increase": 1857.1220039964294
+    },
+    "Item": {
+      "mean_rmse_increase": 47565.12582239013,
+      "std_rmse_increase": 3031.457546739976
+    },
+    "Year": {
+      "mean_rmse_increase": 0.0,
+      "std_rmse_increase": 0.0
+    },
+    "average_rain_fall_mm_per_year": {
+      "mean_rmse_increase": 15325.950212254673,
+      "std_rmse_increase": 3212.3210537732966
+    },
+    "pesticides_tonnes": {
+      "mean_rmse_increase": 4111.511928661608,
+      "std_rmse_increase": 3359.218765232387
+    },
+    "avg_temp": {
+      "mean_rmse_increase": 15306.340371076567,
+      "std_rmse_increase": 2500.9586081455527
+    }
+  },
+  "Rabi": {
+    "Area": {
+      "mean_rmse_increase": 8028.6837127292065,
+      "std_rmse_increase": 1105.7583389559802
+    },
+    "Continent": {
+      "mean_rmse_increase": 1465.9875067159523,
+      "std_rmse_increase": 541.7010428952946
+    },
+    "Item": {
+      "mean_rmse_increase": 0.0,
+      "std_rmse_increase": 0.0
+    },
+    "Year": {
+      "mean_rmse_increase": 0.0,
+      "std_rmse_increase": 0.0
+    },
+    "average_rain_fall_mm_per_year": {
+      "mean_rmse_increase": 1114.5562372289526,
+      "std_rmse_increase": 446.2864865611045
+    },
+    "pesticides_tonnes": {
+      "mean_rmse_increase": 1254.795536826439,
+      "std_rmse_increase": 609.5323374409975
+    },
+    "avg_temp": {
+      "mean_rmse_increase": 567.9803998222835,
+      "std_rmse_increase": 392.107592600894
+    }
+  },
+  "Seasonal": {
+    "Area": {
+      "mean_rmse_increase": 18002.311948531027,
+      "std_rmse_increase": 4466.314318841145
+    },
+    "Continent": {
+      "mean_rmse_increase": 2511.068332607607,
+      "std_rmse_increase": 711.9308895366967
+    },
+    "Item": {
+      "mean_rmse_increase": 90216.78605793489,
+      "std_rmse_increase": 3686.312820605512
+    },
+    "Year": {
+      "mean_rmse_increase": 0.0,
+      "std_rmse_increase": 0.0
+    },
+    "average_rain_fall_mm_per_year": {
+      "mean_rmse_increase": 2547.0866546492107,
+      "std_rmse_increase": 893.4771136574203
+    },
+    "pesticides_tonnes": {
+      "mean_rmse_increase": 4260.779147062804,
+      "std_rmse_increase": 1743.4079558097187
+    },
+    "avg_temp": {
+      "mean_rmse_increase": 1487.4767717581842,
+      "std_rmse_increase": 342.3030381406351
+    }
+  }
+}

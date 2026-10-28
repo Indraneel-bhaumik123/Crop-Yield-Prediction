@@ -1,0 +1,681 @@
+{
+  "metrics": {
+    "Kharif": {
+      "mean_distance": 0.39129364288848234,
+      "median_distance": 0.3239518192340593,
+      "std_distance": 0.22813707570800976,
+      "pearson_r_dist_vs_error": 0.1970743391605867,
+      "r_p_value": 0.005271184031919998,
+      "r_95_CI": [
+        0.05961606002635353,
+        0.32719778778381925
+      ],
+      "k_sensitivity": [
+        {
+          "k": 1,
+          "RMSE": 17767.070624129745,
+          "MAE": 7129.698492462311,
+          "R2": 0.9005325303905664
+        },
+        {
+          "k": 3,
+          "RMSE": 14026.441783457634,
+          "MAE": 6681.1153090746775,
+          "R2": 0.9380067450403788
+        },
+        {
+          "k": 5,
+          "RMSE": 13299.503071129588,
+          "MAE": 6840.993741972612,
+          "R2": 0.9442659964740558
+        },
+        {
+          "k": 7,
+          "RMSE": 13904.397508104412,
+          "MAE": 7405.19532450415,
+          "R2": 0.9390808601147651
+        },
+        {
+          "k": 9,
+          "RMSE": 14634.361489663286,
+          "MAE": 7958.427191442231,
+          "R2": 0.9325165977952629
+        },
+        {
+          "k": 15,
+          "RMSE": 19089.883344407655,
+          "MAE": 11571.75613595096,
+          "R2": 0.885169842224665
+        }
+      ]
+    },
+    "Rabi": {
+      "mean_distance": 0.8860607421823888,
+      "median_distance": 0.7439869963700426,
+      "std_distance": 0.47272093973477547,
+      "pearson_r_dist_vs_error": 0.03635156853292354,
+      "r_p_value": 0.7473121117456899,
+      "r_95_CI": [
+        -0.18345791327173006,
+        0.2526990611165968
+      ],
+      "k_sensitivity": [
+        {
+          "k": 1,
+          "RMSE": 5042.852596362695,
+          "MAE": 3572.604938271605,
+          "R2": 0.9439671799552201
+        },
+        {
+          "k": 3,
+          "RMSE": 3878.8262793268277,
+          "MAE": 2959.9074048718617,
+          "R2": 0.9668494612047066
+        },
+        {
+          "k": 5,
+          "RMSE": 3806.042283324634,
+          "MAE": 2944.0838516568406,
+          "R2": 0.9680818912356837
+        },
+        {
+          "k": 7,
+          "RMSE": 4065.8172692513185,
+          "MAE": 3184.9347903332377,
+          "R2": 0.9635761670870949
+        },
+        {
+          "k": 9,
+          "RMSE": 4174.685435787995,
+          "MAE": 3253.7974866297063,
+          "R2": 0.9615994498562594
+        },
+        {
+          "k": 15,
+          "RMSE": 4826.780161813275,
+          "MAE": 3776.3546938110967,
+          "R2": 0.9486660159960405
+        }
+      ]
+    },
+    "Seasonal": {
+      "mean_distance": 0.49723378863435275,
+      "median_distance": 0.4238612403206701,
+      "std_distance": 0.318618516226631,
+      "pearson_r_dist_vs_error": -0.08595899249654933,
+      "r_p_value": 0.12975982769843195,
+      "r_95_CI": [
+        -0.19513713768996063,
+        0.025323437497863834
+      ],
+      "k_sensitivity": [
+        {
+          "k": 1,
+          "RMSE": 20167.71089935275,
+          "MAE": 9689.817307692309,
+          "R2": 0.9622976125241244
+        },
+        {
+          "k": 3,
+          "RMSE": 19646.937821250864,
+          "MAE": 9630.071935552052,
+          "R2": 0.9642195845014805
+        },
+        {
+          "k": 5,
+          "RMSE": 21729.072391993956,
+          "MAE": 11079.30794613754,
+          "R2": 0.9562338835347326
+        },
+        {
+          "k": 7,
+          "RMSE": 22845.50755090353,
+          "MAE": 12097.342433386446,
+          "R2": 0.9516209584436147
+        },
+        {
+          "k": 9,
+          "RMSE": 23659.009092503144,
+          "MAE": 12801.69517985523,
+          "R2": 0.9481141733392239
+        },
+        {
+          "k": 15,
+          "RMSE": 28536.972658042625,
+          "MAE": 17542.7807381559,
+          "R2": 0.9245131268221506
+        }
+      ]
+    }
+  },
+  "worked_examples": {
+    "Kharif": [
+      {
+        "Tier": "High Confidence (Tight Analogs)",
+        "Query": {
+          "Country": "Haiti",
+          "Crop": "Maize",
+          "Year": 2013,
+          "Rainfall": 1440.0,
+          "Temperature": 27.2,
+          "Pesticides": 27.85,
+          "Actual_Yield": 8545.0,
+          "Model_Predicted_Yield": 8127.919046346452,
+          "Manual_Weighted_Yield": 8127.919046337381,
+          "Mean_Neighbor_Distance": 0.29678933713820327,
+          "Absolute_Error": 417.080953653548,
+          "Percentage_Error": 4.880994191381487
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Haiti",
+            "Crop": "Maize",
+            "Year": 2012,
+            "Distance": 0.14832236931065437,
+            "Observed_Yield": 8168.0,
+            "Normalized_Weight": 0.5456710550920861
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Haiti",
+            "Crop": "Maize",
+            "Year": 2011,
+            "Distance": 0.29707565929021995,
+            "Observed_Yield": 8103.0,
+            "Normalized_Weight": 0.27243976829403754
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Haiti",
+            "Crop": "Maize",
+            "Year": 2010,
+            "Distance": 0.44496998281373545,
+            "Observed_Yield": 8045.0,
+            "Normalized_Weight": 0.1818891766138763
+          }
+        ]
+      },
+      {
+        "Tier": "Medium Confidence (Typical Analogs)",
+        "Query": {
+          "Country": "Madagascar",
+          "Crop": "Maize",
+          "Year": 2013,
+          "Rainfall": 1513.0,
+          "Temperature": 19.34,
+          "Pesticides": 507.94,
+          "Actual_Yield": 16288.0,
+          "Model_Predicted_Yield": 15942.061495472582,
+          "Manual_Weighted_Yield": 15942.061495407661,
+          "Mean_Neighbor_Distance": 0.3239518192340593,
+          "Absolute_Error": 345.93850452741754,
+          "Percentage_Error": 2.1238857105072295
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Madagascar",
+            "Crop": "Maize",
+            "Year": 2012,
+            "Distance": 0.1642223374863089,
+            "Observed_Yield": 16290.0,
+            "Normalized_Weight": 0.5444464982067961
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Madagascar",
+            "Crop": "Maize",
+            "Year": 2011,
+            "Distance": 0.3363198531805869,
+            "Observed_Yield": 15490.0,
+            "Normalized_Weight": 0.2658489403883228
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Madagascar",
+            "Crop": "Maize",
+            "Year": 2010,
+            "Distance": 0.47131326703528204,
+            "Observed_Yield": 15577.0,
+            "Normalized_Weight": 0.18970456140488104
+          }
+        ]
+      },
+      {
+        "Tier": "Low Confidence (Sparse Analogs)",
+        "Query": {
+          "Country": "Argentina",
+          "Crop": "Maize",
+          "Year": 2013,
+          "Rainfall": 591.0,
+          "Temperature": 16.665,
+          "Pesticides": 171945.54,
+          "Actual_Yield": 66037.0,
+          "Model_Predicted_Yield": 66223.21933424594,
+          "Manual_Weighted_Yield": 66223.21933437252,
+          "Mean_Neighbor_Distance": 1.5967802079141855,
+          "Absolute_Error": 186.2193342459359,
+          "Percentage_Error": 0.2819924197736661
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Argentina",
+            "Crop": "Maize",
+            "Year": 2012,
+            "Distance": 1.1476981510602864,
+            "Observed_Yield": 57346.0,
+            "Normalized_Weight": 0.4424207440253433
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Argentina",
+            "Crop": "Cassava",
+            "Year": 2012,
+            "Distance": 1.8213212363411349,
+            "Observed_Yield": 100000.0,
+            "Normalized_Weight": 0.27878962798732837
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Argentina",
+            "Crop": "Sorghum",
+            "Year": 2012,
+            "Distance": 1.8213212363411349,
+            "Observed_Yield": 46534.0,
+            "Normalized_Weight": 0.27878962798732837
+          }
+        ]
+      }
+    ],
+    "Rabi": [
+      {
+        "Tier": "High Confidence (Tight Analogs)",
+        "Query": {
+          "Country": "Kenya",
+          "Crop": "Wheat",
+          "Year": 2013,
+          "Rainfall": 630.0,
+          "Temperature": 16.91,
+          "Pesticides": 1578.0,
+          "Actual_Yield": 27602.0,
+          "Model_Predicted_Yield": 26273.595754050722,
+          "Manual_Weighted_Yield": 26273.595753596517,
+          "Mean_Neighbor_Distance": 0.6206194998048403,
+          "Absolute_Error": 1328.4042459492775,
+          "Percentage_Error": 4.812710115025279
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Kenya",
+            "Crop": "Wheat",
+            "Year": 2012,
+            "Distance": 0.15948665771472992,
+            "Observed_Yield": 29720.0,
+            "Normalized_Weight": 0.37775515812273325
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Kenya",
+            "Crop": "Wheat",
+            "Year": 2011,
+            "Distance": 0.29997609945450515,
+            "Observed_Yield": 20415.0,
+            "Normalized_Weight": 0.20083902594487463
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Kenya",
+            "Crop": "Wheat",
+            "Year": 2010,
+            "Distance": 0.46092408147500075,
+            "Observed_Yield": 31991.0,
+            "Normalized_Weight": 0.1307089606500985
+          },
+          {
+            "Neighbor_Rank": 4,
+            "Country": "Kenya",
+            "Crop": "Wheat",
+            "Year": 2009,
+            "Distance": 0.6540211982223438,
+            "Observed_Yield": 16665.0,
+            "Normalized_Weight": 0.0921176680447229
+          },
+          {
+            "Neighbor_Rank": 5,
+            "Country": "Kenya",
+            "Crop": "Wheat",
+            "Year": 2008,
+            "Distance": 0.7828200455159925,
+            "Observed_Yield": 25845.0,
+            "Normalized_Weight": 0.07696137570654814
+          },
+          {
+            "Neighbor_Rank": 6,
+            "Country": "Kenya",
+            "Crop": "Wheat",
+            "Year": 2007,
+            "Distance": 0.9408453789249566,
+            "Observed_Yield": 30940.0,
+            "Normalized_Weight": 0.0640348658604311
+          },
+          {
+            "Neighbor_Rank": 7,
+            "Country": "Kenya",
+            "Crop": "Wheat",
+            "Year": 2006,
+            "Distance": 1.0462630373263535,
+            "Observed_Yield": 21875.0,
+            "Normalized_Weight": 0.0575829456705913
+          }
+        ]
+      },
+      {
+        "Tier": "Medium Confidence (Typical Analogs)",
+        "Query": {
+          "Country": "Egypt",
+          "Crop": "Wheat",
+          "Year": 2013,
+          "Rainfall": 51.0,
+          "Temperature": 22.175,
+          "Pesticides": 13653.0,
+          "Actual_Yield": 66682.0,
+          "Model_Predicted_Yield": 64183.58961355716,
+          "Manual_Weighted_Yield": 64183.58961328575,
+          "Mean_Neighbor_Distance": 0.7439869963700426,
+          "Absolute_Error": 2498.41038644284,
+          "Percentage_Error": 3.7467538262842144
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Egypt",
+            "Crop": "Wheat",
+            "Year": 2012,
+            "Distance": 0.18363791415274075,
+            "Observed_Yield": 65823.0,
+            "Normalized_Weight": 0.399617061500053
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Egypt",
+            "Crop": "Wheat",
+            "Year": 2011,
+            "Distance": 0.4077729419752278,
+            "Observed_Yield": 65428.0,
+            "Normalized_Weight": 0.17996496604264783
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Egypt",
+            "Crop": "Wheat",
+            "Year": 2010,
+            "Distance": 0.6486183474890294,
+            "Observed_Yield": 55741.0,
+            "Normalized_Weight": 0.1131402525791273
+          },
+          {
+            "Neighbor_Rank": 4,
+            "Country": "Egypt",
+            "Crop": "Wheat",
+            "Year": 2009,
+            "Distance": 0.751679686102104,
+            "Observed_Yield": 63829.0,
+            "Normalized_Weight": 0.09762781277815187
+          },
+          {
+            "Neighbor_Rank": 5,
+            "Country": "Egypt",
+            "Crop": "Wheat",
+            "Year": 2008,
+            "Distance": 0.8827489459072015,
+            "Observed_Yield": 65031.0,
+            "Normalized_Weight": 0.08313217931962309
+          },
+          {
+            "Neighbor_Rank": 6,
+            "Country": "Egypt",
+            "Crop": "Wheat",
+            "Year": 2007,
+            "Distance": 1.0786190312593549,
+            "Observed_Yield": 64673.0,
+            "Normalized_Weight": 0.06803592514142273
+          },
+          {
+            "Neighbor_Rank": 7,
+            "Country": "Egypt",
+            "Crop": "Wheat",
+            "Year": 2006,
+            "Distance": 1.2548321077046403,
+            "Observed_Yield": 64303.0,
+            "Normalized_Weight": 0.0584818026389742
+          }
+        ]
+      },
+      {
+        "Tier": "Low Confidence (Sparse Analogs)",
+        "Query": {
+          "Country": "Argentina",
+          "Crop": "Wheat",
+          "Year": 2013,
+          "Rainfall": 591.0,
+          "Temperature": 16.665,
+          "Pesticides": 171945.54,
+          "Actual_Yield": 26581.0,
+          "Model_Predicted_Yield": 28881.756119549587,
+          "Manual_Weighted_Yield": 28881.756119503487,
+          "Mean_Neighbor_Distance": 3.396804477851949,
+          "Absolute_Error": 2300.7561195495873,
+          "Percentage_Error": 8.65564169726341
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Argentina",
+            "Crop": "Wheat",
+            "Year": 2012,
+            "Distance": 1.5526464534564768,
+            "Observed_Yield": 32199.0,
+            "Normalized_Weight": 0.27572383791979715
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Argentina",
+            "Crop": "Wheat",
+            "Year": 2010,
+            "Distance": 2.7310062091590845,
+            "Observed_Yield": 27113.0,
+            "Normalized_Weight": 0.15675601090020838
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Argentina",
+            "Crop": "Wheat",
+            "Year": 2011,
+            "Distance": 2.785262883950249,
+            "Observed_Yield": 35063.0,
+            "Normalized_Weight": 0.15370241766357826
+          },
+          {
+            "Neighbor_Rank": 4,
+            "Country": "Argentina",
+            "Crop": "Wheat",
+            "Year": 2008,
+            "Distance": 3.7081645793124296,
+            "Observed_Yield": 28271.0,
+            "Normalized_Weight": 0.11544839230813966
+          },
+          {
+            "Neighbor_Rank": 5,
+            "Country": "Argentina",
+            "Crop": "Wheat",
+            "Year": 2007,
+            "Distance": 3.874166128393123,
+            "Observed_Yield": 26234.0,
+            "Normalized_Weight": 0.11050162148665169
+          },
+          {
+            "Neighbor_Rank": 6,
+            "Country": "Argentina",
+            "Crop": "Wheat",
+            "Year": 2009,
+            "Distance": 4.4017310874470645,
+            "Observed_Yield": 19628.0,
+            "Normalized_Weight": 0.097257563125175
+          },
+          {
+            "Neighbor_Rank": 7,
+            "Country": "Argentina",
+            "Crop": "Wheat",
+            "Year": 2006,
+            "Distance": 4.7246540032452184,
+            "Observed_Yield": 25302.0,
+            "Normalized_Weight": 0.09061015659644983
+          }
+        ]
+      }
+    ],
+    "Seasonal": [
+      {
+        "Tier": "High Confidence (Tight Analogs)",
+        "Query": {
+          "Country": "Haiti",
+          "Crop": "Yams",
+          "Year": 2013,
+          "Rainfall": 1440.0,
+          "Temperature": 27.2,
+          "Pesticides": 27.85,
+          "Actual_Yield": 110560.0,
+          "Model_Predicted_Yield": 76363.9979673127,
+          "Manual_Weighted_Yield": 76363.99796661196,
+          "Mean_Neighbor_Distance": 0.3020912093660833,
+          "Absolute_Error": 34196.002032687305,
+          "Percentage_Error": 30.929813705397347
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Haiti",
+            "Crop": "Yams",
+            "Year": 2012,
+            "Distance": 0.14826400812057838,
+            "Observed_Yield": 79363.0,
+            "Normalized_Weight": 0.5531395240607128
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Haiti",
+            "Crop": "Yams",
+            "Year": 2011,
+            "Distance": 0.31170036112732014,
+            "Observed_Yield": 74540.0,
+            "Normalized_Weight": 0.26310743631976324
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Haiti",
+            "Crop": "Yams",
+            "Year": 2010,
+            "Distance": 0.44630925885035144,
+            "Observed_Yield": 69948.0,
+            "Normalized_Weight": 0.18375303961952402
+          }
+        ]
+      },
+      {
+        "Tier": "Medium Confidence (Typical Analogs)",
+        "Query": {
+          "Country": "Madagascar",
+          "Crop": "Soybeans",
+          "Year": 2013,
+          "Rainfall": 1513.0,
+          "Temperature": 19.34,
+          "Pesticides": 507.94,
+          "Actual_Yield": 5867.0,
+          "Model_Predicted_Yield": 5982.161566568456,
+          "Manual_Weighted_Yield": 5982.161566565942,
+          "Mean_Neighbor_Distance": 0.4238612403206701,
+          "Absolute_Error": 115.16156656845578,
+          "Percentage_Error": 1.9628697216372215
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Madagascar",
+            "Crop": "Soybeans",
+            "Year": 2012,
+            "Distance": 0.21893966291640643,
+            "Observed_Yield": 6000.0,
+            "Normalized_Weight": 0.5409573316249183
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Madagascar",
+            "Crop": "Soybeans",
+            "Year": 2011,
+            "Distance": 0.4526774656835423,
+            "Observed_Yield": 5962.0,
+            "Normalized_Weight": 0.26163665047300433
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Madagascar",
+            "Crop": "Soybeans",
+            "Year": 2010,
+            "Distance": 0.5999665923620616,
+            "Observed_Yield": 5960.0,
+            "Normalized_Weight": 0.19740601790207726
+          }
+        ]
+      },
+      {
+        "Tier": "Low Confidence (Sparse Analogs)",
+        "Query": {
+          "Country": "Argentina",
+          "Crop": "Sweet potatoes",
+          "Year": 2013,
+          "Rainfall": 591.0,
+          "Temperature": 16.665,
+          "Pesticides": 171945.54,
+          "Actual_Yield": 147498.0,
+          "Model_Predicted_Yield": 148628.4685917253,
+          "Manual_Weighted_Yield": 148628.46859173215,
+          "Mean_Neighbor_Distance": 2.2188737118228943,
+          "Absolute_Error": 1130.4685917253082,
+          "Percentage_Error": 0.7664297764887037
+        },
+        "Retrieved_Neighbors": [
+          {
+            "Neighbor_Rank": 1,
+            "Country": "Argentina",
+            "Crop": "Sweet potatoes",
+            "Year": 2012,
+            "Distance": 1.472770289988526,
+            "Observed_Yield": 148126.0,
+            "Normalized_Weight": 0.46805379077785314
+          },
+          {
+            "Neighbor_Rank": 2,
+            "Country": "Argentina",
+            "Crop": "Sweet potatoes",
+            "Year": 2010,
+            "Distance": 2.570584618510086,
+            "Observed_Yield": 149382.0,
+            "Normalized_Weight": 0.2681630132812576
+          },
+          {
+            "Neighbor_Rank": 3,
+            "Country": "Argentina",
+            "Crop": "Sweet potatoes",
+            "Year": 2011,
+            "Distance": 2.613266226970071,
+            "Observed_Yield": 148754.0,
+            "Normalized_Weight": 0.2637831959408893
+          }
+        ]
+      }
+    ]
+  }
+}

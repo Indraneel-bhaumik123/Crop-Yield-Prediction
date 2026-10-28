@@ -1,0 +1,8 @@
+# Table 03 Data Preprocessing
+
+| Pipeline Stage | Input Features Affected | Transformer Applied | Configuration Parameters | Mathematical Purpose & Rationale |
+| --- | --- | --- | --- | --- |
+| Categorical Encoding | Area, Continent, Item | OneHotEncoder | sparse_output=False, handle_unknown='ignore' | Converts nominal categories to sparse orthogonal vectors without imposing ordinal bias. |
+| Numerical Scaling | Year, rainfall, pesticides, avg_temp | StandardScaler | with_mean=True, with_std=True | Standardizes features to zero mean and unit variance: z = (x - mu) / sigma; critical for distance-based k-NN. |
+| Feature Assembly | All Transformed Subsets | ColumnTransformer | remainder='drop' | Integrates encoded categorical matrices and standardized numerical arrays into a unified matrix. |
+| Leakage Prevention | Entire Pipeline | Fit on Train Only | Train: <= 2012, Test: == 2013 | Encoder categories and scaler parameters (mu, sigma) learned strictly from 1990-2012 data. |

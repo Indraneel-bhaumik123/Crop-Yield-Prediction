@@ -1,0 +1,6 @@
+Model Architecture,Pipeline Status,RMSE (hg/ha),MAE (hg/ha),R² Score,Pearson r,Test Rank & Selection Status
+K-Nearest Neighbors (KNN),"Tuned Champion (k=3, Euclidean)","14,026.44","6,681.12",0.9380,0.9688,Rank 1 (Selected Champion)
+XGBoost Regressor,"Tuned (150 trees, depth 7)","17,235.88","9,779.95",0.9064,0.9533,Rank 2 (Runner-Up)
+Gradient Boosting Regressor,"Tuned (150 trees, depth 4)","22,679.27","14,818.38",0.8379,0.9278,Rank 3
+Multilayer Perceptron (MLP),"Tuned ((64, 32) layers)","28,734.16","17,988.13",0.7398,0.8635,Rank 4
+Linear Regression,Untuned Baseline,"32,099.53","20,507.06",0.6753,0.8305,Rank 5 (Linear Baseline)

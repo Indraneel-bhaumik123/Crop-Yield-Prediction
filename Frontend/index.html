@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriYield | Seasonal Crop Yield Prediction Using Machine Learning</title>
+  <meta name="description" content="Research-grade seasonal crop yield forecasting system using machine learning, meteorological inputs, and agro-climatic analytics.">
+  
+  <!-- Modern Typography from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js for Interactive Charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       LOGIN-FIRST AUTHENTICATION OVERLAY / MODAL
+       ========================================================================== -->
+  <div id="authOverlay" class="auth-overlay">
+    <div class="auth-modal">
+      <div class="auth-header">
+        <div class="auth-brand">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          <h2>AgriYield</h2>
+        </div>
+        <p>Smart Farming, Better Tomorrow — Agricultural ML Portal</p>
+      </div>
+      
+      <div class="auth-body">
+        <div id="authErrorBanner" class="auth-error-banner"></div>
+
+        <div class="auth-tabs">
+          <button type="button" id="tabBtnLogin" class="auth-tab-btn active" onclick="switchAuthTab('login')">Sign In</button>
+          <button type="button" id="tabBtnRegister" class="auth-tab-btn" onclick="switchAuthTab('register')">Create Account</button>
+        </div>
+
+        <!-- Login Form -->
+        <form id="loginForm" class="auth-form active" onsubmit="handleLoginSubmit(event)">
+          <div class="form-group">
+            <label for="loginUsername">Username</label>
+            <input type="text" id="loginUsername" class="form-input" placeholder="Enter your username" required autocomplete="username">
+          </div>
+          <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" class="form-input" placeholder="••••••••" required autocomplete="current-password">
+          </div>
+          <button type="submit" id="btnLoginSubmit" class="btn-auth-submit">Sign In to Dashboard</button>
+          <button type="button" class="btn-demo-login" onclick="quickDemoLogin()">⚡ Quick Fill Demo Credentials (Admin)</button>
+        </form>
+
+        <!-- Register Form -->
+        <form id="registerForm" class="auth-form" onsubmit="handleRegisterSubmit(event)">
+          <div class="form-group">
+            <label for="regUsername">Username</label>
+            <input type="text" id="regUsername" class="form-input" placeholder="Choose a username" required minlength="3">
+          </div>
+          <div class="form-group">
+            <label for="regEmail">Email Address</label>
+            <input type="email" id="regEmail" class="form-input" placeholder="agronomist@agriyield.org" required>
+          </div>
+          <div class="form-group">
+            <label for="regPassword">Password (Min 6 chars)</label>
+            <input type="password" id="regPassword" class="form-input" placeholder="••••••••" required minlength="6">
+          </div>
+          <button type="submit" id="btnRegisterSubmit" class="btn-auth-submit">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MAIN APP SHELL (PROTECTED CONTENT)
+       ========================================================================== -->
+  <div class="app-container" id="appContainer">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="app-sidebar">
+      <div>
+        <div class="sidebar-logo">
+          <svg class="logo-icon-svg" viewBox="0 0 24 24">
+            <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66l.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/>
+          </svg>
+          <div class="logo-text">
+            <h1>AgriYield</h1>
+            <span>Smart Farming, Better Tomorrow</span>
+          </div>
+        </div>
+
+        <nav class="sidebar-menu">
+          <a href="#dashboard" class="nav-link active" id="navDashboard" onclick="switchView('dashboard')">
+            <svg viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+            Dashboard
+          </a>
+          <a href="#prediction" class="nav-link" id="navPrediction" onclick="switchView('dashboard', true)">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 16h-2v-2h2v2zm0-4h-2V7h2v7z"/></svg>
+            Prediction
+          </a>
+          <a href="#models" class="nav-link" id="navModels" onclick="switchView('models')">
+            <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/></svg>
+            Model Comparison
+          </a>
+          <a href="#analytics" class="nav-link" id="navAnalytics" onclick="switchView('analytics')">
+            <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+            Data Explorer
+          </a>
+          <a href="#health" class="nav-link" id="navHealth" onclick="switchView('health')">
+            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            Crop Health Insights
+          </a>
+          <a href="#history" class="nav-link" id="navHistory" onclick="switchView('history')">
+            <svg viewBox="0 0 24 24"><path d="M13 3a9 9 0 0 0-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.954 8.954 0 0 0 13 21a9 9 0 0 0 0-18zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/></svg>
+            Prediction History
+          </a>
+          <a href="#reports" class="nav-link" id="navReports" onclick="switchView('reports')">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            Reports
+          </a>
+          <a href="#about" class="nav-link" id="navAbout" onclick="switchView('about')">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            About Us
+          </a>
+        </nav>
+      </div>
+
+      <div>
+        <div class="sidebar-promo-card">
+          <h4>Better Data<br>Better Decisions<br>Better Tomorrow</h4>
+          <p>AI-driven agronomy optimization.</p>
+          <div class="sidebar-tractor-art"></div>
+        </div>
+        <div class="sidebar-footer">
+          © 2026 AgriYield. All rights reserved.
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN DASHBOARD CONTENT AREA -->
+    <main class="app-main">
+
+      <!-- TOP HEADER BAR -->
+      <header class="top-header">
+        <div class="header-title-box">
+          <h2>Seasonal Crop Yield Prediction</h2>
+          <p>Predict better agricultural crop yield using rainfall, temperature and pesticides</p>
+        </div>
+
+        <div class="header-controls">
+          <div class="weather-pill">
+            <span class="weather-icon">🌤️</span>
+            <div>28°C <span>New Delhi, India</span></div>
+          </div>
+
+          <div class="notification-bell" title="System Notifications">
+            <svg viewBox="0 0 24 24"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>
+            <div class="notification-badge">3</div>
+          </div>
+
+          <div class="user-profile-badge">
+            <div class="user-avatar" id="userAvatarText">A</div>
+            <div class="user-details">
+              <span class="user-name" id="userDisplayName">Admin</span>
+              <span class="user-role">Administrator</span>
+            </div>
+            <button class="btn-logout" title="Sign Out" onclick="handleLogout()">Logout</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- ====================================================================
+           VIEW 1: PRIMARY DASHBOARD (Matches Reference Image)
+           ==================================================================== -->
+      <section id="viewDashboard" class="dashboard-view-section active">
+
+        <!-- HERO TWO-COLUMN PREDICTION SECTION -->
+        <div class="dashboard-hero-grid" id="prediction">
+
+          <!-- COLUMN 1: MAKE A PREDICTION -->
+          <div class="dash-card">
+            <div class="card-header-clean">
+              <div class="card-icon-badge">🌱</div>
+              <div class="card-title-text">
+                <h3>Make a Prediction</h3>
+                <p>Select details and input values to predict crop yield</p>
+              </div>
+            </div>
+
+            <form id="predictionForm" onsubmit="handlePredictionSubmit(event)">
+              <div class="pred-form-steps">
+                
+                <!-- Step 1: Season -->
+                <div class="step-field-group">
+                  <div class="step-badge">1</div>
+                  <label for="selectSeason" class="step-label">Season</label>
+                  <div class="step-select-wrapper">
+                    <select id="selectSeason" class="form-select" onchange="onSeasonChanged(this.value)">
+                      <option value="Kharif" selected>Kharif</option>
+                      <option value="Rabi">Rabi</option>
+                      <option value="Seasonal">Seasonal</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Step 2: Continent -->
+                <div class="step-field-group">
+                  <div class="step-badge">2</div>
+                  <label for="selectContinent" class="step-label">Continent</label>
+                  <div class="step-select-wrapper">
+                    <select id="selectContinent" class="form-select" onchange="onContinentChanged(this.value)">
+                      <option value="Asia" selected>Asia</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Step 3: Country -->
+                <div class="step-field-group">
+                  <div class="step-badge">3</div>
+                  <label for="selectCountry" class="step-label">Country</label>
+                  <div class="step-select-wrapper">
+                    <select id="selectCountry" class="form-select" onchange="onCountryChanged(this.value)">
+                      <option value="India" selected>India</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Step 4: Crop -->
+                <div class="step-field-group">
+                  <div class="step-badge">4</div>
+                  <label for="selectCrop" class="step-label">Crop</label>
+                  <div class="step-select-wrapper">
+                    <select id="selectCrop" class="form-select">
+                      <option value="Maize" selected>Maize</option>
+                    </select>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Input Values Header -->
+              <div class="input-divider-label">Enter Input Values</div>
+
+              <div class="numeric-inputs-grid">
+                <!-- Year -->
+                <div class="numeric-field">
+                  <div class="numeric-label-box">
+                    <span>📅</span> Year
+                  </div>
+                  <input type="number" id="inputYear" value="2026" min="1990" max="2050" required>
+                </div>
+
+                <!-- Rainfall -->
+                <div class="numeric-field">
+                  <div class="numeric-label-box">
+                    <span>💧</span> Rainfall (mm/year)
+                  </div>
+                  <input type="number" id="inputRainfall" value="1200" step="any" min="0" required>
+                </div>
+
+                <!-- Pesticides -->
+                <div class="numeric-field">
+                  <div class="numeric-label-box">
+                    <span>🧪</span> Pesticides (tonnes)
+                  </div>
+                  <input type="number" id="inputPesticides" value="500" step="any" min="0" required>
+                </div>
+
+                <!-- Average Temperature -->
+                <div class="numeric-field">
+                  <div class="numeric-label-box">
+                    <span>🌡️</span> Average Temperature (°C)
+                  </div>
+                  <input type="number" id="inputTemperature" value="25" step="any" required>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" id="btnPredictYield" class="btn-predict">
+                <span>✨</span> Predict Crop Yield
+              </button>
+            </form>
+          </div>
+
+          <!-- COLUMN 2: PREDICTION RESULT CARD -->
+          <div class="dash-card">
+            <div class="card-header-clean">
+              <div class="card-title-text">
+                <h3>Prediction Result</h3>
+                <p>Based on historical data and machine learning models</p>
+              </div>
+            </div>
+
+            <div class="result-card-inner">
+              <!-- Result Top Banner -->
+              <div class="result-banner-header">
+                <div class="result-banner-bg-paddy"></div>
+                
+                <div class="result-main-yield">
+                  <div class="yield-label">Predicted Crop Yield</div>
+                  <div class="yield-number">
+                    <span id="resYieldValue">3,250</span>
+                    <span class="yield-unit">hg/ha</span>
+                  </div>
+                  <div class="yield-badge-pill" id="resYieldBadge">
+                    <span>🌱</span> High Yield Potential
+                  </div>
+                </div>
+
+                <!-- Agricultural Potential Radial Gauge -->
+                <div class="result-potential-box">
+                  <div class="potential-title">Agricultural Potential</div>
+                  <div class="gauge-circular">
+                    <svg width="90" height="90" viewBox="0 0 100 100">
+                      <circle class="gauge-circle-bg" cx="50" cy="50" r="40"></circle>
+                      <circle class="gauge-circle-fill" id="gaugeCircleFill" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <div class="gauge-value-text">
+                      <div class="gauge-score" id="resPotentialScore">87<span>/100</span></div>
+                      <div class="gauge-rating" id="resPotentialRating">Excellent</div>
+                    </div>
+                  </div>
+                  <div class="gauge-legend">
+                    <span style="color:#ef4444">● Low</span>
+                    <span style="color:#eab308">● Moderate</span>
+                    <span style="color:#22c55e">● Good</span>
+                    <span style="color:#15803d">● Excellent</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Metadata Breakdown Grid -->
+              <div class="result-meta-grid">
+                <div class="meta-row">
+                  <span class="meta-label">Crop</span>
+                  <span class="meta-val" id="metaCrop">Rice</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Model Used</span>
+                  <span class="meta-val" id="metaModel">KNN Regressor</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Season</span>
+                  <span class="meta-val" id="metaSeason">Kharif</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Prediction Time</span>
+                  <span class="meta-val" id="metaTime">30 Sep 2026, 01:45 AM</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Country</span>
+                  <span class="meta-val" id="metaCountry">India</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Confidence</span>
+                  <span class="meta-val" id="metaConfidence">92.4%</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Continent</span>
+                  <span class="meta-val" id="metaContinent">Asia</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Status</span>
+                  <span class="meta-val" style="color:#16a34a" id="metaStatus">✓ Success</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Year</span>
+                  <span class="meta-val" id="metaYear">2026</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">History ID</span>
+                  <span class="meta-val" id="metaHistoryId">#1</span>
+                </div>
+              </div>
+
+              <!-- Extra Explanation & Factor Impact Row -->
+              <div class="result-extra-row">
+                <div class="calc-info-box">
+                  <h5>How is this calculated?</h5>
+                  <p>The model analyzes historical yield data for the selected crop and location and compares it with your input conditions (rainfall, temperature, pesticides and year) to predict the expected yield.</p>
+                </div>
+
+                <div class="factors-impact-box">
+                  <h5>Factors Impact</h5>
+                  <div class="factor-tag-row">
+                    <div class="factor-item">
+                      <span>💧 Rainfall</span>
+                      <span class="factor-badge favorable" id="factorRain">Favorable</span>
+                    </div>
+                    <div class="factor-item">
+                      <span>🌡️ Temperature</span>
+                      <span class="factor-badge favorable" id="factorTemp">Favorable</span>
+                    </div>
+                    <div class="factor-item">
+                      <span>🧪 Pesticides</span>
+                      <span class="factor-badge within-range" id="factorPest">Within Range</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- WHAT WE DO CALLOUT BANNER -->
+        <div class="what-we-do-banner">
+          <div class="what-we-do-content">
+            <h4>What we do?</h4>
+            <p>We use historical agricultural data and machine learning to estimate crop yield under given environmental conditions.</p>
+          </div>
+          <div class="what-we-do-icon">📈🌱</div>
+        </div>
+
+        <!-- BOTTOM METRICS & CHARTS SECTION -->
+        <div class="bottom-dashboard-grid">
+          
+          <!-- QUICK STATISTICS TILE -->
+          <div class="dash-card quick-stats-card">
+            <div class="chart-header">
+              <h4>Quick Statistics</h4>
+            </div>
+            <div class="stats-2x2">
+              <div class="mini-stat-tile">
+                <div class="mini-stat-top"><span>🌍</span> Countries</div>
+                <div class="mini-stat-num" id="statCountries">100+</div>
+                <div class="mini-stat-label">Global coverage</div>
+              </div>
+              <div class="mini-stat-tile">
+                <div class="mini-stat-top"><span>🌾</span> Crops</div>
+                <div class="mini-stat-num" id="statCrops">10+</div>
+                <div class="mini-stat-label">Staple cultivars</div>
+              </div>
+              <div class="mini-stat-tile">
+                <div class="mini-stat-top"><span>🗄️</span> Records</div>
+                <div class="mini-stat-num" id="statRecords">13,130</div>
+                <div class="mini-stat-label">Historical data</div>
+              </div>
+              <div class="mini-stat-tile">
+                <div class="mini-stat-top"><span>🧠</span> Models</div>
+                <div class="mini-stat-num">5</div>
+                <div class="mini-stat-label">ML architectures</div>
+              </div>
+            </div>
+            <a href="#models" class="card-view-details-link" onclick="switchView('models')">View All Statistics →</a>
+          </div>
+
+          <!-- CHART 1: AVERAGE YIELD BY SEASON -->
+          <div class="dash-card chart-card">
+            <div class="chart-header">
+              <h4>Average Yield by Season (hg/ha)</h4>
+            </div>
+            <div class="chart-canvas-box">
+              <canvas id="chartYieldBySeason"></canvas>
+            </div>
+            <a href="#analytics" class="card-view-details-link" onclick="switchView('analytics')">View Details →</a>
+          </div>
+
+          <!-- CHART 2: TOP CROPS DOUGHNUT -->
+          <div class="dash-card chart-card">
+            <div class="chart-header">
+              <h4>Top Crops (By Average Yield)</h4>
+            </div>
+            <div class="chart-canvas-box">
+              <canvas id="chartTopCrops"></canvas>
+            </div>
+            <a href="#analytics" class="card-view-details-link" onclick="switchView('analytics')">View Details →</a>
+          </div>
+
+          <!-- CHART 3: YIELD TREND LINE -->
+          <div class="dash-card chart-card">
+            <div class="chart-header">
+              <h4>Yield Trend (Global Average)</h4>
+            </div>
+            <div class="chart-canvas-box">
+              <canvas id="chartYieldTrend"></canvas>
+            </div>
+            <a href="#analytics" class="card-view-details-link" onclick="switchView('analytics')">View Full Trend →</a>
+          </div>
+
+        </div>
+
+        <!-- GOOD AGRICULTURE SLOGAN BANNER -->
+        <div class="good-agri-banner">
+          <div class="good-agri-left">
+            <div class="good-agri-icon">🌿</div>
+            <div class="good-agri-text">
+              <h4>Good Agriculture Starts with Smart Prediction!</h4>
+              <p>By predicting the right conditions of rainfall, temperature and pesticide usage, we help in achieving better yield and building a better tomorrow.</p>
+            </div>
+          </div>
+          <div class="good-agri-badges">
+            <div class="agri-feature-badge"><span>📊</span> Data Driven Decisions</div>
+            <div class="agri-feature-badge"><span>🌱</span> Better Yield Prediction</div>
+            <div class="agri-feature-badge"><span>♻️</span> Sustainable Agriculture</div>
+            <div class="agri-feature-badge"><span>🚜</span> Smarter Farming</div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ====================================================================
+           VIEW 2: MODEL COMPARISON
+           ==================================================================== -->
+      <section id="viewModelComparison" class="dashboard-view-section">
+        <div class="section-hero-header">
+          <h2>Machine Learning Model Benchmark & Comparison</h2>
+          <p>Scientific comparison across baseline OLS and research candidate models under prospective time-aware testing (Train: 1990–2012, Test: 2013).</p>
+        </div>
+
+        <div class="table-responsive-box" style="margin-bottom: 24px;">
+          <table class="custom-table" id="tableModelComparison">
+            <thead>
+              <tr>
+                <th>Season</th>
+                <th>Model Architecture</th>
+                <th>RMSE (hg/ha)</th>
+                <th>MAE (hg/ha)</th>
+                <th>R² Score</th>
+                <th>Pearson r</th>
+                <th>Deployment Status</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyModelComparison">
+              <!-- Populated dynamically via script.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="dash-card">
+          <h3 style="margin-bottom: 12px;">Prospective Model Selection Rationale</h3>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            Under rigorous out-of-time evaluation (year 2013 holdout), <strong>Distance-Weighted KNN Regressor</strong> demonstrated superior generalization fidelity across all three seasonal regimes (R² = 0.9380 on Kharif, 0.9636 on Rabi, and 0.9642 on Seasonal). Inverse-distance weighting effectively leverages localized agro-climatic analogues while filtering extreme outliers. <strong>XGBoost Regressor</strong> was verified as the strongest tree-based candidate (R² > 0.90 across all seasons).
+          </p>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 3: DATA EXPLORER & ANALYTICS
+           ==================================================================== -->
+      <section id="viewAnalytics" class="dashboard-view-section">
+        <div class="section-hero-header">
+          <h2>Agro-Climatic Data Explorer & Interactive Analytics</h2>
+          <p>Multi-dimensional analysis of rainfall, thermal thresholds, and crop yield dynamics across 13,130 historical records.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px;">
+          <div class="dash-card">
+            <h4 style="margin-bottom: 12px;">Temporal Yield Trajectory by Season (1990–2013)</h4>
+            <div style="height: 280px; position: relative;">
+              <canvas id="chartAnalyticsYearly"></canvas>
+            </div>
+          </div>
+          <div class="dash-card">
+            <h4 style="margin-bottom: 12px;">Top Agricultural Producers by Average Yield</h4>
+            <div style="height: 280px; position: relative;">
+              <canvas id="chartAnalyticsCountries"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 4: PREDICTION HISTORY
+           ==================================================================== -->
+      <section id="viewHistory" class="dashboard-view-section">
+        <div class="section-hero-header" style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <h2>Prediction History</h2>
+            <p>User-specific prediction audit log stored in the SQLite database.</p>
+          </div>
+          <button class="btn-predict" style="width: auto; padding: 8px 16px; margin: 0;" onclick="loadHistoryData()">🔄 Refresh Log</button>
+        </div>
+
+        <div class="table-responsive-box">
+          <table class="custom-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Season</th>
+                <th>Location</th>
+                <th>Crop</th>
+                <th>Year</th>
+                <th>Rainfall</th>
+                <th>Pesticides</th>
+                <th>Temp</th>
+                <th>Predicted Yield</th>
+                <th>Potential</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyHistory">
+              <!-- Populated dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 5: CROP HEALTH INSIGHTS
+           ==================================================================== -->
+      <section id="viewHealth" class="dashboard-view-section">
+        <div class="section-hero-header">
+          <h2>Crop Health & Environmental Thresholds</h2>
+          <p>Scientific guidelines on optimal rainfall, temperature, and seasonal suitability.</p>
+        </div>
+        <div class="dash-card">
+          <div class="table-responsive-box">
+            <table class="custom-table">
+              <thead>
+                <tr>
+                  <th>Crop</th>
+                  <th>Season</th>
+                  <th>Optimal Rain (mm/yr)</th>
+                  <th>Optimal Temp (°C)</th>
+                  <th>Typical Yield Range (hg/ha)</th>
+                  <th>Key Agro Risk Factor</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Wheat</strong></td>
+                  <td>Rabi</td>
+                  <td>450 – 850</td>
+                  <td>12 – 22</td>
+                  <td>25,000 – 45,000</td>
+                  <td>Terminal heat stress during grain filling</td>
+                </tr>
+                <tr>
+                  <td><strong>Maize</strong></td>
+                  <td>Kharif</td>
+                  <td>800 – 1,400</td>
+                  <td>20 – 30</td>
+                  <td>30,000 – 75,000</td>
+                  <td>Moisture stress at silking stage</td>
+                </tr>
+                <tr>
+                  <td><strong>Rice, paddy</strong></td>
+                  <td>Seasonal</td>
+                  <td>1,100 – 2,000</td>
+                  <td>22 – 32</td>
+                  <td>35,000 – 65,000</td>
+                  <td>Submergence & severe drought spells</td>
+                </tr>
+                <tr>
+                  <td><strong>Potatoes</strong></td>
+                  <td>Seasonal</td>
+                  <td>500 – 1,000</td>
+                  <td>15 – 24</td>
+                  <td>120,000 – 280,000</td>
+                  <td>Late blight & high night temperatures</td>
+                </tr>
+                <tr>
+                  <td><strong>Cassava</strong></td>
+                  <td>Kharif</td>
+                  <td>900 – 1,800</td>
+                  <td>24 – 32</td>
+                  <td>80,000 – 200,000</td>
+                  <td>Waterlogging in heavy clay soils</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 6: REPORTS
+           ==================================================================== -->
+      <section id="viewReports" class="dashboard-view-section">
+        <div class="section-hero-header">
+          <h2>AgriYield Agricultural Intelligence Report</h2>
+          <p>Generated agro-meteorological forecasting synthesis.</p>
+        </div>
+        <div class="dash-card" style="line-height: 1.7; font-size: 14px;">
+          <h3 style="margin-bottom: 12px;">Executive Agronomic Summary</h3>
+          <p>This automated report synthesizes 24 years of historical agricultural production records (1990–2013) across 100+ countries and 10 staple crop varieties. The system utilizes machine learning to provide prospective seasonal forecasts tailored to Kharif, Rabi, and Whole-Year cropping systems.</p>
+          <hr style="margin: 16px 0; border: none; border-top: 1px solid var(--border);">
+          <h4>Key Recommendations:</h4>
+          <ul style="margin-left: 20px; margin-top: 8px;">
+            <li><strong>Precision Input Management:</strong> Pesticide application exhibits diminishing returns above 2,500 tonnes. Targeted chemical deployment maintains yield ceilings while reducing input expenditure.</li>
+            <li><strong>Thermal Adaptation:</strong> Winter crops (wheat) exhibit steep yield declines when average growing temperatures exceed 24°C. Adjust sowing dates to match winter thermal windows.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 7: ABOUT US
+           ==================================================================== -->
+      <section id="viewAbout" class="dashboard-view-section">
+        <div class="section-hero-header">
+          <h2>About AgriYield</h2>
+          <p>Seasonal Crop Yield Prediction Using Machine Learning — Research Project Architecture.</p>
+        </div>
+        <div class="dash-card" style="line-height: 1.7; font-size: 14px;">
+          <h3 style="margin-bottom: 12px;">Methodological Architecture</h3>
+          <p>
+            AgriYield is an end-to-end scientific machine learning system engineered to predict agricultural crop yields under seasonal climatic variability.
+          </p>
+          <ul style="margin-left: 20px; margin-top: 10px;">
+            <li><strong>Hierarchical Prediction Logic:</strong> Season → Continent → Country → Crop → Meteorological Inputs → Yield Estimation.</li>
+            <li><strong>Time-Aware Train-Test Split:</strong> Models were trained on historical records (1990–2012) and evaluated strictly on future holdout data (2013) to ensure genuine prospective capability.</li>
+            <li><strong>Robust Preprocessing:</strong> OneHotEncoder with unknown handling for nominal geography and StandardScaler for numerical environmental features.</li>
+            <li><strong>Full-Stack Architecture:</strong> FastAPI REST Backend, SQLite database with SQLAlchemy ORM, JWT Bearer Token Security, and Interactive HTML5/CSS3/JavaScript Frontend.</li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Main JavaScript Application Logic -->
+  <script src="script.js"></script>
+</body>
+</html>

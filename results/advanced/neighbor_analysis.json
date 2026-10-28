@@ -1,0 +1,208 @@
+{
+  "neighborhood_metrics": {
+    "Kharif": {
+      "mean_neighbor_distance": 0.39129364288848234,
+      "std_neighbor_distance": 0.22813707570800976,
+      "min_distance": 0.29678933713820327,
+      "max_distance": 1.5967802079141855,
+      "corr_distance_vs_abs_error": 0.1970743391605867,
+      "corr_neighbor_dispersion_vs_abs_error": 0.7918107288773466
+    },
+    "Rabi": {
+      "mean_neighbor_distance": 0.8860607421823888,
+      "std_neighbor_distance": 0.47272093973477547,
+      "min_distance": 0.6206194998048403,
+      "max_distance": 3.396804477851949,
+      "corr_distance_vs_abs_error": 0.03635156853292354,
+      "corr_neighbor_dispersion_vs_abs_error": 0.3071257959885463
+    },
+    "Seasonal": {
+      "mean_neighbor_distance": 0.49723378863435275,
+      "std_neighbor_distance": 0.318618516226631,
+      "min_distance": 0.3020912093660833,
+      "max_distance": 2.2188737118228943,
+      "corr_distance_vs_abs_error": -0.08595899249654933,
+      "corr_neighbor_dispersion_vs_abs_error": 0.4778690624146125
+    }
+  },
+  "worked_examples": {
+    "Kharif": {
+      "query_point": {
+        "Area": "Algeria",
+        "Continent": "Africa",
+        "Item": "Maize",
+        "Year": 2013,
+        "rainfall": 89.0,
+        "pesticides": 17278.65,
+        "avg_temp": 17.65,
+        "actual_yield": 33649.0,
+        "pipeline_prediction": 24988.94480776582
+      },
+      "neighbors": [
+        {
+          "rank": 1,
+          "Area": "Algeria",
+          "Year": 2012,
+          "Item": "Maize",
+          "actual_yield": 25583.0,
+          "distance": 0.15407417395225345,
+          "weight": 6.490380403797298,
+          "normalized_weight": 0.581585629119894
+        },
+        {
+          "rank": 2,
+          "Area": "Algeria",
+          "Year": 2011,
+          "Item": "Maize",
+          "actual_yield": 23374.0,
+          "distance": 0.3157470464607126,
+          "weight": 3.167092173600799,
+          "normalized_weight": 0.2837946591214685
+        },
+        {
+          "rank": 3,
+          "Area": "Algeria",
+          "Year": 2010,
+          "Item": "Maize",
+          "actual_yield": 25827.0,
+          "distance": 0.6656330210727587,
+          "weight": 1.5023293138885,
+          "normalized_weight": 0.13461971175863757
+        }
+      ],
+      "manual_calculated_yield": 24988.944807669784
+    },
+    "Rabi": {
+      "query_point": {
+        "Area": "Algeria",
+        "Continent": "Africa",
+        "Item": "Wheat",
+        "Year": 2013,
+        "rainfall": 89.0,
+        "pesticides": 17278.65,
+        "avg_temp": 17.65,
+        "actual_yield": 19100.0,
+        "pipeline_prediction": 16194.488639969832
+      },
+      "neighbors": [
+        {
+          "rank": 1,
+          "Area": "Algeria",
+          "Year": 2012,
+          "Item": "Wheat",
+          "actual_yield": 17639.0,
+          "distance": 0.19054218352855032,
+          "weight": 5.248181693715841,
+          "normalized_weight": 0.4369653609687641
+        },
+        {
+          "rank": 2,
+          "Area": "Algeria",
+          "Year": 2011,
+          "Item": "Wheat",
+          "actual_yield": 17405.0,
+          "distance": 0.4301671821345561,
+          "weight": 2.3246775702539124,
+          "normalized_weight": 0.1935534310556189
+        },
+        {
+          "rank": 3,
+          "Area": "Algeria",
+          "Year": 2008,
+          "Item": "Wheat",
+          "actual_yield": 11038.0,
+          "distance": 0.9471251510151429,
+          "weight": 1.0558266759388686,
+          "normalized_weight": 0.08790848173654295
+        },
+        {
+          "rank": 4,
+          "Area": "Algeria",
+          "Year": 2010,
+          "Item": "Wheat",
+          "actual_yield": 14838.0,
+          "distance": 0.9766581097102742,
+          "weight": 1.0238997556619482,
+          "normalized_weight": 0.08525023568912993
+        },
+        {
+          "rank": 5,
+          "Area": "Algeria",
+          "Year": 2009,
+          "Item": "Wheat",
+          "actual_yield": 15975.0,
+          "distance": 1.0524420856029841,
+          "weight": 0.9501710484449554,
+          "normalized_weight": 0.07911155889724027
+        },
+        {
+          "rank": 6,
+          "Area": "Algeria",
+          "Year": 2007,
+          "Item": "Wheat",
+          "actual_yield": 12742.0,
+          "distance": 1.3160145078673042,
+          "weight": 0.7598700424242166,
+          "normalized_weight": 0.06326703356608786
+        },
+        {
+          "rank": 7,
+          "Area": "Algeria",
+          "Year": 2006,
+          "Item": "Wheat",
+          "actual_yield": 15068.0,
+          "distance": 1.5434615776179788,
+          "weight": 0.6478943269054411,
+          "normalized_weight": 0.0539438980866159
+        }
+      ],
+      "manual_calculated_yield": 16194.48863966598
+    },
+    "Seasonal": {
+      "query_point": {
+        "Area": "Algeria",
+        "Continent": "Africa",
+        "Item": "Potatoes",
+        "Year": 2013,
+        "rainfall": 89.0,
+        "pesticides": 17278.65,
+        "avg_temp": 17.65,
+        "actual_yield": 303218.0,
+        "pipeline_prediction": 292743.882484956
+      },
+      "neighbors": [
+        {
+          "rank": 1,
+          "Area": "Algeria",
+          "Year": 2012,
+          "Item": "Potatoes",
+          "actual_yield": 304291.0,
+          "distance": 0.19075350829592508,
+          "weight": 5.242367537085689,
+          "normalized_weight": 0.6027742840615437
+        },
+        {
+          "rank": 2,
+          "Area": "Algeria",
+          "Year": 2011,
+          "Item": "Potatoes",
+          "actual_yield": 292806.0,
+          "distance": 0.42054984608132695,
+          "weight": 2.3778394144717714,
+          "normalized_weight": 0.27340708955105725
+        },
+        {
+          "rank": 3,
+          "Area": "Algeria",
+          "Year": 2008,
+          "Item": "Potatoes",
+          "actual_yield": 236393.0,
+          "distance": 0.9286269182429001,
+          "weight": 1.0768587257673539,
+          "normalized_weight": 0.12381862638739918
+        }
+      ],
+      "manual_calculated_yield": 292743.88248205447
+    }
+  }
+}

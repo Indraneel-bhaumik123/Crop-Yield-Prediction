@@ -1,0 +1,8 @@
+# Table 01 Dataset Summary
+
+| Dataset / Season | Total Records | Training Records (1990-2012) | Test Records (2013) | Crops Covered | Geographic Scope | Target Metric |
+| --- | --- | --- | --- | --- | --- | --- |
+| Kharif | 4,404 | 4,205 (95.48%) | 199 (4.52%) | Maize (2,028), Sorghum (1,435), Cassava (941) | 96 Countries across 5 Continents | hg/ha_yield |
+| Rabi | 1,810 | 1,729 (95.52%) | 81 (4.48%) | Wheat (1,810) | 76 Countries across 5 Continents | hg/ha_yield |
+| Seasonal | 6,916 | 6,604 (95.49%) | 312 (4.51%) | Potatoes (4,276), Rice paddy (2,188), Soybeans (1,483), Sweet potatoes, Plantains, Yams | 101 Countries across 5 Continents | hg/ha_yield |
+| Combined System | 13,130 | 12,538 (95.49%) | 592 (4.51%) | 10 Agricultural Crops Total | 101 Sovereign Nations Globally | hg/ha_yield |

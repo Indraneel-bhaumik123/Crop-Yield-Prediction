@@ -1,0 +1,10 @@
+Variable Name,Role,Data Type,Physical Unit / Format,Description & Domain Significance
+Area,Feature (Categorical),String,Country Name,Sovereign nation where agricultural cultivation and harvest took place.
+Continent,Feature (Categorical),String,Continental Group,Macro-geographical classification capturing continental agronomic regimes.
+Item,Feature (Categorical),String,Crop Commodity,"Specific crop variety harvested (e.g., Potatoes, Wheat, Maize, Rice)."
+Season,Feature (Categorical),String,Seasonal Segment,"Agricultural season classification (Kharif, Rabi, Seasonal)."
+Year,Feature (Temporal),Integer,Calendar Year,Temporal marker spanning 1990 to 2013 used for temporal holdout splitting.
+average_rain_fall_mm_per_year,Feature (Numerical),Float,mm / year,Annual cumulative precipitation reflecting macro water availability.
+pesticides_tonnes,Feature (Numerical),Float,Metric Tonnes,National total active pesticide application volume.
+avg_temp,Feature (Numerical),Float,Degrees Celsius (°C),Mean annual air temperature representing thermal growing conditions.
+hg/ha_yield,Target Variable,Float,hg/ha (100 g/ha),Crop yield per hectare harvested (100 grams/ha = 0.1 kg/ha).

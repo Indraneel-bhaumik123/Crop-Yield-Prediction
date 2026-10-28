@@ -1,0 +1,9 @@
+Model,Tuned Hyperparameter,Evaluated Search Space,Kharif Best,Rabi Best,Seasonal Best,Optimization Method
+K-Nearest Neighbors (KNN),n_neighbors (k),"[3, 5, 7, 9]",3,7,3,3-Fold Time-Aware GridSearch
+K-Nearest Neighbors (KNN),weights,"['uniform', 'distance']",'distance','distance','distance',3-Fold Time-Aware GridSearch
+K-Nearest Neighbors (KNN),p (Minkowski Power),"[1 (Manhattan), 2 (Euclidean)]",2 (Euclidean),1 (Manhattan),1 (Manhattan),3-Fold Time-Aware GridSearch
+XGBoost Regressor,n_estimators,"[100, 150]",150,150,150,3-Fold Time-Aware GridSearch
+XGBoost Regressor,learning_rate,"[0.05, 0.1]",0.05,0.05,0.05,3-Fold Time-Aware GridSearch
+XGBoost Regressor,max_depth,"[4, 6, 8]",7 (best in Kharif),6,8,3-Fold Time-Aware GridSearch
+Gradient Boosting Regressor,n_estimators / max_depth,"[100, 150] / [3, 4, 5]",150 / 4,150 / 3,150 / 4,3-Fold Time-Aware GridSearch
+Multilayer Perceptron (MLP),hidden_layer_sizes,"[(64, 32), (100,)]","(64, 32)","(64, 32)","(64, 32)",3-Fold Time-Aware GridSearch

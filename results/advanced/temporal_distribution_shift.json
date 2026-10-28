@@ -1,0 +1,170 @@
+{
+  "Kharif": {
+    "average_rain_fall_mm_per_year": {
+      "train_mean": 1171.442568370987,
+      "train_std": 760.7321651309102,
+      "test_mean": 1162.070351758794,
+      "test_std": 755.5833956307576,
+      "pct_mean_change": -0.8000577121954822,
+      "ks_stat": 0.008794268608201539,
+      "ks_pvalue": 1.0,
+      "wasserstein_dist": 10.246523939555068
+    },
+    "pesticides_tonnes": {
+      "train_mean": 13793.974366230677,
+      "train_std": 32295.263759315712,
+      "test_mean": 19035.597688442216,
+      "test_std": 51201.0865472287,
+      "pct_mean_change": 37.9993697468633,
+      "ks_stat": 0.11076667523109004,
+      "ks_pvalue": 0.017360621222126872,
+      "wasserstein_dist": 5415.597316487304
+    },
+    "avg_temp": {
+      "train_mean": 20.756382187871584,
+      "train_std": 6.252619472604283,
+      "test_mean": 20.929261306532663,
+      "test_std": 6.252913126716454,
+      "pct_mean_change": 0.8328962007747974,
+      "ks_stat": 0.06185385906942553,
+      "ks_pvalue": 0.4428954734035221,
+      "wasserstein_dist": 0.4076597927807887
+    },
+    "hg/ha_yield": {
+      "train_mean": 44422.02615933413,
+      "train_std": 46976.977491260004,
+      "test_mean": 53620.74371859297,
+      "test_std": 56476.69016165702,
+      "pct_mean_change": 20.707559637790112,
+      "ks_stat": 0.10923463930831329,
+      "ks_pvalue": 0.019767916249959258,
+      "wasserstein_dist": 9275.145367742403
+    }
+  },
+  "Rabi": {
+    "average_rain_fall_mm_per_year": {
+      "train_mean": 905.984962406015,
+      "train_std": 616.0315543307398,
+      "test_mean": 910.6666666666666,
+      "test_std": 619.377570630387,
+      "pct_mean_change": 0.5167529765856649,
+      "ks_stat": 0.008739798213482364,
+      "ks_pvalue": 1.0,
+      "wasserstein_dist": 9.27859534877076
+    },
+    "pesticides_tonnes": {
+      "train_mean": 14873.921619433198,
+      "train_std": 30738.01318121723,
+      "test_mean": 19382.72950617284,
+      "test_std": 47505.29462625419,
+      "pct_mean_change": 30.313511137834404,
+      "ks_stat": 0.08589136659312097,
+      "ks_pvalue": 0.5864001695917647,
+      "wasserstein_dist": 4741.474369899119
+    },
+    "avg_temp": {
+      "train_mean": 16.39921093117409,
+      "train_std": 6.845087747155033,
+      "test_mean": 16.824875308641975,
+      "test_std": 6.898291709973036,
+      "pct_mean_change": 2.5956393832261693,
+      "ks_stat": 0.0603288848902884,
+      "ks_pvalue": 0.923801676248274,
+      "wasserstein_dist": 0.5199804197102444
+    },
+    "hg/ha_yield": {
+      "train_mean": 30561.4985540775,
+      "train_std": 20613.59348241457,
+      "test_mean": 35510.91358024691,
+      "test_std": 21436.434416197535,
+      "pct_mean_change": 16.194935655434538,
+      "ks_stat": 0.20125813108269247,
+      "ks_pvalue": 0.0031751761319240134,
+      "wasserstein_dist": 4988.223586030604
+    }
+  },
+  "Seasonal": {
+    "average_rain_fall_mm_per_year": {
+      "train_mean": 1213.811175045427,
+      "train_std": 750.184155041367,
+      "test_mean": 1221.6538461538462,
+      "test_std": 748.4692430330789,
+      "pct_mean_change": 0.6461195340474304,
+      "ks_stat": 0.010473450434080434,
+      "ks_pvalue": 0.999999999999987,
+      "wasserstein_dist": 9.888501918029458
+    },
+    "pesticides_tonnes": {
+      "train_mean": 15070.498918837066,
+      "train_std": 33247.03776790343,
+      "test_mean": 19960.8033974359,
+      "test_std": 51797.961147613336,
+      "pct_mean_change": 32.449519454769316,
+      "ks_stat": 0.10927720573389865,
+      "ks_pvalue": 0.001489047071219385,
+      "wasserstein_dist": 5487.847547446009
+    },
+    "avg_temp": {
+      "train_mean": 20.170446941247732,
+      "train_std": 6.591438092086775,
+      "test_mean": 20.603881089743588,
+      "test_std": 6.482523343123637,
+      "pct_mean_change": 2.1488574336421906,
+      "ks_stat": 0.06256309307490415,
+      "ks_pvalue": 0.18586727722603913,
+      "wasserstein_dist": 0.4661002296587926
+    },
+    "hg/ha_yield": {
+      "train_mean": 97338.19442761963,
+      "train_std": 92919.730445827,
+      "test_mean": 114788.85256410256,
+      "test_std": 104032.55948407581,
+      "pct_mean_change": 17.92786299262946,
+      "ks_stat": 0.10236220472440938,
+      "ks_pvalue": 0.003591001613153821,
+      "wasserstein_dist": 17507.854482132043
+    }
+  },
+  "Combined": {
+    "average_rain_fall_mm_per_year": {
+      "train_mean": 1157.1520976232255,
+      "train_std": 743.7931814674467,
+      "test_mean": 1159.0743243243244,
+      "test_std": 740.6218093719016,
+      "pct_mean_change": 0.16611703034088038,
+      "ks_stat": 0.006637120451125855,
+      "ks_pvalue": 1.0,
+      "wasserstein_dist": 6.571173901609396
+    },
+    "pesticides_tonnes": {
+      "train_mean": 14615.26938506939,
+      "train_std": 32595.82853867024,
+      "test_mean": 19570.702179054057,
+      "test_std": 50949.30735638867,
+      "pct_mean_change": 33.90586012083375,
+      "ks_stat": 0.10548392346725413,
+      "ks_pvalue": 6.286805287762514e-06,
+      "wasserstein_dist": 5316.805844063787
+    },
+    "avg_temp": {
+      "train_mean": 19.846901770617322,
+      "train_std": 6.665018697898079,
+      "test_mean": 20.196197297297296,
+      "test_std": 6.593992300471156,
+      "pct_mean_change": 1.7599498940287717,
+      "ks_stat": 0.05719881829508555,
+      "ks_pvalue": 0.04767769367843655,
+      "wasserstein_dist": 0.42958865621483666
+    },
+    "hg/ha_yield": {
+      "train_mean": 70382.58789280587,
+      "train_std": 78571.42429431355,
+      "test_mean": 83380.125,
+      "test_std": 89213.76564300105,
+      "pct_mean_change": 18.466978121051262,
+      "ks_stat": 0.07227919018076934,
+      "ks_pvalue": 0.005179271924774143,
+      "wasserstein_dist": 13031.14404265088
+    }
+  }
+}

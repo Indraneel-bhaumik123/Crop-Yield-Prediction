@@ -1,0 +1,131 @@
+{
+  "crop_table": [
+    {
+      "Season": "Kharif",
+      "Crop": "Cassava",
+      "Test_N": 41,
+      "Train_Frequency": 900,
+      "Train_Share_Pct": 21.40309155766944,
+      "Mean_Yield": 123638.75609756098,
+      "MAE": 14872.204867753831,
+      "RMSE": 23126.630692911403,
+      "R2": 0.9064213796073717,
+      "Relative_Error_Pct": 12.028756465342031
+    },
+    {
+      "Season": "Kharif",
+      "Crop": "Maize",
+      "Test_N": 92,
+      "Train_Frequency": 1936,
+      "Train_Share_Pct": 46.04042806183115,
+      "Mean_Yield": 46646.27173913043,
+      "MAE": 4215.4855931551965,
+      "RMSE": 7014.339594133041,
+      "R2": 0.9543390046735725,
+      "Relative_Error_Pct": 9.037132949724956
+    },
+    {
+      "Season": "Kharif",
+      "Crop": "Sorghum",
+      "Test_N": 66,
+      "Train_Frequency": 1369,
+      "Train_Share_Pct": 32.5564803804994,
+      "Mean_Yield": 19846.696969696968,
+      "MAE": 5029.649581176909,
+      "RMSE": 13869.79577624554,
+      "R2": 0.2667557907252458,
+      "Relative_Error_Pct": 25.342502023669006
+    },
+    {
+      "Season": "Rabi",
+      "Crop": "Wheat",
+      "Test_N": 81,
+      "Train_Frequency": 1729,
+      "Train_Share_Pct": 100.0,
+      "Mean_Yield": 35510.91358024691,
+      "MAE": 3184.9347903332377,
+      "RMSE": 4065.8172692513185,
+      "R2": 0.9635761670870949,
+      "Relative_Error_Pct": 8.968890037526014
+    },
+    {
+      "Season": "Seasonal",
+      "Crop": "Plantains and others",
+      "Test_N": 21,
+      "Train_Frequency": 443,
+      "Train_Share_Pct": 6.708055723803755,
+      "Mean_Yield": 112770.66666666667,
+      "MAE": 5524.863451470454,
+      "RMSE": 9110.667454277798,
+      "R2": 0.9803746119319674,
+      "Relative_Error_Pct": 4.899202616050085
+    },
+    {
+      "Season": "Seasonal",
+      "Crop": "Potatoes",
+      "Test_N": 95,
+      "Train_Frequency": 1996,
+      "Train_Share_Pct": 30.224106602059358,
+      "Mean_Yield": 212161.04210526316,
+      "MAE": 17419.78431328082,
+      "RMSE": 30093.42667156534,
+      "R2": 0.9156976224354985,
+      "Relative_Error_Pct": 8.210642321712408
+    },
+    {
+      "Season": "Seasonal",
+      "Crop": "Rice, paddy",
+      "Test_N": 67,
+      "Train_Frequency": 1435,
+      "Train_Share_Pct": 21.729254996971534,
+      "Mean_Yield": 43965.73134328358,
+      "MAE": 3318.0160144525225,
+      "RMSE": 5260.667937159704,
+      "R2": 0.9407653892735365,
+      "Relative_Error_Pct": 7.546823203156835
+    },
+    {
+      "Season": "Seasonal",
+      "Crop": "Soybeans",
+      "Test_N": 56,
+      "Train_Frequency": 1186,
+      "Train_Share_Pct": 17.958812840702603,
+      "Mean_Yield": 17564.375,
+      "MAE": 1911.6646609248362,
+      "RMSE": 2792.4396836886826,
+      "R2": 0.8877743458851463,
+      "Relative_Error_Pct": 10.883761368820903
+    },
+    {
+      "Season": "Seasonal",
+      "Crop": "Sweet potatoes",
+      "Test_N": 52,
+      "Train_Frequency": 1111,
+      "Train_Share_Pct": 16.82313749242883,
+      "Mean_Yield": 132397.1923076923,
+      "MAE": 12468.341876207445,
+      "RMSE": 19598.23929879592,
+      "R2": 0.9476577591044074,
+      "Relative_Error_Pct": 9.417376349817829
+    },
+    {
+      "Season": "Seasonal",
+      "Crop": "Yams",
+      "Test_N": 21,
+      "Train_Frequency": 433,
+      "Train_Share_Pct": 6.556632344033919,
+      "Mean_Yield": 117936.95238095238,
+      "MAE": 12188.891909846969,
+      "RMSE": 22246.049978085735,
+      "R2": 0.8183180388537833,
+      "Relative_Error_Pct": 10.33509147368434
+    }
+  ],
+  "sample_density_regression": {
+    "b0_const": 18387.30446246627,
+    "b1_log_N": -1478.3689186785539,
+    "pvalue": 0.6895464308173849,
+    "r2": 0.021003985034705686,
+    "n_crops": 10
+  }
+}

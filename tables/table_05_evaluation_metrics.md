@@ -1,0 +1,8 @@
+# Table 05 Evaluation Metrics
+
+| Metric | Mathematical Definition | Domain Unit | Sensitivity & Analytical Significance in Crop Yield Modeling |
+| --- | --- | --- | --- |
+| Root Mean Squared Error (RMSE) | sqrt((1/N) * sum((y_i - yhat_i)^2)) | hg/ha | Penalizes large outlier estimation errors heavily; crucial for food supply planning. |
+| Mean Absolute Error (MAE) | (1/N) * sum(|y_i - yhat_i|) | hg/ha | Reflects average expected magnitude of forecast deviation without squaring outliers. |
+| Coefficient of Determination (R²) | 1 - (sum((y_i - yhat_i)^2) / sum((y_i - ybar)^2)) | Dimensionless (<= 1.0) | Quantifies proportion of yield variance explained by input agronomic factors. |
+| Pearson Correlation (r) | Cov(y, yhat) / (sigma_y * sigma_yhat) | Dimensionless (-1 to +1) | Measures linear tracking fidelity between actual and predicted trajectories. |

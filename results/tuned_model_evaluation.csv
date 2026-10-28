@@ -1,0 +1,16 @@
+Season,Model,RMSE,MAE,R2,Pearson_r,Best_Params
+Kharif,KNN,14026.44,6681.12,0.938,0.9688,"{""regressor__n_neighbors"": 3, ""regressor__p"": 2, ""regressor__weights"": ""distance""}"
+Kharif,XGBoost,17235.88,9779.95,0.9064,0.9533,"{""regressor__learning_rate"": 0.05, ""regressor__max_depth"": 7, ""regressor__n_estimators"": 150}"
+Kharif,Gradient Boosting,22679.27,14818.38,0.8379,0.9278,"{""regressor__learning_rate"": 0.05, ""regressor__max_depth"": 4, ""regressor__n_estimators"": 150}"
+Kharif,MLP,28734.16,17988.13,0.7398,0.8635,"{""regressor__hidden_layer_sizes"": [64, 32]}"
+Kharif,Linear Regression,32099.53,20507.06,0.6753,0.8305,{}
+Rabi,KNN,4065.82,3184.93,0.9636,0.9868,"{""regressor__n_neighbors"": 7, ""regressor__p"": 1, ""regressor__weights"": ""distance""}"
+Rabi,XGBoost,5649.94,4456.27,0.9297,0.9678,"{""regressor__learning_rate"": 0.05, ""regressor__max_depth"": 6, ""regressor__n_estimators"": 150}"
+Rabi,Gradient Boosting,8621.76,7386.21,0.8362,0.9333,"{""regressor__learning_rate"": 0.05, ""regressor__max_depth"": 3, ""regressor__n_estimators"": 150}"
+Rabi,MLP,13787.41,9815.03,0.5812,0.7987,"{""regressor__hidden_layer_sizes"": [64, 32]}"
+Rabi,Linear Regression,6182.82,4554.99,0.9158,0.9592,{}
+Seasonal,KNN,19646.94,9630.07,0.9642,0.9827,"{""regressor__n_neighbors"": 3, ""regressor__p"": 1, ""regressor__weights"": ""distance""}"
+Seasonal,XGBoost,25933.82,15245.57,0.9377,0.9698,"{""regressor__learning_rate"": 0.05, ""regressor__max_depth"": 8, ""regressor__n_estimators"": 150}"
+Seasonal,Gradient Boosting,44947.15,29792.24,0.8127,0.9149,"{""regressor__learning_rate"": 0.05, ""regressor__max_depth"": 4, ""regressor__n_estimators"": 150}"
+Seasonal,MLP,48214.55,34303.93,0.7845,0.887,"{""regressor__hidden_layer_sizes"": [64, 32]}"
+Seasonal,Linear Regression,52357.5,36511.22,0.7459,0.8674,{}
